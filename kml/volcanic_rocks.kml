@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>volcanic_rocks</name>
+<Schema name="volcanic_rocks" id="volcanic_rocks">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="ltype" type="string"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+	<SimpleField name="Source" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>80.919005075989688,35.330177888230025 80.825333679414115,35.386380726175368 80.755080131982439,35.306760039086129 80.698877294037104,35.194354363195451 80.736345852667327,35.142835095078887 80.834700819071671,35.156885804565221 80.904954366503361,35.166252944222776 80.886220087188235,35.255240770969571 80.928372215647244,35.330177888230025</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>80.474065942255734,35.475368552922156 80.403812394824058,35.517520681381164 80.347609556878723,35.52688782103872 80.296090288762159,35.522204251209942 80.310140998248485,35.447267133949481 80.375710975851391,35.414482145148035 80.413179534481614,35.423849284805591 80.474065942255734,35.4660014132646</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.837100445541864,35.803218440936647 79.757479758452632,35.850054139224433 79.696593350678512,35.850054139224433 79.696593350678512,35.793851301279091 79.771530467938973,35.742332033162526 79.799631886911641,35.723597753847415 79.841784015370649,35.798534871107869</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>82.645368914877395,35.658027776244516 82.551697518301836,35.658027776244516 82.500178250185272,35.676762055559628 82.397139713952143,35.629926357271842 82.36435472515069,35.592457798641618 82.406506853609699,35.517520681381164 82.472076831212604,35.508153541723601 82.528279669157939,35.55030567018261 82.556381088130607,35.578407089155284 82.6032167864184,35.578407089155284 82.654736054534965,35.578407089155284 82.682837473507632,35.63460992710062 82.659419624363736,35.658027776244516</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>82.673470333850076,35.222455782168119 82.631318205391068,35.259924340798349 82.589166076932059,35.241190061483231 82.504861820014042,35.175620083880332 82.509545389842827,35.114733676106212 82.589166076932059,35.11941724593499 82.687521043336403,35.133467955421331 82.7109388924803,35.18030365370911 82.673470333850076,35.227139351996897</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>83.235498713303485,35.531571390867498 83.310435830563947,35.52688782103872 83.399423657310734,35.494102832237267 83.436892215940958,35.437899994291925 83.479044344399966,35.362962877031471 83.521196472858975,35.344228597716359 83.572715740975539,35.330177888230025 83.624235009092104,35.348912167545137 83.671070707379883,35.353595737373915 83.74600782464033,35.344228597716359 83.830312081558347,35.334861458058803 83.853729930702244,35.353595737373915 83.825628511729576,35.437899994291925 83.839679221215903,35.512837111552379 83.872464210017355,35.569039949497721 83.938034187620246,35.629926357271842 83.881831349674911,35.69549633487474 83.820944941900791,35.714230614189859 83.736640684982774,35.704863474532296 83.69448855652378,35.658027776244516 83.666387137551098,35.606508508127952 83.605500729776978,35.578407089155284 83.549297891831642,35.625242787443064 83.493095053886307,35.676762055559628 83.394740087481949,35.690812765045962 83.305752260735161,35.667394915902072 83.244865852961041,35.625242787443064 83.221448003817144,35.601824938299174 83.2308151434747,35.536254960696276</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.070405689107261,34.501186028536239 86.897113605442456,34.519920307851351 86.822176488181995,34.477768179392349 86.845594337325892,34.39814749230311 86.972050722702917,34.33726108452899 87.037620700305808,34.299792525898766 87.061038549449705,34.370046073330442 87.11724138739504,34.39814749230311 87.154709946025264,34.440299620762119 87.140659236538937,34.473084609563564 87.075089258936032,34.510553168193795</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.723821521777651,35.831319859909314 86.714454382120095,35.948409105628777 86.714454382120095,36.023346222889231 86.70508724246254,36.093599770320907 86.634833695030864,36.112334049636026 86.527111588968964,36.10296690997847 86.517744449311408,36.051447641861905 86.606732276058196,35.999928373745341 86.620782985544523,35.934358396142443 86.587997996743084,35.868788418539545 86.59736513640064,35.840686999566877 86.65825154417476,35.826636290080536 86.714454382120095,35.826636290080536</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.009519281333141,35.901573407340997 87.004835711504356,35.971826954772673 86.929898594243909,36.018662653060453 86.911164314928797,36.074865491005795 86.892430035613671,36.121701189293582 86.836227197668336,36.121701189293582 86.82686005801078,36.04208050220435 86.869012186469789,35.948409105628777 86.93458216407268,35.873471988368323 86.9954685718468,35.854737709053211 87.018886420990697,35.887522697854656</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.128892470411188,36.2481575746706 88.16167745921264,36.299676842787164 88.26939956527454,36.351196110903722 88.311551693733549,36.430816797992961 88.325602403219875,36.505753915253415 88.452058788596901,36.519804624739749 88.583198743802697,36.47765249628074 88.723705838666049,36.421449658335405 88.826744374899178,36.388664669533952 88.864212933529402,36.341828971246166 88.826744374899178,36.313727552273498 88.723705838666049,36.360563250561285 88.630034442090476,36.360563250561285 88.541046615343689,36.346512541074944 88.503578056713465,36.30904398244472 88.592565883460253,36.290309703129608 88.634718011919261,36.243474004841822 88.601933023117809,36.215372585869147 88.555097324830029,36.224739725526703 88.526995905857362,36.177904027238924</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.016486794520503,36.182587597067702 87.932182537602486,36.206005446211591 87.866612559999595,36.252841144499378 87.80104258239669,36.243474004841822 87.768257593595251,36.177904027238924 87.852561850513254,36.098283340149692 87.908764688458604,36.070181921177017 87.932182537602486,36.131068328951137 87.946233247088827,36.182587597067702 88.030537504006844,36.18727116689648</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.69332047633479,36.16385331775259 87.618383359074343,36.173220457410146 87.534079102156326,36.18727116689648 87.505977683183659,36.18727116689648 87.543446241813882,36.112334049636026 87.613699789245558,36.112334049636026 87.702687615992346,36.159169747923805</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.496610543526103,36.294993272958386 87.468509124553421,36.341828971246166 87.46382555472465,36.379297529876396 87.431040565923198,36.39334823936273 87.374837727977862,36.360563250561285 87.384204867635418,36.304360412615942 87.505977683183659,36.294993272958386</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.152310319555085,35.948409105628777 88.110158191096076,36.013979083231675 88.0399046436644,36.056131211690683 87.964967526403939,36.051447641861905 87.964967526403939,36.018662653060453 88.044588213493171,35.990561234087785 88.096107481609735,35.948409105628777 88.16167745921264,35.957776245286333</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.260032425616984,35.709547044361081 88.297500984247208,35.751699172820082 88.363070961850113,35.765749882306416 88.447375218768116,35.765749882306416 88.531679475686133,35.737648463333748 88.578515173973912,35.676762055559628</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.018770737879095,35.73296489350497 88.976618609420086,35.765749882306416 88.896997922330854,35.775117021963979 88.854845793871846,35.821952720251758 88.934466480961078,35.859421278881989 88.840795084385505,35.910940546998553 88.747123687809946,35.864104848710767 88.709655129179708,35.789167731450313 88.695604419693382,35.69549633487474</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.629918758978874,35.601824938299174 90.653336608122771,35.536254960696276 90.709539446068106,35.522204251209942 90.770425853842227,35.480052122750934 90.826628691787576,35.480052122750934 90.868780820246585,35.494102832237267 90.915616518534364,35.451950703778266 90.920300088363149,35.522204251209942 90.929667228020705,35.554989240011388 90.967135786650928,35.573723519326499 90.934350797849476,35.639293496929398 90.854730110760244,35.67207848573085 90.761058714184671,35.704863474532296 90.625235189150104,35.728281323676192 90.554981641718427,35.75638274264886 90.437892395998958,35.775117021963979 90.344220999423399,35.784484161621535 90.269283882162938,35.742332033162526 90.302068870964391,35.686129195217184 90.395740267539949,35.639293496929398</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.0399046436644,35.297392899428573 87.964967526403939,35.273975050284683 87.950916816917612,35.217772212339341 88.025853934178059,35.133467955421331 88.128892470411188,35.133467955421331 88.152310319555085,35.175620083880332 88.124208900582403,35.203721502853007 88.077373202294623,35.241190061483231 88.068006062637068,35.292709329599795 88.044588213493171,35.302076469257351</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>91.309036384151753,35.615875647785508 91.388657071240985,35.583090658984062 91.444859909186334,35.61119207795673 91.50106274713167,35.639293496929398 91.477644897987773,35.67207848573085 91.444859909186334,35.709547044361081 91.421442060042438,35.761066312477638 91.337137803124421,35.770433452135194 91.262200685863974,35.737648463333748 91.304352814322968,35.676762055559628 91.309036384151753,35.639293496929398 91.304352814322968,35.615875647785508</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.690805166752995,35.316127178743685 90.601817340006207,35.330177888230025 90.554981641718427,35.372330016689027 90.465993814971625,35.372330016689027 90.386373127882393,35.362962877031471 90.386373127882393,35.306760039086129 90.489411664115522,35.297392899428573 90.573715921033539,35.264607910627127 90.667387317609112,35.264607910627127 90.704855876239336,35.264607910627127 90.742324434869559,35.311443608914907</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.152194636443483,35.391064296004146 90.067890379525466,35.400431435661702 90.00232040192256,35.372330016689027 90.016371111408901,35.306760039086129 90.077257519183021,35.330177888230025 90.133460357128357,35.358279307202693 90.189663195073706,35.339545027887581 90.152194636443483,35.40511500549048</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.960168273463566,35.480052122750934 89.932066854490884,35.498786402066045 89.903965435518217,35.494102832237267 89.871180446716764,35.451950703778266 89.824344748428985,35.391064296004146 89.77282548031242,35.377013586517805 89.754091200997308,35.339545027887581 89.852446167401652,35.330177888230025 89.903965435518217,35.339545027887581 89.922699714833328,35.391064296004146 89.927383284662113,35.428532854634369 89.969535413121122,35.456634273607044 89.974218982949893,35.480052122750934</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.585482687161289,35.583090658984062 89.505862000072057,35.601824938299174 89.42624131298281,35.601824938299174 89.379405614695031,35.569039949497721 89.48244415092816,35.531571390867498 89.566748407846177,35.545622100353832 89.65105266476418,35.52688782103872 89.618267675962727,35.564356379668943 89.594849826818844,35.583090658984062</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.958000013216576,35.536254960696276 86.981417862360473,35.592457798641618 86.981417862360473,35.625242787443064 86.953316443387791,35.620559217614286 86.892430035613671,35.615875647785508 86.840910767497121,35.597141368470396 86.892430035613671,35.554989240011388 86.958000013216576,35.531571390867498</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.351419878833966,35.63460992710062 87.304584180546186,35.643977066758183 87.267115621915949,35.639293496929398 87.271799191744734,35.601824938299174 87.323318459861298,35.592457798641618 87.356103448662736,35.625242787443064</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">15_8 volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.363070961850113,34.487135319049905 88.395855950651566,34.529287447508906 88.33028597304866,34.557388866481581 88.096107481609735,34.562072436310359 87.955600386746383,34.543338156995247 87.997752515205391,34.501186028536239 88.10079105143852,34.501186028536239 88.199146017842864,34.501186028536239 88.306868123904763,34.473084609563564 88.372438101507669,34.477768179392349</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">15_8 volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.681553710207041,34.379413212987998 88.611300162775365,34.39814749230311 88.517628766199792,34.412198201789451 88.489527347227124,34.323210375042656 88.592565883460253,34.271691106926092 88.723705838666049,34.27637467675487 88.808010095584066,34.25295682761098 88.850162224043075,34.201437559494416 88.901681492159625,34.173336140521748 88.953200760276189,34.140551151720295 88.943833620618634,34.065614034459841 88.929782911132307,34.000044056856943 88.981302179248871,33.943841218911601 89.037505017194206,33.953208358569157 89.131176413769779,33.920423369767711 89.159277832742447,33.868904101651147 89.187379251715114,33.859536961993591 89.215480670687782,33.96257549822672 89.103074994797097,34.042196185315952 89.046872156851762,34.10776616291885 89.112442134454668,34.131184012062739 89.149910693084891,34.154601861206636 89.149910693084891,34.248273257782202 89.098391424968327,34.309159665556322 89.004720028392754,34.351311794015331 88.943833620618634,34.416881771618229 88.868896503358187,34.421565341447007 88.789275816268955,34.402831062131888 88.695604419693382,34.370046073330442</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">15_8 volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.800926899285088,34.295108956069988 89.786876189798761,34.351311794015331 89.758774770826093,34.412198201789451 89.702571932880744,34.440299620762119 89.6042169664764,34.393463922474332 89.571431977674948,34.327893944871434 89.524596279387168,34.257640397439758 89.473077011270604,34.187386850008082 89.501178430243272,34.103082593090072 89.473077011270604,34.02346190600084 89.393456324181372,33.943841218911601 89.370038475037475,33.850169822336035 89.42624131298281,33.817384833534582 89.454342731955492,33.873587671479925 89.496494860414501,33.934474079254045 89.613584106133956,33.920423369767711 89.697888363051973,33.901689090452599 89.693204793223188,33.96257549822672 89.646369094935409,34.018778336172055 89.622951245791512,34.065614034459841 89.702571932880744,34.028145475829618 89.786876189798761,34.060930464631063 89.796243329456317,34.145234721549073 89.800926899285088,34.19207041983686 89.871180446716764,34.234222548295868 89.894598295860661,34.27637467675487 89.810294038942644,34.299792525898766</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.095991798498133,34.25295682761098 90.05852323986791,34.22953897846709 90.05852323986791,34.117133302576406 90.053839670039125,33.995360487028165 89.983586122607448,33.925106939596489 89.871180446716764,33.901689090452599 89.894598295860661,33.845486252507257 90.044472530381569,33.882954811137481 90.124093217470801,33.929790509425267 90.217764614046374,33.897005520623821 90.320803150279502,33.901689090452599 90.405107407197519,33.906372660281377 90.45662667531407,33.887638380966258 90.45662667531407,33.957891928397935 90.447259535656514,34.074981174117397 90.47067738480041,34.196753989665638 90.442575965827743,34.238906118124646 90.362955278738511,34.210804699151971 90.273967451991723,34.16865257069297 90.245866033019041,34.201437559494416 90.250549602847826,34.27637467675487 90.236498893361485,34.33726108452899 90.170928915758594,34.388780352645554 90.124093217470801,34.39814749230311 90.091308228669362,34.327893944871434 90.110042507984474,34.257640397439758</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.720809536518033,35.667283144194272 85.614005607615852,35.65906745735564 85.564711486584073,35.593341962646605 85.704378162840769,35.552263528453459 85.7947507180657,35.593341962646605 85.868691899613367,35.650851770517015 85.827613465420214,35.675498831032897 85.729025223356658,35.667283144194272</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.301809507747919,35.544047841614827 85.219652639361627,35.502969407421681 85.236084013038891,35.355087044326346 85.351103628779697,35.289361549617311 85.400397749811475,35.3140086101332 85.375750689295586,35.37151841800361 85.334672255102447,35.437243912712646 85.351103628779697,35.494753720583049 85.326456568263808,35.544047841614827</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.948534973686861,34.500655613108876 85.079985963104932,34.45957717891573 85.12928008413671,34.410283057883952 85.211436952523002,34.344557563174916 85.186789892007113,34.434930118399841 85.162142831491224,34.508871299947508 85.153927144652599,34.549949734140654 85.121064397298071,34.574596794656543 85.096417336782181,34.632106602526953 85.063554589427667,34.656753663042842 85.030691842073153,34.681400723558731 84.997829094718639,34.656753663042842 85.022476155234529,34.5910281683338 85.014260468395889,34.541734047302029 84.964966347364111,34.51708698678614</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.749951596038173,32.364863412883558 84.68467744991068,32.400764193253686 84.596557352638555,32.446456095542935 84.505173548060057,32.485620583219429 84.45295423115806,32.488884290525803 84.361570426579561,32.452983510155683 84.286505158532933,32.430137559011058 84.227758427018188,32.381181949415435 84.20491247587357,32.355072290964436 84.374625255805057,32.345281169045307 84.505173548060057,32.348544876351681 84.665095206072422,32.345281169045307 84.740160474119051,32.348544876351681 84.753215303344547,32.35833599827081</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>96.064549391421679,32.543208471003943 95.974669602150698,32.486012241467861 95.991011382018144,32.408388787097465 96.06863483638854,32.351192557561383 96.121745620957768,32.269483658224118 96.289248864599159,32.244970988422942 96.366872318969556,32.253141878356665 96.375043208903278,32.306252662925885 96.281077974665422,32.420645121998056 96.211625410228748,32.494183131401591 96.138087400825214,32.522781246169629 96.072720281355416,32.551379360937673</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>97.31061010631494,32.114236749483318 97.245242986845128,32.159176644118816 97.216644872077083,32.200031093787445 97.159448642540994,32.187774758886853 97.110423302938642,32.101980414582727 97.1921322022759,32.057040519947236 97.265670211679435,32.061125964914098 97.322866441215524,32.081553189748412 97.31061010631494,32.106065859549595</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>94.642814542953317,33.491031703316189 94.512080304013693,33.576826047620315 94.475311299311926,33.531886152984825 94.577447423483505,33.466519033515013 94.646899987920179,33.491031703316189</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>95.325083852419453,33.29493034490676 95.235204063148473,33.34804112947598 95.157580608778076,33.360297464376572 95.202520503413567,33.307186679807351 95.259716732949641,33.258161340204992 95.333254742353191,33.290844899939898</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>94.912453910766288,33.576826047620315 94.896112130898828,33.515544373117372 94.973735585269225,33.45017725364756 95.002333700037269,33.50328803821678 94.994162810103546,33.535971597951686 94.920624800700011,33.576826047620315</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.629419529054005,29.608026014108006 85.773514703315172,29.608026014108006 85.920491781061557,29.579206979255773 86.032886016985259,29.584970786226219 86.076114569263609,29.590734593196665 86.122225025027177,29.596498400167111 86.133752638968076,29.642608855930682 86.188508805187311,29.582088882740994 86.240383067921329,29.582088882740994</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.364834133885935,32.75324458234217 84.315878524290312,32.785881655405923 84.237549548937309,32.8022001919378 84.185330232035312,32.779354240793175 84.185330232035312,32.707552680052927 84.296296280452069,32.619432582780803 84.390943792336941,32.645542241231801 84.495382426140935,32.684706728908303 84.576975108800312,32.720607509278423 84.603084767251303,32.75324458234217 84.58350252341306,32.8022001919378 84.541074328430184,32.798936484631419 84.462745353077182,32.776090533486794 84.407262328868811,32.759771996954925 84.361570426579561,32.759771996954925</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">c_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.481022032666161,32.622696290087177 85.461439788827903,32.57047697318518 85.464703496134277,32.521521363589557 85.451648666908781,32.469302046687552 85.507131691117152,32.443192388236554 85.582196959163781,32.466038339381178 85.653998519904022,32.508466534364054 85.673580763742279,32.567213265878806 85.6442073979849,32.609641460861674 85.595251788389277,32.622696290087177 85.552823593406401,32.629223704699925 85.474494618053413,32.612905168168055</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.669148537531598,35.758323951827961 81.637771640346799,35.746764042338825 81.599789080596778,35.728598470284467 81.57171501469459,35.705478651306194 81.558503689564148,35.723644223360552 81.555200858281538,35.736855548490993 81.513915467248907,35.721992807719246 81.494098479553244,35.741809795414909 81.53703528622718,35.756672536186656 81.558503689564148,35.781443770806234 81.573366430335895,35.804563589784507 81.594834833672863,35.781443770806234 81.624560315216357,35.781443770806234 81.626211730857662,35.811169252349728 81.634468809064188,35.830986240045398 81.677405615738124,35.855757474664976 81.713736759846839,35.862363137230197 81.736856578825112,35.84419756517584 81.783096216781672,35.842546149534535 81.826033023455608,35.849151812099755 81.87722690833607,35.859060305947587 81.895392480390427,35.84419756517584 81.864015583205628,35.822729161838872 81.83924434858605,35.799609342860592 81.832638686020829,35.766581030034487 81.809518867042556,35.774838108241013 81.784747632422977,35.794655095936676 81.75832498216208,35.793003680295371 81.72694808497728,35.766581030034487 81.703828265999007,35.753369704904046 81.672451368814208,35.756672536186656</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.827684439096913,36.001082051099836 81.784747632422977,35.991173557252004 81.76162781344469,35.964750906991121 81.791353294988198,35.956493828784595 81.829335854738218,35.959796660067205 81.868969830129544,35.963099491349816 81.878878323977375,35.935025425447627 81.892089649107817,35.901997112621522 81.906952389879564,35.92016268467588 81.910255221162174,35.9581452444259 81.906952389879564,35.981265063404173 81.887135402183901,35.989522141610699 81.857409920640407,35.987870725969394 81.829335854738218,36.002733466741148</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.968054768607857,35.74841545798013 81.938329287064363,35.718689976436636 81.925117961933921,35.680707416686616 81.91520946808609,35.657587597708343 81.958146274760026,35.641073441295291 81.949889196553499,35.655936182067038 81.949889196553499,35.682358832327921 81.964751937325246,35.703827235664889 81.977963262455688,35.726947054643162 81.973009015531773,35.74841545798013</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>82.199252958390602,35.717038560795331 82.242189765064538,35.71043289823011 82.265309584042811,35.71043289823011 82.271915246608032,35.677404585404005 82.252098258912369,35.655936182067038 82.22072136172757,35.67245033848009 82.202555789673212,35.688964494893142 82.189344464542771,35.700524404382278 82.199252958390602,35.71373572951272</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.875575492694765,35.46272055203432 81.847501426792576,35.451160642545176 81.817775945249082,35.424737992284292 81.819427360890387,35.386755432534272 81.844198595509965,35.358681366632084 81.859061336281712,35.383452601251662 81.850804258075186,35.409875251512545 81.862364167564323,35.429692239208208 81.882181155259985,35.459417720751709</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.963899816823186,35.411436494956128 89.034274103139111,35.459818816798325 89.109046782349779,35.486209174166795 89.157429104191962,35.5257947102195 89.12664035392875,35.574177032061698 89.069461246297067,35.55218506758797 89.021078924454869,35.512599531535265 88.963899816823186,35.464217209693068 88.959501423928444,35.411436494956128</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.249795354981615,35.574177032061698 89.17942106866569,35.582973817851183 89.175022675770947,35.618160961009146 89.214608211823645,35.662144889956593 89.240998569192115,35.692933640219813 89.271787319455342,35.675340068640828 89.302576069718555,35.684136854430321 89.302576069718555,35.648949711272358 89.289380891034313,35.609364175219653 89.262990533665842,35.565380246272206</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.355356784455495,35.692933640219813 89.386145534718707,35.662144889956593 89.41693428498192,35.710527211798791 89.44332464235039,35.745714354956753 89.412535892087178,35.767706319430474 89.355356784455495,35.754511140746239 89.346559998665995,35.723722390483026</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.33776321287651,35.820487034167414 89.280584105244827,35.838080605746399 89.254193747876357,35.829283819956906 89.298177676823812,35.776503105219966 89.324568034192282,35.772104712325223 89.346559998665995,35.802893462588436</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.094680044986077,35.852937890690356 86.099684045746727,35.827917886887079 86.08091904289428,35.796642882132986 86.088425044035262,35.77412487871004 86.114696048028691,35.760363876618243 86.182250058297527,35.745351874336279 86.21352506305162,35.762865876998568 86.217278063622118,35.742849873955954 86.246051067995879,35.716578869962518 86.25355706913686,35.746602874526445 86.263565070658174,35.760363876618243 86.289836074651603,35.744100874146113 86.313605078264715,35.74910487490677 86.342378082638476,35.736594873005131 86.388665089674532,35.712825869392027 86.39241809024503,35.740347873575622 86.394920090625348,35.760363876618243 86.429948095949939,35.77412487871004 86.451215099182718,35.794140881752661 86.451215099182718,35.807901883844458 86.372402087202403,35.816658885175606 86.351135083969623,35.809152884034624 86.346131083208974,35.79038788118217 86.33111908092701,35.776626879090372 86.292338075031935,35.775375878900206 86.28608307408112,35.805399883464133 86.267318071228658,35.820411885746097 86.241047067235229,35.816658885175606 86.224784064763099,35.820411885746097 86.209772062481136,35.837925888408392 86.094680044986077,35.850435890310024</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">n_tibet volcanics</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.095257503667042,35.884643364287726 86.046083402025147,35.892448777246756 86.013300667597221,35.897132025022174 85.986762263536519,35.92288988778698 85.961784942067624,35.940842337592748 85.961004400771714,35.958794787398517 85.977395767985684,35.968941824245263 86.008617419821803,35.979869402387905 86.037497447770221,35.988455356642838 86.081988301636699,36.003285641264995 86.110868329585102,36.005627265152704 86.126479155503176,35.990016439234644 86.137406733645818,35.968941824245263 86.145212146604848,35.950208833143584 86.125698614207266,35.933036924633718 86.115551577360534,35.91508447482795 86.128820779390878,35.897132025022174 86.160822972522908,35.884643364287726 86.190483541767222,35.879960116512308 86.222485734899251,35.872935244849181 86.240438184705027,35.87527686873689 86.262293340990311,35.871374162257375 86.274782001724759,35.858104960227017 86.271659836541147,35.851860629859793 86.095257503667042,35.884643364287726</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>92.461001013613725,29.634787778486878 92.492520672358935,29.622345807929559 92.528187654623252,29.614051160891346 92.558048383960809,29.60492704914931 92.580443930963995,29.616539555002809 92.592056436817487,29.617369019706629 92.588738578002207,29.599120796222564 92.603668942670993,29.608244907964597 92.620258236747418,29.626493131448665 92.649289501381162,29.629810990263952 92.670026118976693,29.634787778486878 92.66339040134612,29.653865466674766 92.642653783750589,29.661330649009159 92.619428772043591,29.668795831343552 92.58956804270602,29.68704405482762 92.586250183890741,29.72022264298047 92.577955536852528,29.737641401760715 92.558048383960809,29.744277119391285 92.543947483995851,29.740959260576002 92.539800160476744,29.723540501795753 92.524869795807959,29.72685836061104 92.529017119327065,29.741788725279822 92.539800160476744,29.755889625244784 92.55473052514553,29.770819989913566 92.548094807514957,29.783261960470885 92.531505513438532,29.795703931028207 92.517404613473573,29.79902178984349 92.503303713508615,29.79321553691674 92.488373348839829,29.788238748693814 92.463489407725191,29.79321553691674 92.434458143091447,29.789897678101458 92.401279554938597,29.782432495767065 92.382201866750705,29.784920889878528 92.377225078527772,29.802339648658776 92.36561257267428,29.808975366289346 92.344875955078749,29.810634295696989 92.341558096263469,29.828882519181057 92.326627731594684,29.840495025034553 92.319992013964111,29.823076266254308 92.300914325776219,29.819758407439021 92.28681342581126,29.805657507474059 92.280177708180688,29.794045001620564 92.258611625881329,29.805657507474059 92.228750896543772,29.816440548623738 92.215479461282627,29.806486972177883 92.201378561317668,29.786579819286171 92.180641943722136,29.774137848728852 92.196401773094735,29.762525342875353 92.189766055464162,29.746765513502751 92.156587467311311,29.742618189983645 92.132532990900501,29.750912837021858 92.10847851448969,29.755889625244784 92.101842796859117,29.749253907614214 92.133362455604328,29.741788725279822 92.150781214384565,29.72602889590722 92.174006226091564,29.708610137126971 92.185618731945056,29.692020843050546 92.174835690795391,29.670454760751191 92.160734790830418,29.658012790193872 92.139998173234886,29.650547607859483 92.113455302712609,29.634787778486878 92.120920485047009,29.632299384375415 92.149122284976926,29.640594031413627 92.174006226091564,29.645570819636553 92.195572308390922,29.646400284340377 92.22045624950556,29.646400284340377 92.251146443546943,29.648059213748017 92.264417878808089,29.64971814315566 92.276030384661581,29.64971814315566 92.295108072849473,29.657183325490053 92.320821478667924,29.655524396082409 92.341558096263469,29.647229749044197 92.354829531524601,29.64888867845184 92.358976855043707,29.663819043120622 92.368100966785747,29.666307437232085 92.379713472639239,29.656353860786233 92.390496513788918,29.671284225455015 92.40957420197681,29.68123780190087 92.412892060792089,29.661330649009159 92.394643837308024,29.653036001970946 92.418698313718835,29.64308242552509 92.447729578352579,29.64308242552509 92.461830478317552,29.633958313783058</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>91.394107892609341,30.052909271335789 91.530191945580015,30.036708788839281 91.56907310357164,30.044809030087535 91.601474068564656,30.057769416084742 91.640355226556281,30.054529319585441 91.653315612553484,30.073969898581254 91.677616336298257,30.091790429327414 91.714877446040219,30.098270622326016 91.737558121535344,30.116091153072176 91.734318025036032,30.142011925066591 91.745658362783587,30.17441289005961 91.755378652281493,30.193853469055423 91.787779617274524,30.214914096300884 91.825040727016486,30.244074964794603 91.815320437518579,30.263515543790412 91.76995908652836,30.268375688539365 91.740798218034641,30.271615785038666 91.713257397790571,30.295916508783431 91.679236384547906,30.310496943030291 91.64683541955489,30.333177618525404 91.637115130056984,30.352618197521213 91.637115130056984,30.378538969515628 91.620914647560468,30.407699838009346 91.582033489568843,30.432000561754109 91.544772379826881,30.432000561754109 91.515611511333162,30.443340899501667 91.486450642839444,30.436860706503062 91.470250160342928,30.4125599827583 91.439469243599561,30.399599596761092 91.424888809352709,30.360718438769467 91.426508857602357,30.334797666775053 91.458909822595373,30.339657811524006 91.481590498090483,30.325077377277147 91.504271173585607,30.282956122786224 91.494550884087701,30.232734627047044 91.465390015593982,30.208433903302282 91.432989050600966,30.205193806802978 91.402208133857599,30.219774241049837 91.426508857602357,30.237594771795997 91.44108929184921,30.263515543790412 91.424888809352709,30.269995736789017 91.363326975865974,30.25703535079181 91.327685914373646,30.248935109543556 91.31796562487574,30.247315061293904 91.283944611633075,30.216534144550536 91.251543646640059,30.214914096300884 91.225622874645637,30.192233420805771 91.211042440398785,30.182513131307864 91.196462006151918,30.203573758553329 91.186741716654012,30.216534144550536 91.155960799910645,30.214914096300884 91.107359352421128,30.205193806802978 91.058757904931596,30.218154192800185 91.032837132937175,30.22463438579879 91.011776505691714,30.205193806802978 90.982615637197995,30.221394289299489 90.982615637197995,30.244074964794603 91.018256698690323,30.247315061293904 91.019876746939971,30.258655399041459 91.002056216193807,30.269995736789017 90.969655251200791,30.279716026286923 90.945354527456033,30.265135592040064 90.929154044959517,30.247315061293904 90.883792693969298,30.227874482298091 90.838431342979064,30.22463438579879 90.806030377986048,30.213294048051232 90.773629412993031,30.190613372556122 90.79793013673779,30.180893083058216 90.835191246479766,30.167932697061008 90.87083230797208,30.182513131307864 90.912953562463017,30.169552745310657 90.94859462395533,30.146872069815544 90.969655251200791,30.142011925066591 91.008536409192416,30.153352262814149 91.036077229436486,30.146872069815544 91.058757904931596,30.154972311063801 91.07657843567776,30.142011925066591 91.117079641919034,30.13877182856729 91.157580848160308,30.140391876816942 91.204562247400176,30.132291635568688 91.202942199150527,30.151732214564497 91.22238277814634,30.15659235931345 91.248303550140761,30.158212407563102 91.282324563383426,30.166312648811356 91.326065866123997,30.164692600561704 91.363326975865974,30.163072552312055 91.389247747860381,30.177652986558911 91.420028664603748,30.167932697061008 91.394107892609341,30.153352262814149 91.405448230356896,30.127431490819735 91.452429629596779,30.119331249571481 91.492930835838052,30.116091153072176 91.481590498090483,30.096650574076367 91.416788568104451,30.103130767074969 91.394107892609341,30.069109753832301 91.392487844359692,30.052909271335789</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.815750667483954,29.970286810603593 90.804410329736399,29.941125942109874 90.759048978746165,29.928165556112667 90.718547772504891,29.923305411363714 90.710447531256648,29.890904446370698 90.742848496249664,29.882804205122444 90.780109605991626,29.894144542869999 90.812510570984657,29.903864832367905 90.846531584227321,29.936265797360925 90.874072404471391,29.95084623160778 90.922673851960923,29.954086328107085 90.946974575705681,29.962186569355339 90.935634237958126,29.978387051851847 90.844911535977673,29.981627148351148 90.818990763983251,29.975146955352546</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.993955974945564,29.976767003602195 90.997196071444861,29.957326424606386 90.995576023195213,29.93302570086162 90.995576023195213,29.918445266614764 91.000436167944159,29.894144542869999 91.04417747068473,29.892524494620346 91.074958387428097,29.913585121865811 91.09925911117287,29.931405652611971 91.115459593669371,29.962186569355339 91.14948060691205,29.95084623160778 91.165681089408551,29.941125942109874 91.185121668404364,29.954086328107085 91.17216128240716,29.970286810603593 91.167301137658214,29.991347437849054 91.157580848160308,30.002687775596613 91.123559834917629,30.002687775596613 91.07657843567776,29.992967486098706 91.031217084687526,29.9832471966008 90.993955974945564,29.980007100101499</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.370237398829943,29.681918222165727 90.402638363822959,29.655997450171309 90.402638363822959,29.672197932667821 90.42369899106842,29.69163851166363 90.446379666563544,29.672197932667821 90.491741017553764,29.655997450171309 90.52900212729574,29.657617498420962 90.572743430036311,29.660857594920262 90.611624588027937,29.659237546670614 90.642405504771304,29.631696726426547 90.655365890768508,29.597675713183875 90.689386904011187,29.576615085938414 90.716927724255243,29.571754941189461 90.715307676005594,29.560414603441906 90.737988351500704,29.581475230687367 90.772009364743383,29.563654699941207 90.80279028148675,29.579855182437715 90.778489557741977,29.613876195680387 90.767149219994423,29.641417015924453 90.737988351500704,29.670577884418169 90.69748714525943,29.672197932667821 90.650505746019562,29.686778366914677 90.645645601270601,29.707838994160142 90.669946325015374,29.717559283658048 90.716927724255243,29.751580296900716 90.72988811025246,29.753200345150368 90.765529171744774,29.749960248651064 90.799550184987439,29.761300586398622 90.818990763983251,29.766160731147576 90.827091005231509,29.793701551391642 90.823850908732211,29.819622323386056 90.772009364743383,29.819622323386056 90.744468544499313,29.816382226886752 90.707207434757336,29.805041889139197 90.673186421514671,29.77426097239583 90.637545360022344,29.77426097239583 90.637545360022344,29.764540682897923 90.634305263523046,29.735379814404208 90.60190429853003,29.732139717904904 90.59704415378107,29.761300586398622 90.619724829276194,29.779121117144783 90.627825070524452,29.798561696140592 90.65212579426921,29.818002275136404 90.663466132016765,29.845543095380471 90.663466132016765,29.876324012123838 90.648885697769913,29.886044301621745 90.627825070524452,29.882804205122444 90.613244636277585,29.897384639369299 90.640785456521655,29.908724977116858 90.669946325015374,29.929785604362319 90.67480646976432,29.962186569355339 90.700727241758742,29.980007100101499 90.749328689248259,29.9832471966008 90.807650426235696,29.984867244850452 90.844911535977673,29.991347437849054 90.880552597469986,30.005927872095914 90.896753079966501,30.022128354592422 90.893512983467204,30.028608547591027 90.946974575705681,30.035088740589629 91.015016602191025,30.035088740589629 91.070098242679151,30.025368451091726 91.084678676926004,30.026988499341375 91.061998001430894,30.059389464334394 91.070098242679151,30.078830043330207 91.063618049680542,30.095030525826715 90.942114430956721,30.111231008323223 90.85301177722593,30.120951297821129 90.844911535977673,30.107990911823922 90.830331101730806,30.096650574076367 90.846531584227321,30.069109753832301 90.849771680726619,30.054529319585441 90.806030377986048,30.039948885338582 90.749328689248259,30.036708788839281 90.692627000510484,30.030228595840679 90.635925311772695,30.004307823846261 90.598664202030733,29.989727389599405 90.571123381786663,29.9832471966008 90.588943912532827,29.952466279857433 90.60190429853003,29.929785604362319 90.59704415378107,29.907104928867206 90.608384491528639,29.887664349871393 90.610004539778288,29.879564108623139 90.592184009032124,29.869843819125233 90.585703816033515,29.886044301621745 90.57436347828596,29.886044301621745 90.559783044039108,29.864983674376283 90.538722416793647,29.845543095380471 90.507941500050279,29.837442854132217 90.472300438557951,29.826102516384658 90.439899473564935,29.814762178637103 90.415598749820177,29.808281985638498 90.42369899106842,29.837442854132217 90.462580149060045,29.855263384878377 90.514421693048874,29.868223770875584 90.55168280279085,29.889284398121045 90.561403092288757,29.908724977116858 90.540342465043295,29.929785604362319 90.507941500050279,29.900624735868604 90.482020728055858,29.895764591119651 90.454479907811788,29.879564108623139 90.42855913581738,29.874703963874186 90.397778219074013,29.871463867374885 90.392918074325053,29.853643336628725 90.376717591828552,29.814762178637103 90.362137157581685,29.785601310143385 90.357277012832739,29.749960248651064 90.368617350580294,29.715939235408396 90.368617350580294,29.680298173916075</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>91.904524344264985,30.539645173967244 91.82225626908739,30.508003606591249 91.784286388236197,30.485854509428052 91.847569522988195,30.447884628576858 91.923509284690581,30.441556315101661 92.034254770506564,30.451048785314459 92.059568024407355,30.49534697964085 92.034254770506564,30.49851113637845 91.993120732917774,30.526988547016845 91.989956576180163,30.545973487442442 91.948822538591372,30.561794271130442 91.907688501002582,30.542809330704841</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.416958128846446,29.992487742696255 89.389224851551361,29.986324792186238 89.367654524766294,29.985297633767903 89.389224851551361,29.969890257492857 89.417985287264784,29.955510039636149 89.441609930886514,29.956537198054487 89.454962990324887,29.972971732747865 89.478587633946617,29.967835940656187 89.515565337006734,29.958591514891157 89.545352931138481,29.95242856438114 89.58130347578026,29.955510039636149 89.606982436238667,29.96372730698284 89.644987297717108,29.956537198054487 89.671693416593854,29.938048346524432 89.700453852307263,29.93291255443275 89.728187129602347,29.938048346524432 89.760029040570771,29.941129821779441 89.78468084261084,29.933939712851085 89.81549559516094,29.934966871269424 89.847337506129364,29.920586653412716 89.879179417097788,29.916478019739369 89.901776902301179,29.921613811831051 89.880206575516127,29.940102663361106 89.838093080364331,29.949347089126132 89.80419685255923,29.966808782237848 89.781599367355838,29.964754465401178 89.755920406897431,29.966808782237848 89.735377238530702,29.965781623819513 89.714834070163974,29.984270475349568 89.685046476032227,29.993514901114594 89.657313198737143,29.99146058427792 89.642932980880431,29.988379109022912 89.614172545167008,30.000705010042946 89.586439267871938,30.001732168461285 89.549461564811821,29.996596376369602 89.527891238026768,29.993514901114594 89.499130802313346,29.982216158512895 89.469343208181598,29.981189000094556 89.447772881396531,29.986324792186238 89.43339266353982,29.993514901114594 89.421066762519786,29.994542059532929</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.288563326554396,29.939075504942767 89.289590484972734,29.954482881217814 89.261857207677664,29.962700148564505 89.241314039310936,29.960645831727831 89.245422672984276,29.937021188106097 89.266992999769343,29.916478019739369 89.258775732422649,29.903124960300996 89.271101633442683,29.886690425607615 89.259802890840987,29.862038623567546 89.261857207677664,29.834305346272465 89.268020158187682,29.821979445252428 89.320405237522834,29.830196712599118 89.361491574256277,29.830196712599118 89.348138514817904,29.853821356220855 89.34711135639958,29.886690425607615 89.341975564307887,29.915450861321034 89.314242287012817,29.93291255443275 89.291644801809412,29.937021188106097</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.481294618652058,30.657324053639581 88.457220593222289,30.691428922998405 88.421109555077663,30.703465935713286 88.397035529647908,30.673373403926089 88.360924491503269,30.633250028209826 88.336850466073514,30.669361066354462 88.342868972430949,30.703465935713286 88.286696246428178,30.703465935713286 88.246572870711915,30.697447429355844 88.212468001353088,30.697447429355844 88.180369300780086,30.669361066354462 88.144258262635446,30.659330222425396 88.126202743563127,30.681398079069339 88.055986836059674,30.695441260570032 88.031912810629919,30.697447429355844 87.987777097342018,30.677385741497712 87.957684565554828,30.659330222425396 87.933610540125073,30.675379572711901 87.937622877696697,30.709484442070725 87.933610540125073,30.755626324144426 87.897499501980434,30.751613986572799 87.845339113549286,30.763650999287677 87.803209569047212,30.767663336859304 87.78916638754653,30.757632492930238 87.751049180616079,30.749607817786988 87.680833273112611,30.751613986572799 87.628672884681478,30.743589311429545 87.590555677751027,30.73355846750048 87.576512496250331,30.703465935713286 87.606605028037535,30.669361066354462 87.620648209538217,30.629237690638199 87.568487821107084,30.607169833994256 87.550432302034764,30.583095808564497 87.600586521680086,30.591120483707748 87.66077158525448,30.593126652493563 87.718950480043063,30.585101977350309 87.763086193330949,30.538960095276607 87.803209569047212,30.512879901061037 87.823271256905343,30.47476269413059 87.841326775977663,30.466738018987336 87.839320607191851,30.440657824771765 87.795184893903965,30.434639318414327 87.708919636114004,30.420596136913634 87.618642040752405,30.440657824771765 87.53839528931988,30.464731850201524 87.45413620031573,30.470750356558963 87.379907955240654,30.466738018987336 87.299661203808128,30.440657824771765 87.383920292812277,30.398528280269691 87.506296588746878,30.372448086054121 87.604598859251723,30.346367891838547 87.726975155186324,30.310256853693911 87.89348716440881,30.280164321906714 88.017869629129223,30.268127309191836 88.059999173631297,30.310256853693911 88.128208912348938,30.324300035194604 88.206449494995653,30.336337047909481 88.248579039497727,30.334330879123669 88.232529689211219,30.294207503407407 88.172344625636825,30.282170490692529 88.134227418706388,30.264114971620209 88.132221249920576,30.230010102261389 88.124196574777315,30.195905232902565 88.126202743563127,30.173837376258621 88.076048523917805,30.119670819041666 88.00783878520015,30.077541274539591 87.897499501980434,30.077541274539591 87.817252750547908,30.103621468755161 87.757067686973514,30.115658481470039 87.759073855759326,30.085565949682842 87.720956648828874,30.071522768182149 87.6788271043268,30.033405561251701 87.708919636114004,30.007325367036131 87.747036843044455,29.997294523107065 87.763086193330949,29.983251341606373 87.712931973685627,29.963189653748241 87.690864117041684,29.94312796589011 87.628672884681478,29.947140303461737 87.546419964463141,29.915041602888728 87.52033977024756,29.911029265317101 87.470185550602238,29.854856539314333 87.432068343671787,29.85886887688596 87.440093018815048,29.894979915030596 87.430062174885975,29.923066278031978 87.450123862744107,29.957171147390802 87.45413620031573,29.973220497677307 87.414012824599467,29.981245172820561 87.34981542345345,29.99528835432125 87.275587178378359,29.999300691892877 87.245494646591169,30.01334387339357 87.31370438530881,29.959177316176614 87.377901786454828,29.939115628318483 87.371883280097393,29.888961408673158 87.359846267382522,29.864887383243399 87.343796917096014,29.850844201742706 87.31972289166626,29.824764007527136 87.351821592239261,29.812726994812259 87.393951136741336,29.824764007527136 87.446111525172483,29.810720826026444 87.500278082389428,29.828776345098763 87.530370614176633,29.862881214457584 87.530370614176633,29.810720826026444 87.534382951748256,29.772603619095996 87.548426133248952,29.738498749737172 87.58253100260778,29.716430893093229 87.552438470820576,29.670289011019527 87.572500158678707,29.634177972874891 87.588549508965215,29.594054597158628 87.556450808392199,29.56998057172887 87.566481652321272,29.533869533584234 87.562469314749649,29.513807845726102 87.606605028037535,29.493746157867971 87.566481652321272,29.485721482724717 87.468179381816427,29.493746157867971 87.397963474312959,29.521832520869353 87.337778410738579,29.55192505265655 87.271574840806736,29.55192505265655 87.17327257030189,29.533869533584234 87.091019650083553,29.533869533584234 86.990711210792895,29.521832520869353 86.98469270443546,29.505783170582848 87.070957962225421,29.497758495439598 87.16123555758702,29.489733820296344 87.225432958733037,29.511801676940291 87.289630359879055,29.513807845726102 87.325741398023695,29.483715313938905 87.389938799169713,29.479702976367278 87.468179381816427,29.481709145153093 87.546419964463141,29.469672132438212 87.626666715895666,29.475690638795651 87.716944311257251,29.489733820296344 87.791172556332342,29.489733820296344 87.89348716440881,29.495752326653783 87.949659890411581,29.517820183297729 87.993795603699468,29.541894208727484 88.011851122771787,29.571986740514681 87.981758590984583,29.594054597158628 87.943641384054132,29.604085441087694 87.931604371339262,29.642202648018142 87.917561189838565,29.682326023734404 87.931604371339262,29.700381542806724 87.997807941271091,29.706400049164163 87.987777097342018,29.728467905808106 87.961696903126452,29.764578943952742 87.949659890411581,29.7886529693825 87.923579696196001,29.840813357813641 87.903518008337869,29.87291205838665 87.847345282335112,29.894979915030596 87.787160218760718,29.903004590173847 87.761080024545137,29.923066278031978 87.787160218760718,29.961183484962429 87.869413138979056,29.971214328891495 87.923579696196001,29.96920816010568 87.997807941271091,29.971214328891495 88.045955992130601,29.959177316176614 88.011851122771787,29.951152641033364 87.951666059197393,29.957171147390802 87.933610540125073,29.937109459532671 88.009844953985976,29.921060109246167 88.057993004845486,29.933097121961044 88.104134886919184,29.94312796589011 88.116171899634068,29.961183484962429 88.16632611927939,29.975226666463122 88.208455663781464,29.975226666463122 88.164319950493578,29.945134134675925 88.112159562062445,29.935103290746859 88.062005342417109,29.927078615603605 88.023888135486658,29.909023096531289 88.074042355131994,29.892973746244781 88.049968329702224,29.856862708100145 88.041943654558978,29.818745501169698 88.027900473058281,29.780628294239246 88.047962160916413,29.750535762452049 88.035925148201542,29.716430893093229 88.057993004845486,29.696369205235097 88.080060861489429,29.704393880378348 88.114165730848256,29.712418555521602 88.158301444136143,29.730474074593918 88.152282937778708,29.774609787881808 88.164319950493578,29.818745501169698 88.214474170138914,29.824764007527136 88.252591377069351,29.836801020242014 88.280677740070743,29.856862708100145 88.30675793428631,29.874918227172465 88.346881310002573,29.87291205838665 88.348887478788384,29.931090953175232 88.290708583999802,29.931090953175232 88.246572870711915,29.939115628318483 88.284690077642367,29.985257510392184 88.268640727355859,30.003313029464504 88.204443326209841,30.037417898823328 88.156295275350331,30.06550426182471 88.232529689211219,30.055473417895644 88.298733259143063,30.061491924253083 88.316788778215383,30.081553612111215 88.336850466073514,30.09158445604028 88.32481345335863,30.123683156613293 88.340862803645138,30.133714000542358 88.382992348147212,30.129701662970731 88.421109555077663,30.11766465025585</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.209480262383423,31.298973057075674 81.378209987895346,31.283974859252393 81.471948724290854,31.268976661429111 81.558188361774739,31.276475760340752 81.565687460686377,31.306472155987315 81.558188361774739,31.336468551633882 81.655676647626066,31.328969452722241 81.794409977491426,31.332719002178059 81.87315051606366,31.358965848368804 81.948141505180075,31.385212694559549 81.966889252459183,31.283974859252393 82.015633395384853,31.231481166870903 82.094373933957073,31.223982067959263 82.139368527426925,31.283974859252393 82.199361318720051,31.208983870135981 82.289350505659755,31.130243331563747 82.319346901306318,31.163989276666133 82.26310365946901,31.220232518503444 82.300599154027211,31.280225309796574 82.416835187157645,31.310221705443137 82.499325275185697,31.325219903266419 82.574316264302112,31.291473958164033 82.649307253418527,31.182737023945236 82.728047791990761,31.066500990814799 82.803038781107176,31.02150639734495 82.874280220767758,31.029005496256595 82.91927481423761,31.070250540270621 82.964269407707448,31.096497386461362 82.998015352809844,31.107746034828825 83.080505440837896,31.08149918863808 83.207990122335787,31.077749639182262 83.282981111452202,31.077749639182262 83.455460386419958,31.070250540270621 83.541700023903829,31.055252342447336 83.500454979889795,30.957764056596002 83.53795047444801,30.946515408228539 83.519202727168903,30.890272166391231 83.541700023903829,30.796533429995716 83.601692815196955,30.819030726730642 83.657936057034263,30.88277306747959 83.714179298871571,30.897771265302872 83.800418936355442,30.912769463126153 83.736676595606497,30.946515408228539 83.684182903225008,31.010257748977491 83.706680199959933,31.017756847889132 83.800418936355442,30.957764056596002 83.882909024383494,30.94276585877272 83.957900013499909,30.916519012581976 83.991645958602291,30.927767660949439 84.002894606969761,30.920268562037798</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.228228009662516,31.268976661429111 81.299469449323112,31.20148477122434 81.404456834086091,31.145241529387032 81.520692867216525,31.122744232652106 81.606932504700396,31.118994683196288 81.711919889463374,31.077749639182262 81.828155922593822,31.025255946800772 81.944391955724257,30.965263155507643 82.060627988854691,30.927767660949439 82.154366725250213,30.886522616935412 82.236856813278266,30.834028924553923 82.319346901306318,30.781535232172434 82.405586538790189,30.759037935437512 82.435582934436752,30.717792891423485 82.360591945320337,30.721542440879304 82.248105461645721,30.725291990335126 82.180613571440958,30.710293792511845 82.26310365946901,30.661549649586174 82.330595549673774,30.650301001218715 82.461829780627497,30.650301001218715 82.59306401158122,30.650301001218715 82.698051396344198,30.631553253939611 82.851782924032833,30.616555056116329 82.9717685066191,30.586558660469763 83.11050183648446,30.537814517544096 83.166745078321767,30.522816319720814 83.196741473968331,30.537814517544096 83.219238770703257,30.635302803395433 83.211739671791619,30.661549649586174 83.140498232131023,30.635302803395433 83.095503638661171,30.62405415502797 83.103002737572822,30.729041539790945 83.035510847368045,30.777785682716615 83.054258594647152,30.807782078363179 83.14799733104266,30.811531627818997 83.230487419070712,30.747789287070049</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>83.282981111452202,30.56406136373484 83.391718045670999,30.605306407748866 83.39921714458265,30.642801902307074 83.395467595126817,30.680297396865278 83.43671263914085,30.661549649586174 83.504204529345614,30.669048748497815 83.582945067917848,30.69529559468856 83.650436958122626,30.669048748497815 83.624190111931881,30.62405415502797 83.519202727168903,30.616555056116329 83.485456782066521,30.567810913190662 83.579195518462029,30.560311814279018 83.680433353769189,30.571560462646481 83.76667299125306,30.567810913190662 83.875409925471857,30.582809111013944 83.984146859690654,30.586558660469763 83.954150464044091,30.534064968088277 83.942901815676635,30.485320825162606 83.972898211323198,30.414079385502017 84.021642354248854,30.372834341487991 83.976647760779016,30.327839748018143 83.987896409146472,30.252848758901731 84.036640552072143,30.252848758901731 84.111631541188558,30.200355066520242 84.164125233570047,30.174108220329501 84.231617123774811,30.192855967608601 84.306608112891226,30.144111824682934 84.392847750375097,30.095367681757267 84.467838739491512,30.110365879580549 84.464089190035693,30.177857769785319 84.404096398742567,30.252848758901731 84.347853156905245,30.335338846929783 84.2841108161563,30.436576682236939 84.2466153215981,30.522816319720814 84.242865772142281,30.620304605572148 84.2466153215981,30.669048748497815</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.396597299830916,30.661549649586174 84.437842343844949,30.714043341967663 84.494085585682257,30.714043341967663 84.539080179152108,30.725291990335126 84.632818915547617,30.717792891423485 84.70031080575238,30.665299199041996 84.76405314650134,30.590308209925585 84.805298190515359,30.549063165911559 84.81279728942701,30.519066770264992 84.917784674189974,30.500319022985892 85.049018905143697,30.477821726250966 85.101512597525186,30.455324429516043 85.105262146981005,30.410329836046195 85.022772058952953,30.414079385502017 84.974027916027296,30.38408298985545 85.026521608408771,30.320340649106502 85.097763048069368,30.324090198562324 85.161505388818313,30.342837945841424 85.240245927390546,30.342837945841424 85.288990070316217,30.372834341487991 85.326485564874432,30.342837945841424 85.348982861609343,30.414079385502017 85.397727004535014,30.459073978971865 85.483966642018885,30.421578484413658 85.491465740930536,30.36533524257635 85.506463938753811,30.286594704004116 85.487716191474703,30.200355066520242 85.517712587121281,30.177857769785319 85.555208081679481,30.252848758901731 85.60770177406097,30.297843352371579 85.667694565354097,30.271596506180835 85.750184653382149,30.230351462166809 85.832674741410202,30.219102813799346 85.933912576717361,30.230351462166809 85.997654917466306,30.234101011622627 86.061397258215266,30.192855967608601 86.147636895699137,30.204104615976064 86.162635093522411,30.18535686869696 86.162635093522411,30.084119033389804 86.170134192434062,30.024126242096674 86.2151287859039,29.971632549715189 86.282620676108678,29.967883000259366 86.31636662121106,30.009128044273393 86.338863917945986,29.990380296994289 86.312617071755241,29.930387505701162 86.387608060871656,29.919138857333699 86.425103555429857,29.956634351891903 86.421354005974038,29.98663074753847 86.496344995090453,29.98663074753847 86.507593643457909,30.054122637743241 86.522591841281198,30.095367681757267 86.631328775499995,30.140362275227115 86.702570215160577,30.174108220329501 86.777561204276992,30.196605517064423 86.646326973323269,30.222852363255168 86.548838687471942,30.256598308357553 86.511343192913728,30.275346055636653 86.552588236927761,30.361585693120528 86.638827874411632,30.37658389094381 86.713818863528047,30.324090198562324 86.755063907542066,30.279095605092476 86.815056698835193,30.354086594208887 86.893797237407426,30.339088396385606 86.912544984686534,30.301592901827398 87.043779215640257,30.256598308357553 87.081274710198457,30.211603714887705 87.058777413463531,30.155360473050397 87.002534171626223,30.132863176315471 86.93504228142146,30.166609121417856</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.691321566793121,29.776655978012517 86.668824270058195,29.716663186719387 86.717568412983866,29.701664988896106 86.717568412983866,29.630423549235513 86.740065709718792,29.562931659030742 86.792559402100281,29.510437966649256 86.830054896658481,29.457944274267767 86.773811654821174,29.480441571002689 86.680072918425651,29.510437966649256 86.612581028220887,29.540434362295819 86.55633778638358,29.562931659030742 86.503844094002091,29.596677604133127 86.537590039104472,29.679167692161183 86.503844094002091,29.712913637263568 86.395107159783294,29.675418142705361 86.305117972843604,29.720412736175209 86.282620676108678,29.772906428556695 86.271372027741208,29.810401923114902</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.895287377455062,30.050373088287419 84.962779267659826,29.979131648626829 85.049018905143697,29.960383901347726 85.064017102966986,29.915389307877877 85.082764850246093,29.851646967128929 85.112761245892656,29.799153274747439 85.176503586641601,29.829149670394006 85.19150178446489,29.896641560598777 85.135258542627568,29.979131648626829 85.127759443715931,30.035374890464137 85.071516201878623,30.05787218719906 85.004024311673859,30.0466235388316 84.925283773101626,30.099117231213086 84.906536025822518,30.151610923594575 84.906536025822518,30.207854165431883</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.184002685553239,30.0653712861107 85.210249531743983,30.129113626859652 85.285240520860398,30.087868582845626 85.371480158344269,30.080369483933985 85.382728806711739,30.027875791552496 85.326485564874432,29.994129846450111 85.251494575758016,29.997879395905933 85.228997279023091,29.98663074753847</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.28149097140458,29.870394714408032 85.322736015418599,29.832899219849825 85.288990070316217,29.817901022026543 85.236496377934728,29.802902824203262 85.232746828478909,29.742910032910132 85.33023511433025,29.750409131821772 85.386478356167558,29.757908230733413 85.431472949637396,29.757908230733413 85.412725202358303,29.799153274747439 85.45771979582814,29.859146066040569 85.502714389297992,29.862895615496392 85.573955828958589,29.784155076924158 85.573955828958589,29.709164087807746 85.626449521340078,29.645421747058798 85.693941411544841,29.619174900868053 85.723937807191405,29.611675801956412 85.690191862089023,29.682917241617002 85.637698169707534,29.73916048345431 85.622699971884245,29.776655978012517 85.633948620251715,29.825400120938184 85.637698169707534,29.885392912231314 85.64894681807499,29.907890208966236 85.663945015898278,29.930387505701162 85.637698169707534,29.949135252980263 85.581454927870226,29.964133450803548 85.5964531256935,30.009128044273393 85.551458532223663,30.020376692640856 85.491465740930536,30.042873989375778 85.5589576311353,30.080369483933985 85.618950422428426,30.099117231213086 85.675193664265734,30.121614527948012 85.731436906103042,30.117864978492189 85.765182851205438,30.117864978492189 85.840173840321839,30.166609121417856 85.881418884335872,30.192855967608601 85.993905368010488,30.155360473050397 86.057647708759433,30.129113626859652 86.098892752773466,30.072870385022345 86.083894554950177,30.020376692640856 86.091393653861829,29.960383901347726 86.151386445154955,29.945385703524444 86.241375632094645,29.907890208966236 86.290119775020315,29.870394714408032 86.301368423387771,29.825400120938184</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.735186455558875,29.671668593249539 85.810177444675276,29.690416340528643 85.873919785424235,29.705414538351924 85.858921587600946,29.742910032910132 85.892667532703328,29.784155076924158 85.978907170187213,29.742910032910132 86.053898159303614,29.754158681277595 86.106391851685103,29.791654175835799 86.128889148420029,29.829149670394006 86.102642302229285,29.896641560598777 86.068896357126903,29.92663795624534 86.031400862568702,29.967883000259366 85.978907170187213,29.994129846450111 85.948910774540636,30.050373088287419 85.93766212617318,30.110365879580549 85.915164829438254,30.159110022506216</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.806427895219457,30.12536407740383 85.806427895219457,30.0466235388316 85.791429697396183,29.990380296994289 85.746435103926331,29.997879395905933 85.686442312633204,30.001628945361752 85.705190059912312,29.941636154068622 85.750184653382149,29.881643362775492 85.746435103926331,29.825400120938184 85.735186455558875,29.769156879100876 85.690191862089023,29.750409131821772</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.482836937314786,31.535194672792372 84.415345047110023,31.542693771704013 84.347853156905245,31.542693771704013 84.280361266700481,31.478951430955064 84.2841108161563,31.385212694559549 84.351602706361078,31.366464947280445 84.411595497654204,31.411459540750293 84.486586486770619,31.38146314510373 84.52408198132882,31.403960441838652 84.554078376975383,31.373964046192086 84.584074772621946,31.377713595647908 84.587824322077765,31.448955035308497 84.550328827519564,31.501448727689986 84.482836937314786,31.535194672792372</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.062887398262887,31.051502792991517 84.092883793909451,30.976511803875105 84.179123431393322,30.95401450714018 84.239116222686448,30.961513606051824 84.299109013979589,30.987760452242565 84.351602706361078,30.961513606051824 84.419094596565841,31.00275865006585 84.479087387858968,30.972762254419283 84.520332431873001,30.976511803875105 84.527831530784638,31.025255946800772 84.546579278063746,31.08149918863808 84.565327025342839,31.107746034828825 84.43409279438913,31.122744232652106 84.336604508537789,31.130243331563747 84.306608112891226,31.122744232652106 84.235366673230629,31.096497386461362 84.18287298084914,31.06275144135898 84.152876585202577,31.070250540270621 84.070386497174525,31.059001891903158</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.606572069356872,31.107746034828825 84.636568465003435,31.032755045712413 84.632818915547617,30.991510001698387 84.715309003575669,30.94276585877272 84.80154864105954,30.897771265302872 84.831545036706103,30.864025320200486 84.895287377455062,30.849027122377205 84.992775663306389,30.819030726730642 85.060267553511167,30.807782078363179 85.004024311673859,30.841528023465564 84.959029718204008,30.912769463126153 84.9027864763667,30.946515408228539 84.854042333441029,30.969012704963465 84.932782872013263,30.946515408228539 85.045269355687878,30.909019913670335 85.120260344804294,30.894021715847053 85.251494575758016,30.879023518023768 85.337734213241887,30.856526221288846 85.378979257255907,30.852776671833027 85.31898646596278,30.879023518023768 85.262743224125472,30.916519012581976 85.221498180111453,30.94276585877272 85.169004487729964,30.976511803875105 85.101512597525186,31.006508199521669 84.899036926910881,31.051502792991517 84.745305399222232,31.085248738093902 84.610321618812691,31.111495584284647</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.170134192434062,30.897771265302872 86.053898159303614,30.916519012581976 85.982656719643032,30.920268562037798 85.93766212617318,30.894021715847053 85.870170235968416,30.88277306747959 85.870170235968416,30.830279375098101 85.918914378894073,30.811531627818997 85.982656719643032,30.785284781628256 86.083894554950177,30.770286583804971 86.147636895699137,30.759037935437512 86.188881939713156,30.76278748489333 86.158885544066592,30.800282979451538 86.173883741889881,30.860275770744668 86.173883741889881,30.909019913670335</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.384988216119922,30.804032528907356 87.422483710678137,30.76278748489333 87.36249091938501,30.661549649586174 87.291249479724414,30.639052352851252 87.197510743328905,30.661549649586174 87.115020655300839,30.661549649586174 87.070026061831001,30.669048748497815 87.051278314551894,30.740290188158408 87.002534171626223,30.76278748489333 87.043779215640257,30.819030726730642 87.107521556389202,30.837778474009742 87.178762996049798,30.841528023465564 87.26125308407785,30.871524419112127 87.238755787342924,30.912769463126153 87.182512545505617,30.927767660949439 87.130018853124128,30.950264957684361 87.141267501491583,30.991510001698387 87.223757589519636,31.00275865006585 87.336244073194266,30.95401450714018 87.358741369929177,30.916519012581976 87.422483710678137,30.894021715847053 87.4524801063247,30.897771265302872 87.474977403059626,30.856526221288846 87.4524801063247,30.811531627818997 87.418734161222318,30.815281177274819 87.36249091938501,30.837778474009742 87.373739567752466,30.811531627818997 87.392487315031573,30.807782078363179</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.03889996148034,31.130243331563747 86.16638464297823,31.115245133740466 86.2151287859039,31.137742430475392 86.305117972843604,31.145241529387032 86.305117972843604,31.178987474489418 86.230126983727189,31.205234320680162 86.211379236448082,31.212733419591803 86.143887346243318,31.20148477122434 86.083894554950177,31.190236122856877 86.03889996148034,31.193985672312699 86.020152214201232,31.148991078842851 86.046399060391977,31.126493782107929</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.52838545684105,29.851065374134876 88.544149840601946,29.882594141656686 88.605455777449919,29.865078159700126 88.638736143167378,29.840555784960941 88.731570847537142,29.828294597591348 88.770106007841576,29.817785008417413 88.822653953711267,29.807275419243478 88.896221077928814,29.814281812026099 89.010074960646463,29.809027017439131 89.080138888472703,29.809027017439131 89.116922450581484,29.782753044504293 89.162464003668532,29.786256240895604 89.213260351342555,29.791511035482571 89.285075877364463,29.770491857134701 89.339375421429793,29.768740258939044 89.362146197973317,29.791511035482571 89.391923367299484,29.789759437286918 89.433961723995225,29.777498249917326 89.495267660843183,29.759982267960762 89.511032044604093,29.73020509863461 89.490012866256208,29.700427929308457 89.465490491517031,29.679408750960587 89.465490491517031,29.649631581634434 89.481254875277941,29.62510920689525 89.470745286104005,29.595332037569094 89.440968116777839,29.598835233960408 89.402432956473419,29.612848019525657 89.351636608799382,29.633867197873528 89.30434345751668,29.667147563590994 89.229024735103465,29.67765715276493 89.195744369386006,29.68116034915624 89.155457610885904,29.656637974417055 89.080138888472703,29.644376787047463 89.034597335385641,29.619854412308278 89.001316969668181,29.612848019525657 89.031094138994334,29.667147563590994 89.032845737189987,29.71268911667805 89.004820166059488,29.723198705851985 88.947017425602837,29.705682723895425 88.866443908602662,29.703931125699771 88.798131578972075,29.702179527504114 88.764851213254616,29.684663545547554 88.73332244573281,29.675905554569272 88.694787285428376,29.667147563590994 88.721061258363207,29.64262518885181 88.703545276406658,29.600586832156065 88.682526098058773,29.597083635764751 88.645742535950006,29.579567653808191 88.629978152189096,29.612848019525657 88.628226553993443,29.640873590656152 88.666761714297877,29.647879983438777 88.665010116102223,29.674153956373619 88.698290481819683,29.69517313472149 88.694787285428376,29.74772108059117 88.668513312493531,29.775746651721668 88.59844938466729,29.779249848112979 88.551156233384575,29.795014231873886 88.510869474884487,29.788007839091261 88.472334314580053,29.782753044504293 88.503863082101859,29.814281812026099 88.479340707362681,29.828294597591348 88.509117876688833,29.842307383156598 88.530137055036704,29.851065374134876</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.735236613648055,29.686415143743208 89.79479095230036,29.689918340134522 89.84383570177873,29.707434322091082 89.835077710800462,29.733708295025924 89.819313327039552,29.740714687808548 89.84383570177873,29.758230669765108 89.898135245844074,29.788007839091261 89.856096889148333,29.828294597591348 89.829822916213487,29.844058981352255 89.77377177395249,29.844058981352255 89.743994604626337,29.852816972330533 89.807052139669963,29.866829757895783 89.850842094561358,29.856320168721847 89.892880451257099,29.861574963308815 89.941925200735469,29.861574963308815 89.96644757547466,29.838804186765284 89.973453968257289,29.814281812026099 89.994473146605159,29.803772222852164 90.018995521344337,29.823039803004381 90.052275887061811,29.830046195787006 90.045269494279182,29.805523821047821 90.024250315931312,29.786256240895604 90.022498717735658,29.766988660743387 89.985715155626878,29.766988660743387 89.948931593518097,29.737211491417234 89.915651227800637,29.702179527504114 89.882370862083164,29.674153956373619 89.857848487343986,29.654886376221402 89.833326112604794,29.626860805090903 89.819313327039552,29.607593224938686 89.787784559517746,29.597083635764751 89.733485015452402,29.598835233960408 89.694949855147968,29.616351215916968 89.64940830206092,29.600586832156065 89.624885927321728,29.590077242982126 89.67042748040879,29.640873590656152 89.715969033495838,29.674153956373619 89.731733417256748,29.688166741938865</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>90.157371778801163,29.912371310982838 90.178390957149034,29.894855329026278 90.183645751736009,29.875587748874061 90.208168126475186,29.875587748874061 90.223932510236097,29.879090945265375 90.234442099410032,29.852816972330533 90.222180912040443,29.823039803004381 90.208168126475186,29.784504642699947 90.159123376996817,29.803772222852164 90.099569038344512,29.800269026460853 90.080301458192295,29.816033410221756 90.076798261800988,29.844058981352255 90.047021092474836,29.859823365113158 90.031256708713926,29.875587748874061 90.071543467214028,29.88960053443931 90.115333422105422,29.901861721808903 90.160874975192485,29.910619712787184</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>88.170818222167867,29.330840710025033 88.22161456984189,29.341350299198968 88.256646533755017,29.348356691981593 88.298684890450758,29.36762427213381 88.321455666994282,29.406159432438244 88.333716854363871,29.434185003568739 88.368748818276998,29.428930208981772 88.381010005646587,29.372879066720778 88.407283978581432,29.351859888372903 88.400277585798804,29.320331120851097 88.442315942494545,29.311573129872816 88.487857495581608,29.31857952265544 88.535150646864324,29.316827924459783 88.629736949429756,29.311573129872816 88.685788091690739,29.308069933481505 88.750597224930019,29.299311942503223 88.801393572604042,29.294057147916256 88.825915947343219,29.287050755133631 88.479099504603326,29.295808746111913 88.358239229103063,29.297560344307566 88.284672104885502,29.290553951524945 88.2373789536028,29.306318335285848 88.186582605928763,29.320331120851097 88.163811829385239,29.329089111829376</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.466768972222809,30.778451946751666 87.471045335005172,30.738895591014803 87.462492609440446,30.689717419017622 87.434696251355092,30.657644698149898 87.39193262353146,30.639470156324855 87.365205356141686,30.604190163370355 87.335270816665144,30.594568347110037 87.293576279537092,30.600982891283582 87.257227195887012,30.604190163370355 87.209118114585422,30.594568347110037 87.178114484413285,30.600982891283582 87.134281765894059,30.596706528501219 87.080827231114512,30.575324714589403 87.070136324158611,30.561426535546723 87.112899951982243,30.542182903026088 87.156732670501469,30.536837449548134 87.188805391369186,30.529353814678995 87.291438098145917,30.526146542592222 87.37910353518437,30.534699268156952 87.424005344399177,30.552873809981996 87.466768972222809,30.564633807633495 87.478528969874318,30.588153802936493 87.467838062918403,30.618088342413039 87.497772602394946,30.641608337716036 87.528776232567083,30.668335605105806 87.542674411609767,30.716444686407396 87.550158046478899,30.749586497970711 87.571539860390715,30.777382856056075 87.542674411609767,30.773106493273708 87.513808962828804,30.768830130491345 87.466768972222809,30.779521037447257</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.845627278084535,30.550735628590814 86.826383645563894,30.536837449548134 86.859525457127205,30.506902910071588 86.907634538428795,30.488728368246544 86.981401796424564,30.474830189203864 87.017750880074658,30.460932010161184 87.06051450789829,30.453448375292048 87.106485407808691,30.459862919465593 87.14390358215438,30.472692007812682 87.117176314764606,30.488728368246544 87.094725410157196,30.474830189203864 87.06051450789829,30.475899279899455 87.005990882423163,30.482313824073 87.030579968421748,30.507972000767179 87.057307235811521,30.513317454245133 87.024165424248196,30.521870179809859 86.964296345295111,30.54432108441727 86.889459996603762,30.546459265808451 86.844558187388941,30.551804719286405</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.670830949355434,30.822151028933941 86.676176402833377,30.786069217957749 86.693549126636739,30.741969226764628 86.717603667287534,30.74998740698156 86.74032184456884,30.768696494154398 86.789767289239919,30.755332860459514 86.819167283368657,30.744641953503606 86.853912730975367,30.747314680242582 86.89400363206002,30.721923776222301 86.922067262819283,30.705887415788435 86.934094533144673,30.679160148398665 86.931421806405694,30.644414700791963 86.959485437164957,30.613678343293724 86.996903611510632,30.612341979924238 86.98754906792422,30.657778334486849 86.996903611510632,30.70321468904946 86.995567248141157,30.741969226764628 86.976858160968305,30.75800558719849 86.915385445971836,30.770032857523887 86.841885460649962,30.803441941761101 86.788430925870429,30.807451031869569 86.745667298046783,30.834178299259339 86.712258213809577,30.848878296323711 86.673503676094413,30.834178299259339 86.670830949355434,30.827496482411895</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.404894638827201,30.647087427530941 86.431621906216975,30.667132878073268 86.474385534040607,30.639069247314008 86.478394624149075,30.605660163076795 86.465030990454196,30.569578352100603 86.459685536976238,30.545523811449808 86.482403714257543,30.517460180690549 86.478394624149075,30.502760183626176 86.419594635891585,30.502760183626176 86.387521915023854,30.512114727212595 86.394203731871301,30.552205628297251 86.39554009524079,30.584278349164979 86.40756736556618,30.624369250249636 86.403558275457712,30.649760154269917</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.770082410751115,29.733604824245344 86.784911692262455,29.779740366725086 86.806331765556621,29.812694325639189 86.819513349122261,29.873659149630278 86.842581120362141,29.906613108544377 86.8953074546247,29.911556202381494 86.896955152570399,29.95604404691553 86.918375225864565,30.007122683232389 86.948033788887258,30.025247360635145 86.949681486832972,30.094450674354757 86.990873935475591,30.132347727105977</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.781616296371041,29.708889355059767 86.839285724470727,29.713832448896884 86.883773569004759,29.74843410575669 86.928261413538806,29.735252522191047 86.943090695050145,29.712184750951177 86.961215372452898,29.723718636571114 86.999112425204117,29.727014032462524 87.037009477955337,29.657810718742908 87.03041868617251,29.590255102969 87.010646310824058,29.58695970707759 87.002407821095531,29.634742947503039 86.984283143692778,29.669344604362845 86.962863070398612,29.624856759828809 86.961215372452898,29.57707351940336 86.956272278615785,29.534233372815027 86.951329184778672,29.509517903629451 86.989226237529891,29.509517903629451</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.234733231439947,30.012065777069505 87.219903949928607,30.058201319549248 87.26274409651694,30.076325996952004 87.315470430779499,30.074678299006298 87.341833597910778,30.12410923737745 87.359958275313531,30.160358592182963 87.42421849519603,30.175187873694309 87.394559932173337,30.201551040825589 87.361605973259245,30.237800395631101 87.331947410236552,30.239448093576808 87.259448700625526,30.211437228499822 87.198483876634441,30.211437228499822 87.144109844426168,30.224618812065462 87.083145020435083,30.255925073033858 87.056781853303804,30.269106656599497 87.013941706715471,30.290526729893664 86.936499903267332,30.29876521962219</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.709313918266446,30.33660905140702 85.681842313318157,30.376900738664514 85.689168074637692,30.395215141963376 85.73312264255496,30.415360985592123 85.758762807173369,30.448326911530071 85.778908650802109,30.455652672849613 85.806380255750412,30.424518187241553 85.815537457399842,30.389720820973718 85.822863218719377,30.354923454705883 85.841177622018236,30.343934812726566 85.786234412121658,30.316463207778273 85.760594247503249,30.345766253056453 85.734954082884855,30.356754895035767 85.714808239256101,30.33660905140702</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#volcanic_rocks">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">linzizong</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+		<SimpleData name="Source">Pan, et al., 2004</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.985861408079245,30.439169709880641 85.943738280491857,30.417192425922007 85.888795070595279,30.419023866251894 85.88146930927573,30.367743537015084 85.908940914224019,30.332946170747249 85.962052683790716,30.316463207778273 85.98402996774935,30.389720820973718 85.98402996774935,30.437338269550754</coordinates></LineString>
+  </Placemark>
+</Folder></Document></kml>

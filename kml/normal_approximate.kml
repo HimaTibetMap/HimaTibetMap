@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>normal_approximate</name>
+<Schema name="normal_approximate" id="normal_approximate">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="ltype" type="string"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+	<SimpleField name="Source" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#normal_approximate">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">normal</SimpleData>
+		<SimpleData name="ltype">1221</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.450585620841636,35.301995217231521 81.486277535929091,35.321030905278164 81.507692684981564,35.3317384798044 81.514831067999054,35.354343359359788 81.51602079850197,35.36862012539477 81.521969451016545,35.381707160926837 81.531487295039867,35.392414735453073 81.535056486548612,35.397173657464734 81.538625678057358,35.412640154002631 81.541005139063188,35.420968267523037 81.544574330571933,35.432865572552188 81.546953791577764,35.449521799593001 81.546953791577764,35.466178026633813 81.545764061074848,35.476885601160049 81.538625678057358,35.489972636692116 81.536246217051527,35.504249402727098 81.536246217051527,35.517336438259164 81.529107834034036,35.526854282282486 81.526728373028206,35.537561856808722 81.524348912022376,35.549459161837873</coordinates></LineString>
+  </Placemark>
+</Folder></Document></kml>

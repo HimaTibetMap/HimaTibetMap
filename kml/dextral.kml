@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>dextral</name>
+<Schema name="dextral" id="dextral">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="ltype" type="string"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+	<SimpleField name="Source" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">85.76620601160</SimpleData>
+		<SimpleData name="Y">41.88053834300</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.976840003019788,42.077563582869892 85.161910939365072,42.051124877677708 85.472565725373215,41.978418438399203 85.849317274361809,41.852834588736343 86.080655944793406,41.793347502053933 86.345042996715222,41.71403138647738 86.450797817483959,41.667763652391066 86.536723609358546,41.621495918304745</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Talas-Fergana fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Talas-Fergana fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">73.67207935910</SimpleData>
+		<SimpleData name="Y">41.33957115200</SimpleData>
+		<SimpleData name="Source">Thompson, et al., 2002; Tapponnier, et al., 1979</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>74.566599833598033,40.696141236578356 74.388138573550805,40.755628323260773 74.203067637205521,40.901041201817769 74.017996700860252,41.066283109268909 73.879193498601296,41.191866958931776 73.720561267448204,41.310841132296595 73.542100007400975,41.416595953065325 73.442954862930279,41.476083039747735 73.257883926585009,41.562008831622329 73.112471048028013,41.634715270900827 73.000106550961235,41.680983004987148 72.881132377596415,41.700812033881284 72.80842593831791,41.700812033881284 72.649793707164818,41.654544299794964</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Talas-Fergana fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Talas-Fergana fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">75.05096364040</SimpleData>
+		<SimpleData name="Y">40.35512411730</SimpleData>
+		<SimpleData name="Source">Thompson, et al., 2002; Tapponnier, et al., 1979</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>75.531612573112682,39.896370404514848 75.392809370853726,40.068221988264028 75.214348110806498,40.233463895715168 75.055715879653405,40.352438069079987 74.903693324798354,40.438363860954581 74.731841741049166,40.55072835802136 74.632696596578484,40.577167063213537 74.52694177580976,40.603605768405721 74.447625660233214,40.623434797299858</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">82.00261428010</SimpleData>
+		<SimpleData name="Y">32.51629746180</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.520342884129363,32.987920273105132 81.564244041314012,32.965261611332409 81.610977531220257,32.894453293292642 81.744524341335691,32.817041253532246 81.844278907996454,32.678919545848117 81.967053759271224,32.548471266368665 82.128195751569379,32.402676130479861 82.304684600276872,32.295248135614429 82.473500020779696,32.210840425363017 82.542560874621756,32.164799856134977 82.565581159235776,32.134106143316281</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">84.03313342370</SimpleData>
+		<SimpleData name="Y">33.85575414230</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>83.598955342777302,33.997760499439458 83.821484760712849,33.936373073802073 84.020993894034362,33.85963879175533 84.212829599151206,33.798251366117945 84.35862473504001,33.744537368685229 84.458379301700774,33.690823371252513</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Jiali fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Jiali fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">94.07374645690</SimpleData>
+		<SimpleData name="Y">30.48257380560</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986; 1989</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>92.573147704491149,30.837296776726422 92.895431689087445,30.745215638270338 93.217715673683742,30.645461071609578 93.432571663414606,30.637787643404902 93.563019942894073,30.65313449981425 93.685794794168842,30.645461071609578 93.800896217238957,30.60709393058621 93.93134449671841,30.50733936392545 94.107833345425902,30.476645651106754 94.391750188998827,30.376891084445997 94.598932750525023,30.300156802399258 94.783095027437199,30.246442804966541 94.959583876144691,30.169708522919805 95.174439865875556,29.993219674212309 95.304888145355008,29.947179104984265 95.519744135085872,29.947179104984265</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Haiyuan Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Haiyuan Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">101.91488539900</SimpleData>
+		<SimpleData name="Y">37.45602889650</SimpleData>
+		<SimpleData name="Source">Burchfiel, et al., 1991; Lassere, et al., 2001, 2002</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>97.522443095494054,38.609269858931064 97.658349051803555,38.498846269429599 97.82823149719043,38.396916802197474 98.10853753207877,38.303481457234689 98.439808300583181,38.235528479079939 98.745596702279556,38.227034356810599 99.034396859437251,38.218540234541251 99.306208772056252,38.210046112271911 99.476091217443127,38.210046112271911 99.730914885523447,38.150587256386501 100.147126876721288,38.023175422346348 100.758703680114039,37.844798854690126 100.979550859116983,37.802328243343403 101.098468570887789,37.802328243343403 101.251362771735984,37.802328243343403 101.344798116698769,37.802328243343403 101.472209950738915,37.742869387458001 101.803480719243325,37.513528086185715 102.066798509592985,37.377622129876215 102.279151566326576,37.301175029452125 102.576445845753611,37.250210295836062 103.247481505031772,37.173763195411965 104.096893731966148,37.037857239102465 104.640517557204163,36.918939527331652 105.005764814785934,36.817010060099527 105.421976805983789,36.647127614712652 105.787224063565574,36.443268680248401 105.96560063122179,36.290374479400207 106.08451834299261,36.162962645360054 106.17795368795538,36.061033178127929 106.186447810224735,36.010068444511866</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">100.73498172500</SimpleData>
+		<SimpleData name="Y">37.06450594610</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>100.418938789340288,37.649434042495216 100.563338867919128,37.445575108030965 100.648280090612573,37.258704418105403 100.716233068767323,37.097316094987868 100.818162535999448,36.918939527331652 101.047503837271734,36.74056295967543 101.157927426773199,36.562186392019214</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">101.28368708200</SimpleData>
+		<SimpleData name="Y">35.97700273970</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>101.013527348194359,36.392303946632332 101.174915671311894,36.120492034013331 101.251362771735984,36.018562566781206 101.310821627621394,35.942115466357116 101.353292238968109,35.772233020970241 101.387268728045484,35.644821186930081 101.43823346166154,35.576868208775331 101.480704073008269,35.534397597428608</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">101.83744486600</SimpleData>
+		<SimpleData name="Y">35.10803955880</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>101.64209239612579,35.356021029772393 101.803480719243325,35.23710331800158 101.84595133059004,35.075714994884045 101.879927819667415,34.89733842722783 101.879927819667415,34.77842071545701</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">99.14977871180</SimpleData>
+		<SimpleData name="Y">36.22420709290</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>98.669149601855466,36.978398383217055 98.813549680434306,36.87646891598493 98.856020291781036,36.80851593783018 98.881502658589056,36.689598226059367 99.034396859437251,36.485739291595117 99.161808693477411,36.196939134437429 99.314702894325592,35.891150732741053 99.399644117019037,35.610844697852706 99.450608850635092,35.457950497004518 99.450608850635092,35.364515152041733</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">98.30551379570</SimpleData>
+		<SimpleData name="Y">37.49844253640</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>98.142514021156146,37.895763588306188 98.252937610657625,37.67491640930325 98.29540822200434,37.522022208455063 98.346372955620396,37.40310449668425 98.405831811505806,37.26719854037475 98.4228200560445,37.088821972718527</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">98.99899582620</SimpleData>
+		<SimpleData name="Y">29.57467000790</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>99.232397481472518,30.163030333956744 99.033967878363129,29.657936798769207 98.844557802667794,29.206960428066047 98.781421110769358,28.981472242714467</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">99.35319977520</SimpleData>
+		<SimpleData name="Y">28.90812364260</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>99.115143625089701,28.647749728394132 99.403768502339716,28.963433187886341 99.56611999579286,29.188921373237921</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">101.55476203600</SimpleData>
+		<SimpleData name="Y">29.28832598140</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>101.225713039980477,28.864218386331647 101.631591773613323,29.38735097634731 101.81198232189459,29.757151600323901</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">102.47680443800</SimpleData>
+		<SimpleData name="Y">23.79755214270</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>102.253939165183681,23.993673582737536 102.479427350535261,23.795243979628147 102.632759316574337,23.732107287729704 102.759032700371222,23.714068232901578</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">102.53354451500</SimpleData>
+		<SimpleData name="Y">24.13798602140</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>102.308056329668062,24.282298459987558 102.759032700371222,23.993673582737536</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">98.68671607290</SimpleData>
+		<SimpleData name="Y">21.53585236240</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>98.438679069034961,21.567420708354543 98.934753076808434,21.504284016456101</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">100.22905526100</SimpleData>
+		<SimpleData name="Y">22.49643203200</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>99.557100468378792,23.037603676846839 100.901010053074202,21.95526038715926</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">100.07572329500</SimpleData>
+		<SimpleData name="Y">22.41976604900</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>99.800627708558494,22.703881162526503 100.350818880816348,22.135650935440523</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">104.36557222600</SimpleData>
+		<SimpleData name="Y">22.34554361060</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>103.507653475738465,23.33524808151093 103.688044024019717,23.00152556719059 103.877454099715052,22.76701785442495 104.102942285066632,22.550549196487431 104.355489052660403,22.352119593378042 104.562938183183846,22.216826682167095 104.707250621808853,22.162709517682718 104.896660697504188,21.937221332331138 105.194305102168272,21.702713619565493 105.356656595621402,21.495264489042043</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Red River Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Red River Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">103.32427717900</SimpleData>
+		<SimpleData name="Y">22.97786536580</SimpleData>
+		<SimpleData name="Source">Wang, et al., 1998; Leloup, et al., 1995</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>100.206506442191341,25.725422846237663 100.450033682371043,25.355622222261076 100.810814778933576,25.012880180526675 101.189634930324218,24.525825700167264 101.604533191371132,23.993673582737536 101.965314287933651,23.596814376518758 102.208841528113368,23.452501937893746 102.6147202617462,23.254072334784357 102.948442776066543,23.154857533229659 103.228048125902504,23.019564622018713 103.498633948324397,22.902310765635892 103.697063551433786,22.739959272182755 104.355489052660403,22.18074857251084 104.788426368535426,21.856045585604566 105.167246519926081,21.468205906799849 105.726457219598004,20.981151426440437 106.330765556340225,20.277628288143511 106.484097522379301,20.142335376932561</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">103.78776465200</SimpleData>
+		<SimpleData name="Y">22.23093374820</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>103.534712057980641,22.451334394932733 103.814317407816603,22.207807154753027 104.012747010925992,21.982318969401447</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">104.31545427800</SimpleData>
+		<SimpleData name="Y">21.27711154270</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>103.886473627129106,21.783889366292058 104.084903230238496,21.540362126112353 104.229215668863517,21.332912995588902 104.382547634902579,21.233698194034204 104.544899128355723,21.197620084377952 104.671172512152609,21.188600556963891 104.779406841121371,21.143502919893574 104.851563060433875,21.089385755409197 104.914699752332311,21.026249063510754</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">104.92371928000</SimpleData>
+		<SimpleData name="Y">19.07352137840</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>104.157059449551014,19.384695074151256 105.690379109941745,18.762347682580899</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">104.86023654900</SimpleData>
+		<SimpleData name="Y">18.16659452100</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>103.372360564527511,19.02391397758873 104.057844647996319,18.68117193585433 104.88764117009012,18.149019818424602 105.491949506832356,17.725102029963633 105.924886822707393,17.391379515643298 106.222531227371476,17.120793693221401</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">104.27581452900</SimpleData>
+		<SimpleData name="Y">18.15560763340</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>103.264126235558749,18.42862516826056 103.742161188504099,18.419605640846498 104.066864175410373,18.320390839291804 104.256274251105708,18.176078400666793 104.445684326801029,17.977648797557404 104.72528967663699,17.725102029963633 104.878621642676066,17.472555262369866 104.941758334574502,17.31922329633079</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Sagaing Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Sagaing Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">96.21776333640</SimpleData>
+		<SimpleData name="Y">20.58826165400</SimpleData>
+		<SimpleData name="Source">Wang and Burchfiel, 1997</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>97.103789011753605,16.399231500096349 96.959476573128597,17.301184241502664 96.625754058808255,18.54587902464338 96.463402565355125,19.258421690354371 96.201836270347286,20.674487494362289 96.048504304308224,21.792908893706123 95.994387139823843,22.821135018909327 95.976348084995706,24.065829802050047 95.94928950275353,24.859548214487603</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">81.96952039340</SimpleData>
+		<SimpleData name="Y">33.05805442780</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.622306862106626,33.249202966671866 81.73843250369184,33.213798807651983 81.888546137936146,33.117499495117904 81.959915260095443,33.06537262459458 82.050867581176334,32.996075618056757 82.105219591137825,32.942602949559678 82.168947077373616,32.880291629684685 82.269494888990081,32.79390548167617</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">82.55542680040</SimpleData>
+		<SimpleData name="Y">32.59208647880</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>82.04220545535911,32.892130108250022 82.133157776440001,32.814170975894974 82.24576541206396,32.736211843539927 82.370290529719682,32.667866675565421 82.512349717786961,32.610777469145859 82.852114219269907,32.463354880297253 82.957379996666887,32.410301418695788 83.104749808587144,32.35453986823947</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">84.68041626730</SimpleData>
+		<SimpleData name="Y">33.54932472200</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.472395228960266,33.665389959189241 84.565410103187389,33.60265899750118 84.662751250634386,33.565885675132314 84.731971622152244,33.500991576834323 84.783886900790648,33.425281795486661 84.827149632989304,33.360387697188671</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Karakoram Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Karakoram Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">80.12763848110</SimpleData>
+		<SimpleData name="Y">31.93373420790</SimpleData>
+		<SimpleData name="Source">Murphy, et al., 2000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>82.334622127881161,30.606290005439824 82.208482902475311,30.674843932290834 82.085085834143499,30.726944916697597 81.997336807774204,30.757108644512041 81.887650524812599,30.757108644512041 81.665535801815338,30.806467471844766 81.553107361779681,30.847599827955371 81.451647550040192,30.875021398695775 81.278891654375641,30.979223367509306 81.150010271895752,31.034066508990112 81.06500340260051,31.09713612169304 80.988223004527384,31.149237106099804 80.881278878639819,31.193111619284451 80.755139653233954,31.250696917839296 80.618031799531948,31.360383200800907 80.527540616088615,31.420710656429794 80.43979158971932,31.470069483762519 80.384948448238518,31.513943996947166 80.338331777979832,31.574271452576053 80.299941578943276,31.64008322235302 80.278004322350952,31.711379306278065 80.201223924277826,31.851229317054123 80.110732740834493,31.952689128793612 80.009272929095005,32.040438155162903 79.92152390272571,32.169319537642799 79.885875860763178,32.248842092789964 79.710377808024603,32.435308773824708 79.55955916895239,32.61354898363733 79.458099357212902,32.704040167080656 79.271632676178157,32.90695979055964 79.019354225366442,33.164722555519425 78.901441471182707,33.301830409221438 78.786270874073011,33.419743163405172 78.662873805741199,33.597983373217794 78.599804193038267,33.729606912771729 78.410595354929484,33.970916735287275</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Karakoram Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Karakoram Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">76.57970882280</SimpleData>
+		<SimpleData name="Y">35.98140106290</SimpleData>
+		<SimpleData name="Source">Murphy, et al., 2000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>75.390291434242314,37.30525655448298 75.437154470175628,37.1244991301688 75.691553808099286,36.836626195149918 76.173573606270438,36.354606396978774 76.668982843279665,35.899365476483801 76.80957195107959,35.77886052694101 76.970245217136636,35.537850627855441 77.157697360869861,35.343703764703172 77.291591749250742,35.089304426779506 77.679885475555267,34.5671163120941</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Karakoram Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Karakoram Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">78.32797847220</SimpleData>
+		<SimpleData name="Y">33.85254545910</SimpleData>
+		<SimpleData name="Source">Murphy, et al., 2000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>78.582455375413602,33.608554213458291 78.404741005380814,33.781399696640875 78.304928824951432,33.873908546794929 78.263543286724612,33.932335188997492 78.161296662870129,34.012671822026022 78.095566690392246,34.112484002455396</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Karakoram Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Karakoram Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">77.86624168270</SimpleData>
+		<SimpleData name="Y">34.28345546680</SimpleData>
+		<SimpleData name="Source">Murphy, et al., 2000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>77.696317968674734,34.521470497873345 77.781523488553461,34.390010552917573 77.818040139930062,34.338887240990331 77.866729008432202,34.282895042212878 77.954368971736045,34.214730626309887 77.968975632286686,34.178213974933286 78.029836717914364,34.158738427532427 78.090697803542028,34.110049559030294</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">91.48391811150</SimpleData>
+		<SimpleData name="Y">31.01823357870</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>91.041219874836528,31.266663143796421 91.116227665766601,31.214483810975505 91.196127269148619,31.160673874003933 91.300485934790458,31.106863937032365 91.417889433637512,31.046531583458179 91.55486018229243,30.987829834034649 91.623345556619881,30.950325938569616 91.748902076220205,30.934019897063077 91.903809470532295,30.88999358499543 91.965772428257139,30.867165126886281</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">90.61881893000</SimpleData>
+		<SimpleData name="Y">31.50116957470</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>89.849921390712552,31.649783230502987 90.149733471854603,31.592676167428312 90.349608192615975,31.571261018775306 90.556621296261667,31.521292338584967 90.799326314329051,31.442770126857287 90.984148729563657,31.341670934726487 91.143947936327706,31.265032539645766 91.321683788748956,31.159043269853282</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">86.26209680790</SimpleData>
+		<SimpleData name="Y">31.81073617740</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.829255113151106,32.024998658355202 85.893529530281526,31.98788244564609 85.950561759566241,31.952576779898401 86.032036372830149,31.910028926305035 86.093594969518421,31.876533807518765 86.195890872838646,31.833080680444688 86.26831275129544,31.808638296465517 86.380566662903476,31.766090442872148 86.434883071746086,31.758848255026471 86.494631121472935,31.739837511931562 86.549852803796242,31.730784777124462 86.59692702479316,31.714489854471683 86.644906519270791,31.691858017453931 86.688359646344864,31.671036727397603 86.718233671208296,31.656552351706242</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Gyaring Co Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Gyaring Co Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">88.30778936350</SimpleData>
+		<SimpleData name="Y">31.20729636790</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.438733069174646,31.550164940156062 87.579555071562879,31.5052217479045 87.92934036134119,31.368864770533293 88.160554366448892,31.285864871263861 88.279125651119514,31.226579228928554 88.605196683963712,31.007222352287911 88.729696532867848,30.906436760317888 88.877910638706126,30.799722604114333 88.972767666442621,30.704865576377841 89.043910437244989,30.63372280557547</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Gyaring Co Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Gyaring Co Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">87.12062751820</SimpleData>
+		<SimpleData name="Y">31.68704153110</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>87.425566851603975,31.555146012442169 87.333768140741668,31.586701819301084 87.241969429879376,31.623995045588888 87.186029590447674,31.651247787876134 87.128655396158734,31.6799348850206 87.041159749868115,31.757390047310658 87.015341362438093,31.788945854169572 86.903461683574676,31.836279564457943 86.841784424714078,31.856360532459068</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Gyaring Co Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Gyaring Co Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">86.79024086150</SimpleData>
+		<SimpleData name="Y">31.97926884000</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.6840053904195,32.034220534754759 86.778672810996241,31.986886824466392 86.837481360142405,31.948159243321363 86.870471521858533,31.913734726748004 86.87620894128743,31.899391178175769</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Gyaring Co Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Gyaring Co Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">86.54309645080</SimpleData>
+		<SimpleData name="Y">32.02700236950</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>86.675399261276169,31.968240211322488 86.612287647558333,31.985452469609168 86.562085227555514,32.017008276468083 86.507579742981036,32.045695373612553 86.415781032118744,32.098766503329813</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">98.33937339110</SimpleData>
+		<SimpleData name="Y">26.70456850530</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>97.60393760797291,27.692166771307289 97.71809287826477,27.509518338840312 97.980649999936048,27.349700960431711 98.294576993238664,27.132805946877177 98.36307015541378,26.887372115749677 98.323115810811629,26.579152885961658 98.260330412151106,26.459289852155205 98.24891488512192,26.270933656173636 98.140467378344653,25.945591135841834 98.009188817509013,25.745819412831082 97.798001567469072,25.517508872247362</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">97.92783090030</SimpleData>
+		<SimpleData name="Y">25.11896868560</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>97.906449074246339,25.514654990490079 97.900741310731746,25.297759976935549 97.929280128304711,25.109403780953979 97.929280128304711,24.898216530914038 97.929280128304711,24.721275861961654</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">99.79213096980</SimpleData>
+		<SimpleData name="Y">24.98873373310</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>99.258475556765546,25.458801824881903 99.338692773727388,25.28633480841393 99.406877408144965,25.210128452300175 99.659561641574783,25.069748322616942 99.948343622637424,24.893270445300878 100.217071299459619,24.788988063250475 100.457722950345158,24.67668395950389</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">73.99640741860</SimpleData>
+		<SimpleData name="Y">39.28693371030</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>73.368336735327134,39.315505293909609 73.759294871152022,39.326675526361747 73.965944171516611,39.293164829005327 74.211689285463692,39.242898782970698 74.362487423567572,39.226143434292489 74.530040910349683,39.198217853162141 74.613817653740725,39.164707155805722</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Talas-Fergana fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Talas-Fergana fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">69.83251477280</SimpleData>
+		<SimpleData name="Y">43.01260257080</SimpleData>
+		<SimpleData name="Source">Thompson, et al., 2002; Tapponnier, et al., 1979</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>66.977161304276521,44.662941002861224 67.531809247815929,44.483266316925921 67.9458422197538,44.162976659389081 68.391122963158679,43.936430316253265 68.711412620695512,43.834875058985489 69.070761992566119,43.561457058649161 69.492606907370742,43.26460322971257 69.945699593642374,42.928689686442226 70.328484794113223,42.733391114773418 70.867508851919126,42.467785057303843 71.242482109523237,42.34279397143581 72.07054805339898,42.02250431389897 72.640819882671892,41.842829627963667 72.898613997274722,41.733462427829132</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">70.47205144620</SimpleData>
+		<SimpleData name="Y">43.03166634870</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>69.774244725763381,43.391948095320366 70.241516739805476,43.164302755146011 70.533062526344565,42.996564083438592 70.832595868679249,42.868763190709124 71.188042101583065,42.7090120747973</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">69.96625601310</SimpleData>
+		<SimpleData name="Y">43.39488217350</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>69.366879380188209,43.707456549246231 69.878082951106066,43.443867207991715 70.165634959747351,43.284116092079884 70.549037637935754,43.052476974007732</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">73.76353479800</SimpleData>
+		<SimpleData name="Y">44.34252073960</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>72.319690645587841,45.260929973870724 73.112551659371533,44.740364661790515 73.70519524543208,44.379973291888831 74.35389971125511,43.963521042224663 74.866456326226384,43.579103580996204 75.146760725038803,43.338842667728414</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">81.50303785460</SimpleData>
+		<SimpleData name="Y">45.84566841290</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.655655438697735,46.67564534944546 80.044422217697345,46.527207124736513 80.334230180224338,46.371700413136672 80.588695708296797,46.237399162209535 81.097626764441742,45.997070607918864 81.366229266296017,45.883974817664438 81.719653610841121,45.785016001191806 82.087214929168027,45.537618960010235 82.391159865476808,45.261947971265059 82.772858157585517,44.830770270920041 83.034392172548891,44.562167769065759</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slp</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">91.55867019020</SimpleData>
+		<SimpleData name="Y">45.12024272850</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>91.053108192240572,45.244627029605134 91.587553311840992,45.113136563671695 92.066857268308041,45.007095865338279</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">81.57440712310</SimpleData>
+		<SimpleData name="Y">48.34066453470</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.792120000752249,49.244202761706987 80.735734744853374,48.824818430995379 81.469657323598682,48.434028486468655 81.908104578433552,48.043238541941925 82.489523764192825,47.661980059476832 82.966096867274189,47.385567659689634 83.242509267061394,47.242595728765224</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">79.92952103540</SimpleData>
+		<SimpleData name="Y">48.34461412400</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>78.667407477480211,49.12029375490583 79.201169352931345,48.834349893057009 79.744462690444109,48.472154334715164 80.449790883004553,47.986049769572162 80.90730106196267,47.566665438860554 81.088398841133582,47.423693507936143</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Irtysh Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Irtysh Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">78.13325466560</SimpleData>
+		<SimpleData name="Y">45.55424819250</SimpleData>
+		<SimpleData name="Source">Tapponnier and Molnar, 1979</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>77.330511139084095,46.324772714147777 77.75341148295584,45.974074868010241 78.145367899227196,45.540859881605051 78.423863247630536,45.365510958536277 78.692043953500416,45.200476678000967 78.980853944437214,45.148903465333682 79.135573582439079,45.107644895199854</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">64.51722077510</SimpleData>
+		<SimpleData name="Y">40.74431059530</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>63.236557887638902,40.914593394704347 63.965509080943882,40.806600625325828 64.523471722732879,40.743604843188365 64.937444005350514,40.653610868706267 65.225424723693223,40.527619304431333 65.648396403759079,40.419626535052814 65.756389173137592,40.392628342708186</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">65.49351492640</SimpleData>
+		<SimpleData name="Y">40.70777699980</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>65.077251178325852,40.751609020831751 65.326206228256467,40.712557248293621 65.497057733110793,40.707675776726354 65.614213050725198,40.610046345381015 65.726486896772329,40.522179857170215 65.843642214386733,40.492891027766618</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Herat Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Herat Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">64.72637241970</SimpleData>
+		<SimpleData name="Y">34.44088471380</SimpleData>
+		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>63.117994563699916,34.419097049828821 63.440773092227396,34.381123105296176 63.692350474756168,34.357389389963274 63.924940885018621,34.366882876096433 64.276199871945593,34.400110077562502 64.703406747937848,34.438084022095147 65.09263967939745,34.485551452760951 65.72395650725268,34.542512369559915 66.046735035780159,34.589979800225727 66.331539619775,34.618460258625205</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Herat Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Herat Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">69.10548707990</SimpleData>
+		<SimpleData name="Y">35.13480171330</SimpleData>
+		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>67.800656598881702,34.808329981288431 68.132928613542347,34.879531127287144 68.512668058868798,34.945985530219275 68.825953101263124,35.031426905417725 69.08227722685848,35.126361766749334 69.447776442985187,35.259270572613595 69.675620110181057,35.411166350744175 70.093333500040146,35.67698396247269 70.249976021237302,35.824132997536687</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Herat Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Herat Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">66.79255822460</SimpleData>
+		<SimpleData name="Y">34.65225628680</SimpleData>
+		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>66.419354366506738,34.627953744758372 66.789600325700036,34.651687460091274 67.15984628489332,34.722888606089981</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">84.52197749680</SimpleData>
+		<SimpleData name="Y">47.33348646780</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>83.912057495682802,47.499272279386901 84.128812899406967,47.432275154599438 84.314040244407607,47.404688103216358 84.48744456738693,47.345572993109769 84.802725154622081,47.235224787577472 85.070713653771946,47.172168670130446 85.129828763878535,47.156404640768685</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">86.62001360230</SimpleData>
+		<SimpleData name="Y">47.72492458030</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>85.598808637390803,48.011603233644003 86.193900745797123,47.850021932685998 86.623470545905008,47.723909697791939 87.088509412076831,47.507154294067782 87.612663388355259,47.361337022471531</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">98.39034150630</SimpleData>
+		<SimpleData name="Y">44.67197263100</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>96.426994731853512,45.287809729397104 97.296228316140386,44.980116425224757 98.142384902614324,44.73396178188689 98.634694189290059,44.610884460217953 99.203926802008894,44.464730140736087 99.996237060252668,44.195498499585291 100.365469025259486,44.095498175729283</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">98.09069783560</SimpleData>
+		<SimpleData name="Y">44.40235563690</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>97.134689331449906,44.741654114491197 97.603921620312718,44.633961458030875 98.08853857438416,44.403191479901622 99.042387817318414,44.033959514894811</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">97.52480771280</SimpleData>
+		<SimpleData name="Y">44.23893273860</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>96.527376872246123,44.725901870957777 97.320666634930049,44.361417385400301 97.856673231338092,44.039813427555472 98.510601278955917,43.728929601638804</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">99.28372125630</SimpleData>
+		<SimpleData name="Y">45.14260293520</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>97.900897079425775,45.546917050988888 98.551420183037408,45.393609058417994 99.139791397768946,45.190579554743024 99.587284997705609,45.041415021430801 99.968483249503507,44.937828539963981 100.664584404960536,44.726512117771669</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">100.81724433000</SimpleData>
+		<SimpleData name="Y">44.96853760710</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>99.862410692481461,45.12842766586293 100.765684810872131,44.975119673292035 101.349912566344997,44.900537406635927 101.755971573694936,44.755516332582381</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">anticline</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">97.69031168970</SimpleData>
+		<SimpleData name="Y">45.31451385560</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>96.792107381804939,45.596638562092963 97.239600981741603,45.45990440655676 97.753389929817033,45.294166036209845 98.142875100132272,45.145001502897621 98.561364485258224,44.958545836257343</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">84.54761657370</SimpleData>
+		<SimpleData name="Y">34.98904176880</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>84.454555820253049,35.058743634346214 84.543493795674166,34.992040152780376 84.604638653776192,34.947571165069817 84.643549018022924,34.923483796726593</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>82.499679935994251,29.110522017292869 82.438517838270414,29.154209229952755 82.394830625610524,29.205177644722628 82.322018604510703,29.277989665822442 82.250662823832883,29.363907850720224 82.186588245265057,29.441088593086025 82.138532311339176,29.522638056717817</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>83.188481655598494,28.290658659708949 83.066157460150805,28.383858046716714 82.936552062593137,28.449388865706545 82.837527713897387,28.517832165540373 82.726853441825668,28.578994263264217 82.659866382413838,28.621225235502109 82.619091650597937,28.661999967318003</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>83.049883876305572,28.619221207964859 82.962648374331295,28.648881278636114 82.895767822817675,28.682612339399505 82.854476351883193,28.70645670993914 82.830631981343544,28.742514050755176 82.801553480685456,28.772755691439595 82.784687950303763,28.784968661715993</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>95.211246633401316,45.376260529407077 95.285679232692871,45.264611630469744 95.305979032499664,45.156346031500213 95.295829132596268,45.021014032788294 95.309362332467458,44.828165934623819 95.309362332467458,44.743583435428867 95.316128932403061,44.672534136105114 95.360111831984426,44.567651837103384 95.444694331179377,44.462769538101647</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Tibrikot Fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Tibrikot Fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">right-slip</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>82.640980720183748,29.090307983378107 82.696345075268738,29.070401698403732 82.789655786086129,29.021258057373238 82.848130498198358,28.987044130073528 82.891053425174363,28.957184702611965 82.925889423879525,28.940388774664832 82.964457851017372,28.929813560772196 83.014223563453314,28.913639704230516 83.054658204807524,28.906796918770574 83.098203203188973,28.889378919417993 83.134283344705025,28.873827134281761</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Humla fault</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Name">Humla fault</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">normal</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">81.37810932120</SimpleData>
+		<SimpleData name="Y">30.14758118590</SimpleData>
+		<SimpleData name="Source">Murphy and Copeland, 2005</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>81.861287392736841,29.93735853133126 81.837032490610326,29.973740884521021 81.780437718981815,30.030335656149539 81.727885431041045,30.066718009339304 81.59852595303299,30.107142846216817 81.469166475024949,30.135440232031076 81.418787659105604,30.142157407486987</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">0.00000000000</SimpleData>
+		<SimpleData name="Y">0.00000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>79.110582305008393,33.071511256754818 79.109763094698579,33.038470311164083 79.109763094698579,32.998495366266134 79.111666663503243,32.966134696586842 79.1192809387219,32.9204490452749 79.1192809387219,32.876666962767622 79.128798782745221,32.836692017869673 79.13260592035455,32.787199228948403 79.136413057963878,32.75483855926911 79.148517980140454,32.694760109184962 79.176388002861827,32.634913724575256 79.208510726440537,32.531169224721047</coordinates></LineString>
+  </Placemark>
+</Folder></Document></kml>

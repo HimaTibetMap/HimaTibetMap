@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>syncline</name>
+<Schema name="syncline" id="syncline">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="ltype" type="string"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+	<SimpleField name="Source" type="string"></SimpleField>
+</Schema>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#syncline">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">syncline</SimpleData>
+		<SimpleData name="ltype">1711</SimpleData>
+		<SimpleData name="X">81.74118650780</SimpleData>
+		<SimpleData name="Y">41.70659986830</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>80.922544598573339,41.749081700997891 81.315960483889157,41.662076264822282 81.626153778080479,41.665859109873395 81.807730340533922,41.730167475742327 81.966609832680703,41.76421308120235 82.167100620389718,41.779344461406801 82.329762957587604,41.843652827275733 82.545385125501085,41.911744038195778</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#syncline">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">syncline</SimpleData>
+		<SimpleData name="ltype">1711</SimpleData>
+		<SimpleData name="X">82.43539620560</SimpleData>
+		<SimpleData name="Y">27.88020639990</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>82.180722222177607,27.995595370989903 82.375853394885667,27.900817372817418 82.520807980325927,27.850640785549633 82.710363976670905,27.850640785549633</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#syncline">
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Type">snycline</SimpleData>
+		<SimpleData name="ltype">1711</SimpleData>
+		<SimpleData name="X">84.31609170660</SimpleData>
+		<SimpleData name="Y">27.62533737350</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>83.886726189282314,27.616483378299968 84.171060183799767,27.605333025573792 84.332740298329298,27.62763373102614 84.472119707406492,27.633208907389228 84.611499116483671,27.605333025573792 84.734152996471593,27.555156438306007</coordinates></LineString>
+  </Placemark>
+</Folder></Document></kml>
