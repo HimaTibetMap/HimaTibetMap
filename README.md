@@ -2,7 +2,7 @@ HimaTibetMap
 ===================
 
 HimaTibetMap is an open-source database of active faults and associated features (suture zones, Cenozoic volcanic rocks) in the Indo-Asian collision zone.  It was created by Mike Taylor, An Yin, Richard Styron and Kelechi Okoronkwo, and is currently maintained by Styron.  
-The database is currently available in .shp (for ArcGIS, Quantum GIS, etc.), .kml (Google Earth), and .gmt (text, for plotting in Generic Mapping Tools).  The .shp format contains the most metadata.
+The database is currently available in .shp (for ArcGIS, Quantum GIS, etc.), .kml (Google Earth), .gmt (text, for plotting in Generic Mapping Tools), and .geojson (GeoJSON, which may be useful to some, and can be opened in QGIS).  The .shp format contains the most metadata.
 
 
 Installation
