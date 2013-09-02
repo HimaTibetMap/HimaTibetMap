@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document><Folder><name>thrust_inferred</name>
-<Schema name="thrust_inferred" id="thrust_inferred">
+<Document><Folder><name>OGRGeoJSON</name>
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
 	<SimpleField name="Name" type="string"></SimpleField>
 	<SimpleField name="Description" type="string"></SimpleField>
-	<SimpleField name="Id" type="int"></SimpleField>
-	<SimpleField name="Type" type="string"></SimpleField>
 	<SimpleField name="ltype" type="string"></SimpleField>
-	<SimpleField name="X" type="float"></SimpleField>
-	<SimpleField name="Y" type="float"></SimpleField>
 	<SimpleField name="Source" type="string"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
 </Schema>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#thrust_inferred">
-		<SimpleData name="Id">0</SimpleData>
-		<SimpleData name="Type">thrust</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
 		<SimpleData name="ltype">1131</SimpleData>
-		<SimpleData name="X">83.21489394380</SimpleData>
-		<SimpleData name="Y">36.71602238640</SimpleData>
+		<SimpleData name="Y">36.7160223864</SimpleData>
+		<SimpleData name="X">83.2148939438</SimpleData>
+		<SimpleData name="Type">thrust</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>83.700112707107678,36.806579201467393 83.60949687951576,36.787502185132254 83.466419257002201,36.770014920158374 83.345068236425874,36.748818235341552 83.208349619357364,36.714373622514209 83.106605532236614,36.691057269215705 83.080109676215585,36.686288015131922 82.88642496870186,36.64283481125743 82.773022704931847,36.626407380524391 82.73062933529819,36.618988540838508</coordinates></LineString>
   </Placemark>
