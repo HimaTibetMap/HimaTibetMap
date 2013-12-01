@@ -722,68 +722,12 @@
 		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
 		<SimpleData name="ltype">1611</SimpleData>
 		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">25.5725237124</SimpleData>
-		<SimpleData name="X">64.9434820518</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>64.454965216815879,25.509310352733763 64.719617321576294,25.569231584000274 65.059170965419867,25.574225019939149 65.273888710791525,25.629152815266785 65.423691788957811,25.679087174655546</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
 		<SimpleData name="Y">25.9194920937</SimpleData>
 		<SimpleData name="X">63.3789617338</SimpleData>
 		<SimpleData name="Type">anticline</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>62.837091972620073,25.943739279415968 63.331442130568789,25.91877209972159 63.661008902534604,25.923765535660465 63.920667571356148,25.943739279415968</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">26.1584570248</SimpleData>
-		<SimpleData name="X">63.1505552192</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>62.182951864627327,26.188417640420891 62.652334842881665,26.208391384176394 63.111730949258252,26.158457024787634 63.656015466595726,26.158457024787634 63.965608494806034,26.14847015290988 64.120405008911192,26.163450460726509</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">26.4721691434</SimpleData>
-		<SimpleData name="X">64.8630334756</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>64.255227779260835,26.183424204482012 64.609761730921022,26.313253538892788 64.864426963803695,26.473043488936817 65.134072504502996,26.612859695225342 65.263901838913782,26.757669337452743 65.393731173324554,26.877511799985768</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">27.1780202787</SimpleData>
-		<SimpleData name="X">65.487529857</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>65.293862454547025,26.952413339068904 65.373757429569039,27.037301750029798 65.563507995246326,27.271993239156966 65.683350457779355,27.401822573567738</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Makran Thrust Belt</name>
@@ -820,40 +764,12 @@
 		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
 		<SimpleData name="ltype">1611</SimpleData>
 		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">27.3104282252</SimpleData>
-		<SimpleData name="X">63.2336040174</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>62.57243986785965,27.286973546973591 63.056803153930616,27.237039187584834 63.321455258691039,27.346894778240102 63.491232080612818,27.411809445445492 63.710943261923362,27.411809445445492 63.885713519784019,27.461743804834249</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
 		<SimpleData name="Y">27.5701167099</SimpleData>
 		<SimpleData name="X">64.5317829318</SimpleData>
 		<SimpleData name="Type">anticline</SimpleData>
 		<SimpleData name="Id">0</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>64.215280291749835,27.51167816422301 64.489919268388007,27.546632215795142 64.694650141881922,27.661481242389286 64.78453198878168,27.766343397105683</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">27.2622125633</SimpleData>
-		<SimpleData name="X">63.7627835712</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>63.156671872708131,27.187104828196073 63.586107363451461,27.222058879768205 63.915674135417277,27.296960418851345 64.05049690576692,27.331914470423477 64.245240907383092,27.391835701689988 64.350103062099478,27.431783189200996</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Makran Thrust Belt</name>
@@ -910,20 +826,6 @@
 		<SimpleData name="Id">0</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>64.864426963803695,26.118509537276626 65.04918409354211,26.213384820115269 65.164033120136253,26.328233846709416</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">26.8125639009</SimpleData>
-		<SimpleData name="X">65.5877333425</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>65.303849326424782,26.44308287330356 65.473626148346568,26.607866259286467 65.523560507735326,26.737695593697239 65.673363585901598,26.912465851557897 65.778225740617998,27.062268929724176 65.818173228128998,27.21706544382933</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Makran Thrust Belt</name>
@@ -994,34 +896,6 @@
 		<SimpleData name="Id">0</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>64.904374451314709,25.968706459110347 65.114098760747495,25.988680202865851 65.328816506119168,26.05359487007124</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">26.1161820112</SimpleData>
-		<SimpleData name="X">65.2249874112</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>64.989262862275595,26.018640818499108 65.278882146730396,26.13848328103213 65.393731173324554,26.298273231076159</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">26.4621356698</SimpleData>
-		<SimpleData name="X">65.5813987716</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>65.473626148346568,26.343214154526041 65.618435790573969,26.503004104570074 65.673363585901598,26.592885951469839</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Makran Thrust Belt</name>
@@ -1190,34 +1064,6 @@
 		<SimpleData name="Id">0</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>65.798199484373498,27.391835701689988 65.868107587517756,27.566605959550646 65.94800256253977,27.696435293961418</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">28.2190716204</SimpleData>
-		<SimpleData name="X">61.608973479</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>61.538798628512332,28.580273455142457 61.578746116023339,28.295647606626531 61.653647655106482,28.105897040949245 61.843398220783769,27.946107090905215</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">27.6083372839</SimpleData>
-		<SimpleData name="X">62.1711811559</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>61.993201298950041,27.786317140861186 62.212912480260584,27.566605959550646 62.377695866243492,27.466737240773128</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Makran Thrust Belt</name>
@@ -1811,48 +1657,6 @@
 		<SimpleData name="Id">0</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>66.829140623267918,25.047530768829738 66.986242173549158,25.399438241459727 67.017662483605406,25.713641342022218 66.935969677459155,26.002708194539711 66.791436251200409,26.379751915214701 66.703459383042912,26.693955015777192</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">25.989203627</SimpleData>
-		<SimpleData name="X">65.4659965244</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>65.251841058444214,25.877026954314715 65.515771662916706,26.015276318562211 65.679157275209192,26.103253186719709</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">25.8145015042</SimpleData>
-		<SimpleData name="X">65.6574092647</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>65.490635414871704,25.726209466044718 65.704293523254194,25.839322582247213 65.836258825490447,25.870742892303465</coordinates></LineString>
-  </Placemark>
-  <Placemark>
-	<name>Makran Thrust Belt</name>
-	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Makran Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1611</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975</SimpleData>
-		<SimpleData name="Y">25.9288121433</SimpleData>
-		<SimpleData name="X">66.1274812893</SimpleData>
-		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
-	</SchemaData></ExtendedData>
-      <LineString><coordinates>65.76713414336669,25.556539791740974 65.968224127726685,25.61938041185347 66.100189429962938,25.814186334202216 66.163030050075434,26.078116938674707 66.163030050075434,26.222650364933454 66.131609740019186,26.486580969405946</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Makran Thrust Belt</name>
@@ -3808,5 +3612,25 @@
 		<SimpleData name="Id">0</SimpleData>
 	</SchemaData></ExtendedData>
       <LineString><coordinates>74.31122039099705,40.935359886209127 74.671781783175987,40.943648653845422 74.89143412553787,40.964370572936168 75.115230851717897,41.034825097844696 75.276861820625697,41.142579077116558 75.442637173351642,41.188167299116195 75.624990061350189,41.221322369661387 75.691300202440573,41.242044288752126</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="ltype">1611</SimpleData>
+		<SimpleData name="Y">0</SimpleData>
+		<SimpleData name="X">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>65.872926467148716,25.729132343466574 65.888392963686613,25.751737223021962 65.894341616201189,25.764824258554029 65.90385946022451,25.777911294086095 65.914567034750746,25.790998329618162 65.927654070282813,25.792188060121077 65.941930836317795,25.795757251629823 65.974053559896504,25.818362131185211 65.98238167341691,25.827879975208532 65.98476113442274,25.842156741243514 65.981191942913995,25.861192429290156 65.978812481908165,25.876658925828053 65.991899517440231,25.896884344377611 66.003796822469383,25.904022727395102</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="ltype">1611</SimpleData>
+		<SimpleData name="Y">0</SimpleData>
+		<SimpleData name="X">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>65.708545369329102,25.761393868937262 65.658576688206665,25.725701953849807 65.634782078148362,25.709045726808995 65.594331241049247,25.685251116750692 65.54436255992681,25.649559201663237 65.513429566851016,25.628144052610764 65.475358190757731,25.606728903558292 65.430148431646955,25.59007267651748 65.377800289518689,25.575795910482498 65.315934303367101,25.552001300424195 65.275483466267985,25.540103995395043 65.192202331063925,25.51630938533674 65.1588898769823,25.506791541313419 65.113680117871525,25.492514775278437 65.070849819766579,25.482996931255116 65.020881138644143,25.485376392260946 64.949497308469233,25.485376392260946 64.906667010364288,25.485376392260946 64.84955994622436,25.480617470249285 64.794832343090263,25.475858548237625 64.747243122973657,25.475858548237625 64.682997675816239,25.475858548237625 64.640167377711293,25.478238009243455 64.568783547536384,25.482996931255116</coordinates></LineString>
   </Placemark>
 </Folder></Document></kml>
