@@ -1,71 +1,76 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document><Folder><name>OGRGeoJSON</name>
-<Schema name="OGRGeoJSON" id="OGRGeoJSON">
-	<SimpleField name="Name" type="string"></SimpleField>
-	<SimpleField name="Description" type="string"></SimpleField>
-	<SimpleField name="ltype" type="string"></SimpleField>
-	<SimpleField name="Source" type="string"></SimpleField>
-	<SimpleField name="Y" type="float"></SimpleField>
-	<SimpleField name="X" type="float"></SimpleField>
-	<SimpleField name="Type" type="string"></SimpleField>
+<Document id="root_doc">
+<Schema name="dextral_approximate" id="dextral_approximate">
 	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="ltype" type="string"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+	<SimpleField name="Source" type="string"></SimpleField>
+	<SimpleField name="notes" type="string"></SimpleField>
+	<SimpleField name="net_slip_r" type="string"></SimpleField>
+	<SimpleField name="strike_sli" type="string"></SimpleField>
+	<SimpleField name="shortening" type="string"></SimpleField>
 </Schema>
+<Folder><name>dextral_approximate</name>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1321</SimpleData>
-		<SimpleData name="Y">35.2319288752</SimpleData>
-		<SimpleData name="X">80.2465066372</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral_approximate">
+		<SimpleData name="Id">154</SimpleData>
 		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1321</SimpleData>
+		<SimpleData name="X">80.2465066372</SimpleData>
+		<SimpleData name="Y">35.2319288752</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>80.898804847485053,35.005688807653584 80.77320402313525,35.070654751282788 80.517671311527025,35.135620694911999 80.322773480639398,35.204917701449823 80.114882461025942,35.278545770896258 79.893998252686629,35.365167029068537 79.742411050885138,35.447457224332197 79.616810226535335,35.516754230870021</coordinates></LineString>
+      <LineString><coordinates>80.8988048474851,35.0056888076536 80.7732040231352,35.0706547512828 80.517671311527,35.135620694912 80.3227734806394,35.2049177014498 80.1148824610259,35.2785457708963 79.8939982526866,35.3651670290685 79.7424110508851,35.4474572243322 79.6168102265353,35.51675423087</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Herat Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Herat Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral_approximate">
+		<SimpleData name="Id">643</SimpleData>
 		<SimpleData name="ltype">1321</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007</SimpleData>
-		<SimpleData name="Y">34.7679826652</SimpleData>
 		<SimpleData name="X">67.4873715565</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">34.7679826652</SimpleData>
+		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007; Mohadjer et al., 2010</SimpleData>
+		<SimpleData name="notes">Older geologic/remote sensing work suggests active sinistral slip, but more recent investigations (particularly geodetic) suggest inactivity.  Not a lot of recent field work for obvious reasons.</SimpleData>
+		<SimpleData name="strike_sli">(0.,0.,2.)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>67.207313715559124,34.732382092223141 67.76742939741564,34.803583238221854</coordinates></LineString>
+      <LineString><coordinates>67.2073137155591,34.7323820922231 67.7674293974156,34.8035832382219</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral_approximate">
+		<SimpleData name="Id">795</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1321</SimpleData>
-		<SimpleData name="Y">17.9159253062</SimpleData>
 		<SimpleData name="X">97.6331485095</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">17.9159253062</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>96.657897693356162,18.930363358994743 96.950410696695414,18.688283632093299 97.202577078884417,18.459652778908598 97.384136874060502,18.257919673157396 97.582507761382516,17.988942198822453 97.727083153837555,17.780484656212877 97.871658546292579,17.635909263757846 98.039769467751924,17.467798342298508 98.275124757794998,17.279514110264049 98.443235679254329,17.161836465242516 98.675228750868214,16.970190014778868</coordinates></LineString>
+      <LineString><coordinates>96.6578976933562,18.9303633589947 96.9504106966954,18.6882836320933 97.2025770788844,18.4596527789086 97.3841368740605,18.2579196731574 97.5825077613825,17.9889421988225 97.7270831538376,17.7804846562129 97.8716585462926,17.6359092637578 98.0397694677519,17.4677983422985 98.275124757795,17.279514110264 98.4432356792543,17.1618364652425 98.6752287508682,16.9701900147789</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral_approximate">
+		<SimpleData name="Id">796</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1321</SimpleData>
-		<SimpleData name="Y">16.9405808412</SimpleData>
 		<SimpleData name="X">98.8948108105</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">16.9405808412</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>98.248227010361504,17.360207352564533 98.490306737262941,17.19545864953438 98.729024245735204,17.084505441371221 99.034986122791196,16.818890185465467 99.327499126130448,16.546550492701339 99.428365679006049,16.385164008100375</coordinates></LineString>
+      <LineString><coordinates>98.2482270103615,17.3602073525645 98.4903067372629,17.1954586495344 98.7290242457352,17.0845054413712 99.0349861227912,16.8188901854655 99.3274991261304,16.5465504927013 99.428365679006,16.3851640081004</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1321</SimpleData>
-		<SimpleData name="Y">0</SimpleData>
-		<SimpleData name="X">0</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral_approximate">
+		<SimpleData name="Id">887</SimpleData>
 		<SimpleData name="Type">rightslip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1321</SimpleData>
+		<SimpleData name="X">0</SimpleData>
+		<SimpleData name="Y">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>73.833820125792244,38.129485750052957 73.950280440821501,38.047599591048012 74.021248445292443,37.958434662353746 74.168643531501331,37.845613732169163 74.310579540443229,37.760088188319557 74.407023238826824,37.709136800494264 74.565336479569709,37.625430949066988 74.650862023419322,37.581758330931024 74.730928490001929,37.525347865838732 74.827372188385525,37.481675247702761 74.943832503414768,37.432543552299798 75.034817124531372,37.412526935654142</coordinates></LineString>
+      <LineString><coordinates>73.8338201257922,38.129485750053 73.9502804408215,38.047599591048 74.0212484452924,37.9584346623537 74.1686435315013,37.8456137321692 74.3105795404432,37.7600881883196 74.4070232388268,37.7091368004943 74.5653364795697,37.625430949067 74.6508620234193,37.581758330931 74.7309284900019,37.5253478658387 74.8273721883855,37.4816752477028 74.9438325034148,37.4325435522998 75.0348171245314,37.4125269356541</coordinates></LineString>
   </Placemark>
-</Folder></Document></kml>
+</Folder>
+</Document></kml>

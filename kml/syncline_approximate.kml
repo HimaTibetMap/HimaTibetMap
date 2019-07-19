@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document><Folder><name>OGRGeoJSON</name>
-<Schema name="OGRGeoJSON" id="OGRGeoJSON">
-	<SimpleField name="Name" type="string"></SimpleField>
-	<SimpleField name="Description" type="string"></SimpleField>
-	<SimpleField name="ltype" type="string"></SimpleField>
-	<SimpleField name="Source" type="string"></SimpleField>
-	<SimpleField name="Y" type="float"></SimpleField>
-	<SimpleField name="X" type="float"></SimpleField>
-	<SimpleField name="Type" type="string"></SimpleField>
+<Document id="root_doc">
+<Schema name="syncline_approximate" id="syncline_approximate">
 	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="ltype" type="string"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+	<SimpleField name="Source" type="string"></SimpleField>
+	<SimpleField name="notes" type="string"></SimpleField>
+	<SimpleField name="net_slip_r" type="string"></SimpleField>
+	<SimpleField name="strike_sli" type="string"></SimpleField>
+	<SimpleField name="shortening" type="string"></SimpleField>
 </Schema>
+<Folder><name>syncline_approximate</name>
   <Placemark>
 	<name>Western Kunlun Shan Thrust Belt</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Western Kunlun Shan Thrust Belt</SimpleData>
-		<SimpleData name="ltype">1721</SimpleData>
-		<SimpleData name="Source">Avouac and Peltzer, 1993</SimpleData>
-		<SimpleData name="Y">37.4181508424</SimpleData>
-		<SimpleData name="X">77.7799433461</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#syncline_approximate">
+		<SimpleData name="Id">733</SimpleData>
 		<SimpleData name="Type">sycline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1721</SimpleData>
+		<SimpleData name="X">77.7799433461</SimpleData>
+		<SimpleData name="Y">37.4181508424</SimpleData>
+		<SimpleData name="Source">Avouac and Peltzer, 1993</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>77.219925813009525,37.602902577457009 77.354234009799583,37.541439504349697 77.53179399877628,37.475423611012211 77.770817060860281,37.420789768250152 77.959759100412398,37.366155925488094 78.16463601077011,37.300140032150608 78.349025230092067,37.256888239963978</coordinates></LineString>
+      <LineString><coordinates>77.2199258130095,37.602902577457 77.3542340097996,37.5414395043497 77.5317939987763,37.4754236110122 77.7708170608603,37.4207897682502 77.9597591004124,37.3661559254881 78.1646360107701,37.3001400321506 78.3490252300921,37.256888239964</coordinates></LineString>
   </Placemark>
-</Folder></Document></kml>
+</Folder>
+</Document></kml>

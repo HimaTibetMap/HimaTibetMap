@@ -1,892 +1,895 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document><Folder><name>OGRGeoJSON</name>
-<Schema name="OGRGeoJSON" id="OGRGeoJSON">
-	<SimpleField name="Name" type="string"></SimpleField>
-	<SimpleField name="Description" type="string"></SimpleField>
-	<SimpleField name="ltype" type="string"></SimpleField>
-	<SimpleField name="Source" type="string"></SimpleField>
-	<SimpleField name="Y" type="float"></SimpleField>
-	<SimpleField name="X" type="float"></SimpleField>
-	<SimpleField name="Type" type="string"></SimpleField>
+<Document id="root_doc">
+<Schema name="dextral" id="dextral">
 	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="ltype" type="string"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+	<SimpleField name="Source" type="string"></SimpleField>
+	<SimpleField name="notes" type="string"></SimpleField>
+	<SimpleField name="net_slip_r" type="string"></SimpleField>
+	<SimpleField name="strike_sli" type="string"></SimpleField>
+	<SimpleField name="shortening" type="string"></SimpleField>
 </Schema>
+<Folder><name>dextral</name>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">4</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">41.880538343</SimpleData>
 		<SimpleData name="X">85.7662060116</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">41.880538343</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>84.976840003019788,42.077563582869892 85.161910939365072,42.051124877677708 85.472565725373215,41.978418438399203 85.849317274361809,41.852834588736343 86.080655944793406,41.793347502053933 86.345042996715222,41.71403138647738 86.450797817483959,41.667763652391066 86.536723609358546,41.621495918304745</coordinates></LineString>
+      <LineString><coordinates>84.9768400030198,42.0775635828699 85.1619109393651,42.0511248776777 85.4725657253732,41.9784184383992 85.8493172743618,41.8528345887363 86.0806559447934,41.7933475020539 86.3450429967152,41.7140313864774 86.450797817484,41.6677636523911 86.5367236093585,41.6214959183047</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Talas-Fergana fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Talas-Fergana fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">6</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Thompson, et al., 2002; Tapponnier, et al., 1979</SimpleData>
-		<SimpleData name="Y">41.339571152</SimpleData>
 		<SimpleData name="X">73.6720793591</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">41.339571152</SimpleData>
+		<SimpleData name="Source">Mohadjer (2017)</SimpleData>
+		<SimpleData name="net_slip_r">(10,2,19)</SimpleData>
+		<SimpleData name="shortening">A huge range of rates from many studies; see Mohadjer (2017) for details.</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>74.566599833598033,40.696141236578356 74.388138573550805,40.755628323260773 74.203067637205521,40.901041201817769 74.017996700860252,41.066283109268909 73.879193498601296,41.191866958931776 73.720561267448204,41.310841132296595 73.542100007400975,41.416595953065325 73.442954862930279,41.476083039747735 73.257883926585009,41.562008831622329 73.112471048028013,41.634715270900827 73.000106550961235,41.680983004987148 72.881132377596415,41.700812033881284 72.80842593831791,41.700812033881284 72.649793707164818,41.654544299794964</coordinates></LineString>
+      <LineString><coordinates>74.566599833598,40.6961412365784 74.3881385735508,40.7556283232608 74.2030676372055,40.9010412018178 74.0179967008603,41.0662831092689 73.8791934986013,41.1918669589318 73.7205612674482,41.3108411322966 73.542100007401,41.4165959530653 73.4429548629303,41.4760830397477 73.257883926585,41.5620088316223 73.112471048028,41.6347152709008 73.0001065509612,41.6809830049871 72.8811323775964,41.7008120338813 72.8084259383179,41.7008120338813 72.6497937071648,41.654544299795</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Talas-Fergana fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Talas-Fergana fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">7</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Thompson, et al., 2002; Tapponnier, et al., 1979</SimpleData>
-		<SimpleData name="Y">40.3551241173</SimpleData>
 		<SimpleData name="X">75.0509636404</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">40.3551241173</SimpleData>
+		<SimpleData name="Source">Thompson, et al., 2002; Tapponnier, et al., 1979</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>75.531612573112682,39.896370404514848 75.392809370853726,40.068221988264028 75.214348110806498,40.233463895715168 75.055715879653405,40.352438069079987 74.903693324798354,40.438363860954581 74.731841741049166,40.55072835802136 74.632696596578484,40.577167063213537 74.52694177580976,40.603605768405721 74.447625660233214,40.623434797299858</coordinates></LineString>
+      <LineString><coordinates>75.5316125731127,39.8963704045148 75.3928093708537,40.068221988264 75.2143481108065,40.2334638957152 75.0557158796534,40.35243806908 74.9036933247984,40.4383638609546 74.7318417410492,40.5507283580214 74.6326965965785,40.5771670632135 74.5269417758098,40.6036057684057 74.4476256602332,40.6234347972999</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">20</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">32.5162974618</SimpleData>
 		<SimpleData name="X">82.0026142801</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">32.5162974618</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>81.520342884129363,32.987920273105132 81.564244041314012,32.965261611332409 81.610977531220257,32.894453293292642 81.744524341335691,32.817041253532246 81.844278907996454,32.678919545848117 81.967053759271224,32.548471266368665 82.128195751569379,32.402676130479861 82.304684600276872,32.295248135614429 82.473500020779696,32.210840425363017 82.542560874621756,32.164799856134977 82.565581159235776,32.134106143316281</coordinates></LineString>
+      <LineString><coordinates>81.5203428841294,32.9879202731051 81.564244041314,32.9652616113324 81.6109775312203,32.8944532932926 81.7445243413357,32.8170412535322 81.8442789079965,32.6789195458481 81.9670537592712,32.5484712663687 82.1281957515694,32.4026761304799 82.3046846002769,32.2952481356144 82.4735000207797,32.210840425363 82.5425608746218,32.164799856135 82.5655811592358,32.1341061433163</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">33.8557541423</SimpleData>
-		<SimpleData name="X">84.0331334237</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">22</SimpleData>
 		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">84.0331334237</SimpleData>
+		<SimpleData name="Y">33.8557541423</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>83.598955342777302,33.997760499439458 83.821484760712849,33.936373073802073 84.020993894034362,33.85963879175533 84.212829599151206,33.798251366117945 84.35862473504001,33.744537368685229 84.458379301700774,33.690823371252513</coordinates></LineString>
+      <LineString><coordinates>83.5989553427773,33.9977604994395 83.8214847607128,33.9363730738021 84.0209938940344,33.8596387917553 84.2128295991512,33.7982513661179 84.35862473504,33.7445373686852 84.4583793017008,33.6908233712525</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Jiali fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Jiali fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">28</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Armijo, et al., 1986; 1989</SimpleData>
-		<SimpleData name="Y">30.4825738056</SimpleData>
 		<SimpleData name="X">94.0737464569</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">30.4825738056</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986; 1989</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>92.573147704491149,30.837296776726422 92.895431689087445,30.745215638270338 93.217715673683742,30.645461071609578 93.432571663414606,30.637787643404902 93.563019942894073,30.65313449981425 93.685794794168842,30.645461071609578 93.800896217238957,30.60709393058621 93.93134449671841,30.50733936392545 94.107833345425902,30.476645651106754 94.391750188998827,30.376891084445997 94.598932750525023,30.300156802399258 94.783095027437199,30.246442804966541 94.959583876144691,30.169708522919805 95.174439865875556,29.993219674212309 95.304888145355008,29.947179104984265 95.519744135085872,29.947179104984265</coordinates></LineString>
+      <LineString><coordinates>92.5731477044911,30.8372967767264 92.8954316890874,30.7452156382703 93.2177156736837,30.6454610716096 93.4325716634146,30.6377876434049 93.5630199428941,30.6531344998143 93.6857947941688,30.6454610716096 93.800896217239,30.6070939305862 93.9313444967184,30.5073393639254 94.1078333454259,30.4766456511068 94.3917501889988,30.376891084446 94.598932750525,30.3001568023993 94.7830950274372,30.2464428049665 94.9595838761447,30.1697085229198 95.1744398658756,29.9932196742123 95.304888145355,29.9471791049843 95.5197441350859,29.9471791049843</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">64</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">37.0645059461</SimpleData>
 		<SimpleData name="X">100.734981725</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">37.0645059461</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>100.418938789340288,37.649434042495216 100.563338867919128,37.445575108030965 100.648280090612573,37.258704418105403 100.716233068767323,37.097316094987868 100.818162535999448,36.918939527331652 101.047503837271734,36.74056295967543 101.157927426773199,36.562186392019214</coordinates></LineString>
+      <LineString><coordinates>100.41893878934,37.6494340424952 100.563338867919,37.445575108031 100.648280090613,37.2587044181054 100.716233068767,37.0973160949879 100.818162535999,36.9189395273317 101.047503837272,36.7405629596754 101.157927426773,36.5621863920192</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">65</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">35.9770027397</SimpleData>
 		<SimpleData name="X">101.283687082</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">35.9770027397</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>101.013527348194359,36.392303946632332 101.174915671311894,36.120492034013331 101.251362771735984,36.018562566781206 101.310821627621394,35.942115466357116 101.353292238968109,35.772233020970241 101.387268728045484,35.644821186930081 101.43823346166154,35.576868208775331 101.480704073008269,35.534397597428608</coordinates></LineString>
+      <LineString><coordinates>101.013527348194,36.3923039466323 101.174915671312,36.1204920340133 101.251362771736,36.0185625667812 101.310821627621,35.9421154663571 101.353292238968,35.7722330209702 101.387268728045,35.6448211869301 101.438233461662,35.5768682087753 101.480704073008,35.5343975974286</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">66</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">35.1080395588</SimpleData>
 		<SimpleData name="X">101.837444866</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">35.1080395588</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>101.64209239612579,35.356021029772393 101.803480719243325,35.23710331800158 101.84595133059004,35.075714994884045 101.879927819667415,34.89733842722783 101.879927819667415,34.77842071545701</coordinates></LineString>
+      <LineString><coordinates>101.642092396126,35.3560210297724 101.803480719243,35.2371033180016 101.84595133059,35.075714994884 101.879927819667,34.8973384272278 101.879927819667,34.778420715457</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">72</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">36.2242070929</SimpleData>
 		<SimpleData name="X">99.1497787118</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">36.2242070929</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>98.669149601855466,36.978398383217055 98.813549680434306,36.87646891598493 98.856020291781036,36.80851593783018 98.881502658589056,36.689598226059367 99.034396859437251,36.485739291595117 99.161808693477411,36.196939134437429 99.314702894325592,35.891150732741053 99.399644117019037,35.610844697852706 99.450608850635092,35.457950497004518 99.450608850635092,35.364515152041733</coordinates></LineString>
+      <LineString><coordinates>98.6691496018555,36.9783983832171 98.8135496804343,36.8764689159849 98.856020291781,36.8085159378302 98.8815026585891,36.6895982260594 99.0343968594373,36.4857392915951 99.1618086934774,36.1969391344374 99.3147028943256,35.8911507327411 99.399644117019,35.6108446978527 99.4506088506351,35.4579504970045 99.4506088506351,35.3645151520417</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">73</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">37.4984425364</SimpleData>
 		<SimpleData name="X">98.3055137957</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">37.4984425364</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>98.142514021156146,37.895763588306188 98.252937610657625,37.67491640930325 98.29540822200434,37.522022208455063 98.346372955620396,37.40310449668425 98.405831811505806,37.26719854037475 98.4228200560445,37.088821972718527</coordinates></LineString>
+      <LineString><coordinates>98.1425140211561,37.8957635883062 98.2529376106576,37.6749164093033 98.2954082220043,37.5220222084551 98.3463729556204,37.4031044966843 98.4058318115058,37.2671985403747 98.4228200560445,37.0888219727185</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">82</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">29.5746700079</SimpleData>
 		<SimpleData name="X">98.9989958262</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">29.5746700079</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>99.232397481472518,30.163030333956744 99.033967878363129,29.657936798769207 98.844557802667794,29.206960428066047 98.781421110769358,28.981472242714467</coordinates></LineString>
+      <LineString><coordinates>99.2323974814725,30.1630303339567 99.0339678783631,29.6579367987692 98.8445578026678,29.206960428066 98.7814211107694,28.9814722427145</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">83</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">28.9081236426</SimpleData>
 		<SimpleData name="X">99.3531997752</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">28.9081236426</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>99.115143625089701,28.647749728394132 99.403768502339716,28.963433187886341 99.56611999579286,29.188921373237921</coordinates></LineString>
+      <LineString><coordinates>99.1151436250897,28.6477497283941 99.4037685023397,28.9634331878863 99.5661199957929,29.1889213732379</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">84</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">29.2883259814</SimpleData>
 		<SimpleData name="X">101.554762036</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">29.2883259814</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>101.225713039980477,28.864218386331647 101.631591773613323,29.38735097634731 101.81198232189459,29.757151600323901</coordinates></LineString>
+      <LineString><coordinates>101.22571303998,28.8642183863316 101.631591773613,29.3873509763473 101.811982321895,29.7571516003239</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">102</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">23.7975521427</SimpleData>
 		<SimpleData name="X">102.476804438</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">23.7975521427</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>102.253939165183681,23.993673582737536 102.479427350535261,23.795243979628147 102.632759316574337,23.732107287729704 102.759032700371222,23.714068232901578</coordinates></LineString>
+      <LineString><coordinates>102.253939165184,23.9936735827375 102.479427350535,23.7952439796281 102.632759316574,23.7321072877297 102.759032700371,23.7140682329016</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">103</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">24.1379860214</SimpleData>
 		<SimpleData name="X">102.533544515</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">24.1379860214</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>102.308056329668062,24.282298459987558 102.759032700371222,23.993673582737536</coordinates></LineString>
+      <LineString><coordinates>102.308056329668,24.2822984599876 102.759032700371,23.9936735827375</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">108</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">21.5358523624</SimpleData>
 		<SimpleData name="X">98.6867160729</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">21.5358523624</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>98.438679069034961,21.567420708354543 98.934753076808434,21.504284016456101</coordinates></LineString>
+      <LineString><coordinates>98.438679069035,21.5674207083545 98.9347530768084,21.5042840164561</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">109</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">22.496432032</SimpleData>
 		<SimpleData name="X">100.229055261</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">22.496432032</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>99.557100468378792,23.037603676846839 100.901010053074202,21.95526038715926</coordinates></LineString>
+      <LineString><coordinates>99.5571004683788,23.0376036768468 100.901010053074,21.9552603871593</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">110</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">22.419766049</SimpleData>
 		<SimpleData name="X">100.075723295</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">22.419766049</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>99.800627708558494,22.703881162526503 100.350818880816348,22.135650935440523</coordinates></LineString>
+      <LineString><coordinates>99.8006277085585,22.7038811625265 100.350818880816,22.1356509354405</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">22.3455436106</SimpleData>
-		<SimpleData name="X">104.365572226</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">111</SimpleData>
 		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">104.365572226</SimpleData>
+		<SimpleData name="Y">22.3455436106</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>103.507653475738465,23.33524808151093 103.688044024019717,23.00152556719059 103.877454099715052,22.76701785442495 104.102942285066632,22.550549196487431 104.355489052660403,22.352119593378042 104.562938183183846,22.216826682167095 104.707250621808853,22.162709517682718 104.896660697504188,21.937221332331138 105.194305102168272,21.702713619565493 105.356656595621402,21.495264489042043</coordinates></LineString>
+      <LineString><coordinates>103.507653475738,23.3352480815109 103.68804402402,23.0015255671906 103.877454099715,22.7670178544249 104.102942285067,22.5505491964874 104.35548905266,22.352119593378 104.562938183184,22.2168266821671 104.707250621809,22.1627095176827 104.896660697504,21.9372213323311 105.194305102168,21.7027136195655 105.356656595621,21.495264489042</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Red River Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Red River Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">112</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Wang, et al., 1998; Leloup, et al., 1995</SimpleData>
-		<SimpleData name="Y">22.9778653658</SimpleData>
 		<SimpleData name="X">103.324277179</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">22.9778653658</SimpleData>
+		<SimpleData name="Source">Wang, et al., 1998; Leloup, et al., 1995; Allen et al., 1984; Simons et al., 2007; Mohadjer (2017)</SimpleData>
+		<SimpleData name="notes">(2.,1.,5.)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>100.206506442191341,25.725422846237663 100.450033682371043,25.355622222261076 100.810814778933576,25.012880180526675 101.189634930324218,24.525825700167264 101.604533191371132,23.993673582737536 101.965314287933651,23.596814376518758 102.208841528113368,23.452501937893746 102.6147202617462,23.254072334784357 102.948442776066543,23.154857533229659 103.228048125902504,23.019564622018713 103.498633948324397,22.902310765635892 103.697063551433786,22.739959272182755 104.355489052660403,22.18074857251084 104.788426368535426,21.856045585604566 105.167246519926081,21.468205906799849 105.726457219598004,20.981151426440437 106.330765556340225,20.277628288143511 106.484097522379301,20.142335376932561</coordinates></LineString>
+      <LineString><coordinates>100.206506442191,25.7254228462377 100.450033682371,25.3556222222611 100.810814778934,25.0128801805267 101.189634930324,24.5258257001673 101.604533191371,23.9936735827375 101.965314287934,23.5968143765188 102.208841528113,23.4525019378937 102.614720261746,23.2540723347844 102.948442776067,23.1548575332297 103.228048125903,23.0195646220187 103.498633948324,22.9023107656359 103.697063551434,22.7399592721828 104.35548905266,22.1807485725108 104.788426368535,21.8560455856046 105.167246519926,21.4682059067998 105.726457219598,20.9811514264404 106.33076555634,20.2776282881435 106.484097522379,20.1423353769326</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">114</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">22.2309337482</SimpleData>
 		<SimpleData name="X">103.787764652</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">22.2309337482</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>103.534712057980641,22.451334394932733 103.814317407816603,22.207807154753027 104.012747010925992,21.982318969401447</coordinates></LineString>
+      <LineString><coordinates>103.534712057981,22.4513343949327 103.814317407817,22.207807154753 104.012747010926,21.9823189694014</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">115</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">21.2771115427</SimpleData>
 		<SimpleData name="X">104.315454278</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">21.2771115427</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>103.886473627129106,21.783889366292058 104.084903230238496,21.540362126112353 104.229215668863517,21.332912995588902 104.382547634902579,21.233698194034204 104.544899128355723,21.197620084377952 104.671172512152609,21.188600556963891 104.779406841121371,21.143502919893574 104.851563060433875,21.089385755409197 104.914699752332311,21.026249063510754</coordinates></LineString>
+      <LineString><coordinates>103.886473627129,21.7838893662921 104.084903230238,21.5403621261124 104.229215668864,21.3329129955889 104.382547634903,21.2336981940342 104.544899128356,21.197620084378 104.671172512153,21.1886005569639 104.779406841121,21.1435029198936 104.851563060434,21.0893857554092 104.914699752332,21.0262490635108</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">123</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">19.0735213784</SimpleData>
 		<SimpleData name="X">104.92371928</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">19.0735213784</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>104.157059449551014,19.384695074151256 105.690379109941745,18.762347682580899</coordinates></LineString>
+      <LineString><coordinates>104.157059449551,19.3846950741513 105.690379109942,18.7623476825809</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">124</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">18.166594521</SimpleData>
 		<SimpleData name="X">104.860236549</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">18.166594521</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>103.372360564527511,19.02391397758873 104.057844647996319,18.68117193585433 104.88764117009012,18.149019818424602 105.491949506832356,17.725102029963633 105.924886822707393,17.391379515643298 106.222531227371476,17.120793693221401</coordinates></LineString>
+      <LineString><coordinates>103.372360564528,19.0239139775887 104.057844647996,18.6811719358543 104.88764117009,18.1490198184246 105.491949506832,17.7251020299636 105.924886822707,17.3913795156433 106.222531227371,17.1207936932214</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">18.1556076334</SimpleData>
-		<SimpleData name="X">104.275814529</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">125</SimpleData>
 		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">104.275814529</SimpleData>
+		<SimpleData name="Y">18.1556076334</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>103.264126235558749,18.42862516826056 103.742161188504099,18.419605640846498 104.066864175410373,18.320390839291804 104.256274251105708,18.176078400666793 104.445684326801029,17.977648797557404 104.72528967663699,17.725102029963633 104.878621642676066,17.472555262369866 104.941758334574502,17.31922329633079</coordinates></LineString>
+      <LineString><coordinates>103.264126235559,18.4286251682606 103.742161188504,18.4196056408465 104.06686417541,18.3203908392918 104.256274251106,18.1760784006668 104.445684326801,17.9776487975574 104.725289676637,17.7251020299636 104.878621642676,17.4725552623699 104.941758334575,17.3192232963308</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Sagaing Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Sagaing Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">127</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Wang and Burchfiel, 1997</SimpleData>
-		<SimpleData name="Y">20.588261654</SimpleData>
 		<SimpleData name="X">96.2177633364</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">20.588261654</SimpleData>
+		<SimpleData name="Source">Wang and Burchfiel, 1997; Vigny et al., 2003; Mohadjer (2017)</SimpleData>
+		<SimpleData name="notes">(18.,,)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>97.103789011753605,16.399231500096349 96.959476573128597,17.301184241502664 96.625754058808255,18.54587902464338 96.463402565355125,19.258421690354371 96.201836270347286,20.674487494362289 96.048504304308224,21.792908893706123 95.994387139823843,22.821135018909327 95.976348084995706,24.065829802050047 95.94928950275353,24.859548214487603</coordinates></LineString>
+      <LineString><coordinates>97.1037890117536,16.3992315000963 96.9594765731286,17.3011842415027 96.6257540588083,18.5458790246434 96.4634025653551,19.2584216903544 96.2018362703473,20.6744874943623 96.0485043043082,21.7929088937061 95.9943871398238,22.8211350189093 95.9763480849957,24.06582980205 95.9492895027535,24.8595482144876</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">148</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">33.0580544278</SimpleData>
 		<SimpleData name="X">81.9695203934</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">33.0580544278</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>81.622306862106626,33.249202966671866 81.73843250369184,33.213798807651983 81.888546137936146,33.117499495117904 81.959915260095443,33.06537262459458 82.050867581176334,32.996075618056757 82.105219591137825,32.942602949559678 82.168947077373616,32.880291629684685 82.269494888990081,32.79390548167617</coordinates></LineString>
+      <LineString><coordinates>81.6223068621066,33.2492029666719 81.7384325036918,33.213798807652 81.8885461379361,33.1174994951179 81.9599152600954,33.0653726245946 82.0508675811763,32.9960756180568 82.1052195911378,32.9426029495597 82.1689470773736,32.8802916296847 82.2694948889901,32.7939054816762</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">149</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">32.5920864788</SimpleData>
 		<SimpleData name="X">82.5554268004</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">32.5920864788</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>82.04220545535911,32.892130108250022 82.133157776440001,32.814170975894974 82.24576541206396,32.736211843539927 82.370290529719682,32.667866675565421 82.512349717786961,32.610777469145859 82.852114219269907,32.463354880297253 82.957379996666887,32.410301418695788 83.104749808587144,32.35453986823947</coordinates></LineString>
+      <LineString><coordinates>82.0422054553591,32.89213010825 82.13315777644,32.814170975895 82.245765412064,32.7362118435399 82.3702905297197,32.6678666755654 82.512349717787,32.6107774691459 82.8521142192699,32.4633548802973 82.9573799966669,32.4103014186958 83.1047498085871,32.3545398682395</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">171</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">33.549324722</SimpleData>
 		<SimpleData name="X">84.6804162673</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">33.549324722</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>84.472395228960266,33.665389959189241 84.565410103187389,33.60265899750118 84.662751250634386,33.565885675132314 84.731971622152244,33.500991576834323 84.783886900790648,33.425281795486661 84.827149632989304,33.360387697188671</coordinates></LineString>
+      <LineString><coordinates>84.4723952289603,33.6653899591892 84.5654101031874,33.6026589975012 84.6627512506344,33.5658856751323 84.7319716221522,33.5009915768343 84.7838869007906,33.4252817954867 84.8271496329893,33.3603876971887</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Karakoram Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Karakoram Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">174</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Murphy, et al., 2000</SimpleData>
-		<SimpleData name="Y">31.9337342079</SimpleData>
 		<SimpleData name="X">80.1276384811</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">31.9337342079</SimpleData>
+		<SimpleData name="Source">Murphy, et al., 2000; Wright et al., 2004; Brown et al., 2002; Chevalier et al., 2005, 2011</SimpleData>
+		<SimpleData name="net_slip_r">(6,1,11)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>82.334622127881161,30.606290005439824 82.208482902475311,30.674843932290834 82.085085834143499,30.726944916697597 81.997336807774204,30.757108644512041 81.887650524812599,30.757108644512041 81.665535801815338,30.806467471844766 81.553107361779681,30.847599827955371 81.451647550040192,30.875021398695775 81.278891654375641,30.979223367509306 81.150010271895752,31.034066508990112 81.06500340260051,31.09713612169304 80.988223004527384,31.149237106099804 80.881278878639819,31.193111619284451 80.755139653233954,31.250696917839296 80.618031799531948,31.360383200800907 80.527540616088615,31.420710656429794 80.43979158971932,31.470069483762519 80.384948448238518,31.513943996947166 80.338331777979832,31.574271452576053 80.299941578943276,31.64008322235302 80.278004322350952,31.711379306278065 80.201223924277826,31.851229317054123 80.110732740834493,31.952689128793612 80.009272929095005,32.040438155162903 79.92152390272571,32.169319537642799 79.885875860763178,32.248842092789964 79.710377808024603,32.435308773824708 79.55955916895239,32.61354898363733 79.458099357212902,32.704040167080656 79.271632676178157,32.90695979055964 79.019354225366442,33.164722555519425 78.901441471182707,33.301830409221438 78.786270874073011,33.419743163405172 78.662873805741199,33.597983373217794 78.599804193038267,33.729606912771729 78.410595354929484,33.970916735287275</coordinates></LineString>
+      <LineString><coordinates>82.3346221278812,30.6062900054398 82.2084829024753,30.6748439322908 82.0850858341435,30.7269449166976 81.9973368077742,30.757108644512 81.8876505248126,30.757108644512 81.6655358018153,30.8064674718448 81.5531073617797,30.8475998279554 81.4516475500402,30.8750213986958 81.2788916543756,30.9792233675093 81.1500102718958,31.0340665089901 81.0650034026005,31.097136121693 80.9882230045274,31.1492371060998 80.8812788786398,31.1931116192845 80.755139653234,31.2506969178393 80.6180317995319,31.3603832008009 80.5275406160886,31.4207106564298 80.4397915897193,31.4700694837625 80.3849484482385,31.5139439969472 80.3383317779798,31.5742714525761 80.2999415789433,31.640083222353 80.278004322351,31.7113793062781 80.2012239242778,31.8512293170541 80.1107327408345,31.9526891287936 80.009272929095,32.0404381551629 79.9215239027257,32.1693195376428 79.8858758607632,32.24884209279 79.7103778080246,32.4353087738247 79.5595591689524,32.6135489836373 79.4580993572129,32.7040401670807 79.2716326761782,32.9069597905596 79.0193542253664,33.1647225555194 78.9014414711827,33.3018304092214 78.786270874073,33.4197431634052 78.6628738057412,33.5979833732178 78.5998041930383,33.7296069127717 78.4105953549295,33.9709167352873</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Karakoram Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Karakoram Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">175</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Murphy, et al., 2000</SimpleData>
-		<SimpleData name="Y">35.9814010629</SimpleData>
 		<SimpleData name="X">76.5797088228</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">35.9814010629</SimpleData>
+		<SimpleData name="Source">Murphy, et al., 2000; Wright et al., 2004; Brown et al., 2002; Chevalier et al., 2005, 2011</SimpleData>
+		<SimpleData name="net_slip_r">(6,1,11)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>75.390291434242314,37.30525655448298 75.437154470175628,37.1244991301688 75.691553808099286,36.836626195149918 76.173573606270438,36.354606396978774 76.668982843279665,35.899365476483801 76.80957195107959,35.77886052694101 76.970245217136636,35.537850627855441 77.157697360869861,35.343703764703172 77.291591749250742,35.089304426779506 77.679885475555267,34.5671163120941</coordinates></LineString>
+      <LineString><coordinates>75.3902914342423,37.305256554483 75.4371544701756,37.1244991301688 75.6915538080993,36.8366261951499 76.1735736062704,36.3546063969788 76.6689828432797,35.8993654764838 76.8095719510796,35.778860526941 76.9702452171366,35.5378506278554 77.1576973608699,35.3437037647032 77.2915917492507,35.0893044267795 77.6798854755553,34.5671163120941</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Karakoram Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Karakoram Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">176</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Murphy, et al., 2000</SimpleData>
-		<SimpleData name="Y">33.8525454591</SimpleData>
 		<SimpleData name="X">78.3279784722</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">33.8525454591</SimpleData>
+		<SimpleData name="Source">Murphy, et al., 2000; Wright et al., 2004; Brown et al., 2002; Chevalier et al., 2005, 2011</SimpleData>
+		<SimpleData name="net_slip_r">(6,1,11)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>78.582455375413602,33.608554213458291 78.404741005380814,33.781399696640875 78.304928824951432,33.873908546794929 78.263543286724612,33.932335188997492 78.161296662870129,34.012671822026022 78.095566690392246,34.112484002455396</coordinates></LineString>
+      <LineString><coordinates>78.5824553754136,33.6085542134583 78.4047410053808,33.7813996966409 78.3049288249514,33.8739085467949 78.2635432867246,33.9323351889975 78.1612966628701,34.012671822026 78.0955666903922,34.1124840024554</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Karakoram Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Karakoram Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">177</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Murphy, et al., 2000</SimpleData>
-		<SimpleData name="Y">34.2834554668</SimpleData>
 		<SimpleData name="X">77.8662416827</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">34.2834554668</SimpleData>
+		<SimpleData name="Source">Murphy, et al., 2000; Wright et al., 2004; Brown et al., 2002; Chevalier et al., 2005, 2011</SimpleData>
+		<SimpleData name="net_slip_r">(6,1,11)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>77.696317968674734,34.521470497873345 77.781523488553461,34.390010552917573 77.818040139930062,34.338887240990331 77.866729008432202,34.282895042212878 77.954368971736045,34.214730626309887 77.968975632286686,34.178213974933286 78.029836717914364,34.158738427532427 78.090697803542028,34.110049559030294</coordinates></LineString>
+      <LineString><coordinates>77.6963179686747,34.5214704978733 77.7815234885535,34.3900105529176 77.8180401399301,34.3388872409903 77.8667290084322,34.2828950422129 77.954368971736,34.2147306263099 77.9689756322867,34.1782139749333 78.0298367179144,34.1587384275324 78.090697803542,34.1100495590303</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">211</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">31.0182335787</SimpleData>
 		<SimpleData name="X">91.4839181115</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">31.0182335787</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>91.041219874836528,31.266663143796421 91.116227665766601,31.214483810975505 91.196127269148619,31.160673874003933 91.300485934790458,31.106863937032365 91.417889433637512,31.046531583458179 91.55486018229243,30.987829834034649 91.623345556619881,30.950325938569616 91.748902076220205,30.934019897063077 91.903809470532295,30.88999358499543 91.965772428257139,30.867165126886281</coordinates></LineString>
+      <LineString><coordinates>91.0412198748365,31.2666631437964 91.1162276657666,31.2144838109755 91.1961272691486,31.1606738740039 91.3004859347905,31.1068639370324 91.4178894336375,31.0465315834582 91.5548601822924,30.9878298340346 91.6233455566199,30.9503259385696 91.7489020762202,30.9340198970631 91.9038094705323,30.8899935849954 91.9657724282571,30.8671651268863</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">212</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">31.5011695747</SimpleData>
 		<SimpleData name="X">90.61881893</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">31.5011695747</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>89.849921390712552,31.649783230502987 90.149733471854603,31.592676167428312 90.349608192615975,31.571261018775306 90.556621296261667,31.521292338584967 90.799326314329051,31.442770126857287 90.984148729563657,31.341670934726487 91.143947936327706,31.265032539645766 91.321683788748956,31.159043269853282</coordinates></LineString>
+      <LineString><coordinates>89.8499213907126,31.649783230503 90.1497334718546,31.5926761674283 90.349608192616,31.5712610187753 90.5566212962617,31.521292338585 90.7993263143291,31.4427701268573 90.9841487295637,31.3416709347265 91.1439479363277,31.2650325396458 91.321683788749,31.1590432698533</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">231</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">31.8107361774</SimpleData>
 		<SimpleData name="X">86.2620968079</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">31.8107361774</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>85.829255113151106,32.024998658355202 85.893529530281526,31.98788244564609 85.950561759566241,31.952576779898401 86.032036372830149,31.910028926305035 86.093594969518421,31.876533807518765 86.195890872838646,31.833080680444688 86.26831275129544,31.808638296465517 86.380566662903476,31.766090442872148 86.434883071746086,31.758848255026471 86.494631121472935,31.739837511931562 86.549852803796242,31.730784777124462 86.59692702479316,31.714489854471683 86.644906519270791,31.691858017453931 86.688359646344864,31.671036727397603 86.718233671208296,31.656552351706242</coordinates></LineString>
+      <LineString><coordinates>85.8292551131511,32.0249986583552 85.8935295302815,31.9878824456461 85.9505617595662,31.9525767798984 86.0320363728301,31.910028926305 86.0935949695184,31.8765338075188 86.1958908728386,31.8330806804447 86.2683127512954,31.8086382964655 86.3805666629035,31.7660904428721 86.4348830717461,31.7588482550265 86.4946311214729,31.7398375119316 86.5498528037962,31.7307847771245 86.5969270247932,31.7144898544717 86.6449065192708,31.6918580174539 86.6883596463449,31.6710367273976 86.7182336712083,31.6565523517062</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Gyaring Co Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Gyaring Co Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">232</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
-		<SimpleData name="Y">31.2072963679</SimpleData>
 		<SimpleData name="X">88.3077893635</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">31.2072963679</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>87.438733069174646,31.550164940156062 87.579555071562879,31.5052217479045 87.92934036134119,31.368864770533293 88.160554366448892,31.285864871263861 88.279125651119514,31.226579228928554 88.605196683963712,31.007222352287911 88.729696532867848,30.906436760317888 88.877910638706126,30.799722604114333 88.972767666442621,30.704865576377841 89.043910437244989,30.63372280557547</coordinates></LineString>
+      <LineString><coordinates>87.4387330691746,31.5501649401561 87.5795550715629,31.5052217479045 87.9293403613412,31.3688647705333 88.1605543664489,31.2858648712639 88.2791256511195,31.2265792289286 88.6051966839637,31.0072223522879 88.7296965328678,30.9064367603179 88.8779106387061,30.7997226041143 88.9727676664426,30.7048655763778 89.043910437245,30.6337228055755</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Gyaring Co Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Gyaring Co Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">233</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
-		<SimpleData name="Y">31.6870415311</SimpleData>
 		<SimpleData name="X">87.1206275182</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">31.6870415311</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>87.425566851603975,31.555146012442169 87.333768140741668,31.586701819301084 87.241969429879376,31.623995045588888 87.186029590447674,31.651247787876134 87.128655396158734,31.6799348850206 87.041159749868115,31.757390047310658 87.015341362438093,31.788945854169572 86.903461683574676,31.836279564457943 86.841784424714078,31.856360532459068</coordinates></LineString>
+      <LineString><coordinates>87.425566851604,31.5551460124422 87.3337681407417,31.5867018193011 87.2419694298794,31.6239950455889 87.1860295904477,31.6512477878761 87.1286553961587,31.6799348850206 87.0411597498681,31.7573900473107 87.0153413624381,31.7889458541696 86.9034616835747,31.8362795644579 86.8417844247141,31.8563605324591</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Gyaring Co Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Gyaring Co Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">234</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
-		<SimpleData name="Y">31.97926884</SimpleData>
 		<SimpleData name="X">86.7902408615</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">31.97926884</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>86.6840053904195,32.034220534754759 86.778672810996241,31.986886824466392 86.837481360142405,31.948159243321363 86.870471521858533,31.913734726748004 86.87620894128743,31.899391178175769</coordinates></LineString>
+      <LineString><coordinates>86.6840053904195,32.0342205347548 86.7786728109962,31.9868868244664 86.8374813601424,31.9481592433214 86.8704715218585,31.913734726748 86.8762089412874,31.8993911781758</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Gyaring Co Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Gyaring Co Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">235</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
-		<SimpleData name="Y">32.0270023695</SimpleData>
 		<SimpleData name="X">86.5430964508</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">32.0270023695</SimpleData>
+		<SimpleData name="Source">Armijo, et al., 1986, 1989; Taylor, et al., 2003; Taylor and Peltzer, 2006</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>86.675399261276169,31.968240211322488 86.612287647558333,31.985452469609168 86.562085227555514,32.017008276468083 86.507579742981036,32.045695373612553 86.415781032118744,32.098766503329813</coordinates></LineString>
+      <LineString><coordinates>86.6753992612762,31.9682402113225 86.6122876475583,31.9854524696092 86.5620852275555,32.0170082764681 86.507579742981,32.0456953736126 86.4157810321187,32.0987665033298</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">304</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">26.7045685053</SimpleData>
 		<SimpleData name="X">98.3393733911</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">26.7045685053</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>97.60393760797291,27.692166771307289 97.71809287826477,27.509518338840312 97.980649999936048,27.349700960431711 98.294576993238664,27.132805946877177 98.36307015541378,26.887372115749677 98.323115810811629,26.579152885961658 98.260330412151106,26.459289852155205 98.24891488512192,26.270933656173636 98.140467378344653,25.945591135841834 98.009188817509013,25.745819412831082 97.798001567469072,25.517508872247362</coordinates></LineString>
+      <LineString><coordinates>97.6039376079729,27.6921667713073 97.7180928782648,27.5095183388403 97.980649999936,27.3497009604317 98.2945769932387,27.1328059468772 98.3630701554138,26.8873721157497 98.3231158108116,26.5791528859617 98.2603304121511,26.4592898521552 98.2489148851219,26.2709336561736 98.1404673783447,25.9455911358418 98.009188817509,25.7458194128311 97.7980015674691,25.5175088722474</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">305</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">25.1189686856</SimpleData>
 		<SimpleData name="X">97.9278309003</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">25.1189686856</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>97.906449074246339,25.514654990490079 97.900741310731746,25.297759976935549 97.929280128304711,25.109403780953979 97.929280128304711,24.898216530914038 97.929280128304711,24.721275861961654</coordinates></LineString>
+      <LineString><coordinates>97.9064490742463,25.5146549904901 97.9007413107317,25.2977599769355 97.9292801283047,25.109403780954 97.9292801283047,24.898216530914 97.9292801283047,24.7212758619617</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">307</SimpleData>
+		<SimpleData name="Type">strike-slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">24.9887337331</SimpleData>
 		<SimpleData name="X">99.7921309698</SimpleData>
-		<SimpleData name="Type">strike-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">24.9887337331</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>99.258475556765546,25.458801824881903 99.338692773727388,25.28633480841393 99.406877408144965,25.210128452300175 99.659561641574783,25.069748322616942 99.948343622637424,24.893270445300878 100.217071299459619,24.788988063250475 100.457722950345158,24.67668395950389</coordinates></LineString>
+      <LineString><coordinates>99.2584755567655,25.4588018248819 99.3386927737274,25.2863348084139 99.406877408145,25.2101284523002 99.6595616415748,25.0697483226169 99.9483436226374,24.8932704453009 100.21707129946,24.7889880632505 100.457722950345,24.6766839595039</coordinates></LineString>
   </Placemark>
   <Placemark>
+	<name>Muji Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">39.2869337103</SimpleData>
-		<SimpleData name="X">73.9964074186</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">337</SimpleData>
 		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">73.9964074186</SimpleData>
+		<SimpleData name="Y">39.2869337103</SimpleData>
+		<SimpleData name="Source">Zubovich et al., 2010; Mohadjer (2017)</SimpleData>
+		<SimpleData name="notes">(4.5,4,5)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>73.368336735327134,39.315505293909609 73.759294871152022,39.326675526361747 73.965944171516611,39.293164829005327 74.211689285463692,39.242898782970698 74.362487423567572,39.226143434292489 74.530040910349683,39.198217853162141 74.613817653740725,39.164707155805722</coordinates></LineString>
+      <LineString><coordinates>73.3683367353271,39.3155052939096 73.759294871152,39.3266755263617 73.9659441715166,39.2931648290053 74.2116892854637,39.2428987829707 74.3624874235676,39.2261434342925 74.5300409103497,39.1982178531621 74.6138176537407,39.1647071558057</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Talas-Fergana fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Talas-Fergana fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">370</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Thompson, et al., 2002; Tapponnier, et al., 1979</SimpleData>
-		<SimpleData name="Y">43.0126025708</SimpleData>
 		<SimpleData name="X">69.8325147728</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">43.0126025708</SimpleData>
+		<SimpleData name="Source">Mohadjer (2017)</SimpleData>
+		<SimpleData name="net_slip_r">(10,2,19)</SimpleData>
+		<SimpleData name="shortening">A huge range of rates from many studies; see Mohadjer (2017) for details.</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>66.977161304276521,44.662941002861224 67.531809247815929,44.483266316925921 67.9458422197538,44.162976659389081 68.391122963158679,43.936430316253265 68.711412620695512,43.834875058985489 69.070761992566119,43.561457058649161 69.492606907370742,43.26460322971257 69.945699593642374,42.928689686442226 70.328484794113223,42.733391114773418 70.867508851919126,42.467785057303843 71.242482109523237,42.34279397143581 72.07054805339898,42.02250431389897 72.640819882671892,41.842829627963667 72.898613997274722,41.733462427829132</coordinates></LineString>
+      <LineString><coordinates>66.9771613042765,44.6629410028612 67.5318092478159,44.4832663169259 67.9458422197538,44.1629766593891 68.3911229631587,43.9364303162533 68.7114126206955,43.8348750589855 69.0707619925661,43.5614570586492 69.4926069073707,43.2646032297126 69.9456995936424,42.9286896864422 70.3284847941132,42.7333911147734 70.8675088519191,42.4677850573038 71.2424821095232,42.3427939714358 72.070548053399,42.022504313899 72.6408198826719,41.8428296279637 72.8986139972747,41.7334624278291</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">372</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">43.0316663487</SimpleData>
 		<SimpleData name="X">70.4720514462</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">43.0316663487</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>69.774244725763381,43.391948095320366 70.241516739805476,43.164302755146011 70.533062526344565,42.996564083438592 70.832595868679249,42.868763190709124 71.188042101583065,42.7090120747973</coordinates></LineString>
+      <LineString><coordinates>69.7742447257634,43.3919480953204 70.2415167398055,43.164302755146 70.5330625263446,42.9965640834386 70.8325958686792,42.8687631907091 71.1880421015831,42.7090120747973</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">373</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">43.3948821735</SimpleData>
 		<SimpleData name="X">69.9662560131</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">43.3948821735</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>69.366879380188209,43.707456549246231 69.878082951106066,43.443867207991715 70.165634959747351,43.284116092079884 70.549037637935754,43.052476974007732</coordinates></LineString>
+      <LineString><coordinates>69.3668793801882,43.7074565492462 69.8780829511061,43.4438672079917 70.1656349597474,43.2841160920799 70.5490376379358,43.0524769740077</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">376</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">44.3425207396</SimpleData>
 		<SimpleData name="X">73.763534798</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">44.3425207396</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>72.319690645587841,45.260929973870724 73.112551659371533,44.740364661790515 73.70519524543208,44.379973291888831 74.35389971125511,43.963521042224663 74.866456326226384,43.579103580996204 75.146760725038803,43.338842667728414</coordinates></LineString>
+      <LineString><coordinates>72.3196906455878,45.2609299738707 73.1125516593715,44.7403646617905 73.7051952454321,44.3799732918888 74.3538997112551,43.9635210422247 74.8664563262264,43.5791035809962 75.1467607250388,43.3388426677284</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">399</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">45.8456684129</SimpleData>
 		<SimpleData name="X">81.5030378546</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">45.8456684129</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>79.655655438697735,46.67564534944546 80.044422217697345,46.527207124736513 80.334230180224338,46.371700413136672 80.588695708296797,46.237399162209535 81.097626764441742,45.997070607918864 81.366229266296017,45.883974817664438 81.719653610841121,45.785016001191806 82.087214929168027,45.537618960010235 82.391159865476808,45.261947971265059 82.772858157585517,44.830770270920041 83.034392172548891,44.562167769065759</coordinates></LineString>
+      <LineString><coordinates>79.6556554386977,46.6756453494455 80.0444222176973,46.5272071247365 80.3342301802243,46.3717004131367 80.5886957082968,46.2373991622095 81.0976267644417,45.9970706079189 81.366229266296,45.8839748176644 81.7196536108411,45.7850160011918 82.087214929168,45.5376189600102 82.3911598654768,45.2619479712651 82.7728581575855,44.83077027092 83.0343921725489,44.5621677690658</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">45.1202427285</SimpleData>
-		<SimpleData name="X">91.5586701902</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">423</SimpleData>
 		<SimpleData name="Type">right slp</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">91.5586701902</SimpleData>
+		<SimpleData name="Y">45.1202427285</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>91.053108192240572,45.244627029605134 91.587553311840992,45.113136563671695 92.066857268308041,45.007095865338279</coordinates></LineString>
+      <LineString><coordinates>91.0531081922406,45.2446270296051 91.587553311841,45.1131365636717 92.066857268308,45.0070958653383</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">435</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">48.3406645347</SimpleData>
 		<SimpleData name="X">81.5744071231</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">48.3406645347</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>79.792120000752249,49.244202761706987 80.735734744853374,48.824818430995379 81.469657323598682,48.434028486468655 81.908104578433552,48.043238541941925 82.489523764192825,47.661980059476832 82.966096867274189,47.385567659689634 83.242509267061394,47.242595728765224</coordinates></LineString>
+      <LineString><coordinates>79.7921200007522,49.244202761707 80.7357347448534,48.8248184309954 81.4696573235987,48.4340284864687 81.9081045784336,48.0432385419419 82.4895237641928,47.6619800594768 82.9660968672742,47.3855676596896 83.2425092670614,47.2425957287652</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">48.344614124</SimpleData>
-		<SimpleData name="X">79.9295210354</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">436</SimpleData>
 		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">79.9295210354</SimpleData>
+		<SimpleData name="Y">48.344614124</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>78.667407477480211,49.12029375490583 79.201169352931345,48.834349893057009 79.744462690444109,48.472154334715164 80.449790883004553,47.986049769572162 80.90730106196267,47.566665438860554 81.088398841133582,47.423693507936143</coordinates></LineString>
+      <LineString><coordinates>78.6674074774802,49.1202937549058 79.2011693529313,48.834349893057 79.7444626904441,48.4721543347152 80.4497908830046,47.9860497695722 80.9073010619627,47.5666654388606 81.0883988411336,47.4236935079361</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Irtysh Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Irtysh Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">440</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Tapponnier and Molnar, 1979</SimpleData>
-		<SimpleData name="Y">45.5542481925</SimpleData>
 		<SimpleData name="X">78.1332546656</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">45.5542481925</SimpleData>
+		<SimpleData name="Source">Tapponnier and Molnar, 1979</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>77.330511139084095,46.324772714147777 77.75341148295584,45.974074868010241 78.145367899227196,45.540859881605051 78.423863247630536,45.365510958536277 78.692043953500416,45.200476678000967 78.980853944437214,45.148903465333682 79.135573582439079,45.107644895199854</coordinates></LineString>
+      <LineString><coordinates>77.3305111390841,46.3247727141478 77.7534114829558,45.9740748680102 78.1453678992272,45.5408598816051 78.4238632476305,45.3655109585363 78.6920439535004,45.200476678001 78.9808539444372,45.1489034653337 79.1355735824391,45.1076448951999</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">594</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">40.7443105953</SimpleData>
 		<SimpleData name="X">64.5172207751</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">40.7443105953</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>63.236557887638902,40.914593394704347 63.965509080943882,40.806600625325828 64.523471722732879,40.743604843188365 64.937444005350514,40.653610868706267 65.225424723693223,40.527619304431333 65.648396403759079,40.419626535052814 65.756389173137592,40.392628342708186</coordinates></LineString>
+      <LineString><coordinates>63.2365578876389,40.9145933947043 63.9655090809439,40.8066006253258 64.5234717227329,40.7436048431884 64.9374440053505,40.6536108687063 65.2254247236932,40.5276193044313 65.6483964037591,40.4196265350528 65.7563891731376,40.3926283427082</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">597</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">40.7077769998</SimpleData>
 		<SimpleData name="X">65.4935149264</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">40.7077769998</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>65.077251178325852,40.751609020831751 65.326206228256467,40.712557248293621 65.497057733110793,40.707675776726354 65.614213050725198,40.610046345381015 65.726486896772329,40.522179857170215 65.843642214386733,40.492891027766618</coordinates></LineString>
+      <LineString><coordinates>65.0772511783259,40.7516090208318 65.3262062282565,40.7125572482936 65.4970577331108,40.7076757767264 65.6142130507252,40.610046345381 65.7264868967723,40.5221798571702 65.8436422143867,40.4928910277666</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Herat Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Herat Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">640</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007</SimpleData>
-		<SimpleData name="Y">34.4408847138</SimpleData>
 		<SimpleData name="X">64.7263724197</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">34.4408847138</SimpleData>
+		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007; Mohadjer et al., 2010</SimpleData>
+		<SimpleData name="notes">Older geologic/remote sensing work suggests active sinistral slip, but more recent investigations (particularly geodetic) suggest inactivity.  Not a lot of recent field work for obvious reasons.</SimpleData>
+		<SimpleData name="strike_sli">(0.,0.,2.)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>63.117994563699916,34.419097049828821 63.440773092227396,34.381123105296176 63.692350474756168,34.357389389963274 63.924940885018621,34.366882876096433 64.276199871945593,34.400110077562502 64.703406747937848,34.438084022095147 65.09263967939745,34.485551452760951 65.72395650725268,34.542512369559915 66.046735035780159,34.589979800225727 66.331539619775,34.618460258625205</coordinates></LineString>
+      <LineString><coordinates>63.1179945636999,34.4190970498288 63.4407730922274,34.3811231052962 63.6923504747562,34.3573893899633 63.9249408850186,34.3668828760964 64.2761998719456,34.4001100775625 64.7034067479378,34.4380840220951 65.0926396793975,34.485551452761 65.7239565072527,34.5425123695599 66.0467350357802,34.5899798002257 66.331539619775,34.6184602586252</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Herat Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Herat Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">641</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007</SimpleData>
-		<SimpleData name="Y">35.1348017133</SimpleData>
 		<SimpleData name="X">69.1054870799</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">35.1348017133</SimpleData>
+		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007; Mohadjer et al., 2010</SimpleData>
+		<SimpleData name="notes">Older geologic/remote sensing work suggests active sinistral slip, but more recent investigations (particularly geodetic) suggest inactivity.  Not a lot of recent field work for obvious reasons.</SimpleData>
+		<SimpleData name="strike_sli">(0.,0.,2.)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>67.800656598881702,34.808329981288431 68.132928613542347,34.879531127287144 68.512668058868798,34.945985530219275 68.825953101263124,35.031426905417725 69.08227722685848,35.126361766749334 69.447776442985187,35.259270572613595 69.675620110181057,35.411166350744175 70.093333500040146,35.67698396247269 70.249976021237302,35.824132997536687</coordinates></LineString>
+      <LineString><coordinates>67.8006565988817,34.8083299812884 68.1329286135423,34.8795311272871 68.5126680588688,34.9459855302193 68.8259531012631,35.0314269054177 69.0822772268585,35.1263617667493 69.4477764429852,35.2592705726136 69.6756201101811,35.4111663507442 70.0933335000401,35.6769839624727 70.2499760212373,35.8241329975367</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Herat Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Herat Fault</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">642</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007</SimpleData>
-		<SimpleData name="Y">34.6522562868</SimpleData>
 		<SimpleData name="X">66.7925582246</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">34.6522562868</SimpleData>
+		<SimpleData name="Source">Molnar and Tapponnier, 1975; Tapponnier, et al., 1985; Ruleman, et al., 2007; Mohadjer et al., 2010</SimpleData>
+		<SimpleData name="notes">Older geologic/remote sensing work suggests active sinistral slip, but more recent investigations (particularly geodetic) suggest inactivity.  Not a lot of recent field work for obvious reasons.</SimpleData>
+		<SimpleData name="strike_sli">(0.,0.,2.)</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>66.419354366506738,34.627953744758372 66.789600325700036,34.651687460091274 67.15984628489332,34.722888606089981</coordinates></LineString>
+      <LineString><coordinates>66.4193543665067,34.6279537447584 66.7896003257,34.6516874600913 67.1598462848933,34.72288860609</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">700</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">47.3334864678</SimpleData>
 		<SimpleData name="X">84.5219774968</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">47.3334864678</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>83.912057495682802,47.499272279386901 84.128812899406967,47.432275154599438 84.314040244407607,47.404688103216358 84.48744456738693,47.345572993109769 84.802725154622081,47.235224787577472 85.070713653771946,47.172168670130446 85.129828763878535,47.156404640768685</coordinates></LineString>
+      <LineString><coordinates>83.9120574956828,47.4992722793869 84.128812899407,47.4322751545994 84.3140402444076,47.4046881032164 84.4874445673869,47.3455729931098 84.8027251546221,47.2352247875775 85.0707136537719,47.1721686701304 85.1298287638785,47.1564046407687</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">702</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">47.7249245803</SimpleData>
 		<SimpleData name="X">86.6200136023</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">47.7249245803</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>85.598808637390803,48.011603233644003 86.193900745797123,47.850021932685998 86.623470545905008,47.723909697791939 87.088509412076831,47.507154294067782 87.612663388355259,47.361337022471531</coordinates></LineString>
+      <LineString><coordinates>85.5988086373908,48.011603233644 86.1939007457971,47.850021932686 86.623470545905,47.7239096977919 87.0885094120768,47.5071542940678 87.6126633883553,47.3613370224715</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">712</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">44.671972631</SimpleData>
 		<SimpleData name="X">98.3903415063</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">44.671972631</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>96.426994731853512,45.287809729397104 97.296228316140386,44.980116425224757 98.142384902614324,44.73396178188689 98.634694189290059,44.610884460217953 99.203926802008894,44.464730140736087 99.996237060252668,44.195498499585291 100.365469025259486,44.095498175729283</coordinates></LineString>
+      <LineString><coordinates>96.4269947318535,45.2878097293971 97.2962283161404,44.9801164252248 98.1423849026143,44.7339617818869 98.6346941892901,44.610884460218 99.2039268020089,44.4647301407361 99.9962370602527,44.1954984995853 100.365469025259,44.0954981757293</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">713</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">44.4023556369</SimpleData>
 		<SimpleData name="X">98.0906978356</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">44.4023556369</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>97.134689331449906,44.741654114491197 97.603921620312718,44.633961458030875 98.08853857438416,44.403191479901622 99.042387817318414,44.033959514894811</coordinates></LineString>
+      <LineString><coordinates>97.1346893314499,44.7416541144912 97.6039216203127,44.6339614580309 98.0885385743842,44.4031914799016 99.0423878173184,44.0339595148948</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">717</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">44.2389327386</SimpleData>
 		<SimpleData name="X">97.5248077128</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">44.2389327386</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>96.527376872246123,44.725901870957777 97.320666634930049,44.361417385400301 97.856673231338092,44.039813427555472 98.510601278955917,43.728929601638804</coordinates></LineString>
+      <LineString><coordinates>96.5273768722461,44.7259018709578 97.32066663493,44.3614173854003 97.8566732313381,44.0398134275555 98.5106012789559,43.7289296016388</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">719</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">45.1426029352</SimpleData>
 		<SimpleData name="X">99.2837212563</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">45.1426029352</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>97.900897079425775,45.546917050988888 98.551420183037408,45.393609058417994 99.139791397768946,45.190579554743024 99.587284997705609,45.041415021430801 99.968483249503507,44.937828539963981 100.664584404960536,44.726512117771669</coordinates></LineString>
+      <LineString><coordinates>97.9008970794258,45.5469170509889 98.5514201830374,45.393609058418 99.1397913977689,45.190579554743 99.5872849977056,45.0414150214308 99.9684832495035,44.937828539964 100.664584404961,44.7265121177717</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">721</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">44.9685376071</SimpleData>
 		<SimpleData name="X">100.81724433</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">44.9685376071</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>99.862410692481461,45.12842766586293 100.765684810872131,44.975119673292035 101.349912566344997,44.900537406635927 101.755971573694936,44.755516332582381</coordinates></LineString>
+      <LineString><coordinates>99.8624106924815,45.1284276658629 100.765684810872,44.975119673292 101.349912566345,44.9005374066359 101.755971573695,44.7555163325824</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">45.3145138556</SimpleData>
-		<SimpleData name="X">97.6903116897</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">722</SimpleData>
 		<SimpleData name="Type">anticline</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">97.6903116897</SimpleData>
+		<SimpleData name="Y">45.3145138556</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>96.792107381804939,45.596638562092963 97.239600981741603,45.45990440655676 97.753389929817033,45.294166036209845 98.142875100132272,45.145001502897621 98.561364485258224,44.958545836257343</coordinates></LineString>
+      <LineString><coordinates>96.7921073818049,45.596638562093 97.2396009817416,45.4599044065568 97.753389929817,45.2941660362098 98.1428751001323,45.1450015028976 98.5613644852582,44.9585458362573</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">823</SimpleData>
+		<SimpleData name="Type">right slip</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">34.9890417688</SimpleData>
 		<SimpleData name="X">84.5476165737</SimpleData>
-		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">34.9890417688</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>84.454555820253049,35.058743634346214 84.543493795674166,34.992040152780376 84.604638653776192,34.947571165069817 84.643549018022924,34.923483796726593</coordinates></LineString>
+      <LineString><coordinates>84.454555820253,35.0587436343462 84.5434937956742,34.9920401527804 84.6046386537762,34.9475711650698 84.6435490180229,34.9234837967266</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">0</SimpleData>
-		<SimpleData name="X">0</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">856</SimpleData>
 		<SimpleData name="Type">right-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">0</SimpleData>
+		<SimpleData name="Y">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>82.499679935994251,29.110522017292869 82.438517838270414,29.154209229952755 82.394830625610524,29.205177644722628 82.322018604510703,29.277989665822442 82.250662823832883,29.363907850720224 82.186588245265057,29.441088593086025 82.138532311339176,29.522638056717817</coordinates></LineString>
+      <LineString><coordinates>82.4996799359943,29.1105220172929 82.4385178382704,29.1542092299528 82.3948306256105,29.2051776447226 82.3220186045107,29.2779896658224 82.2506628238329,29.3639078507202 82.1865882452651,29.441088593086 82.1385323113392,29.5226380567178</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">857</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">0</SimpleData>
 		<SimpleData name="X">0</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>83.188481655598494,28.290658659708949 83.066157460150805,28.383858046716714 82.936552062593137,28.449388865706545 82.837527713897387,28.517832165540373 82.726853441825668,28.578994263264217 82.659866382413838,28.621225235502109 82.619091650597937,28.661999967318003</coordinates></LineString>
+      <LineString><coordinates>83.1884816555985,28.2906586597089 83.0661574601508,28.3838580467167 82.9365520625931,28.4493888657065 82.8375277138974,28.5178321655404 82.7268534418257,28.5789942632642 82.6598663824138,28.6212252355021 82.6190916505979,28.661999967318</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">858</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">0</SimpleData>
 		<SimpleData name="X">0</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>83.049883876305572,28.619221207964859 82.962648374331295,28.648881278636114 82.895767822817675,28.682612339399505 82.854476351883193,28.70645670993914 82.830631981343544,28.742514050755176 82.801553480685456,28.772755691439595 82.784687950303763,28.784968661715993</coordinates></LineString>
+      <LineString><coordinates>83.0498838763056,28.6192212079649 82.9626483743313,28.6488812786361 82.8957678228177,28.6826123393995 82.8544763518832,28.7064567099391 82.8306319813435,28.7425140507552 82.8015534806855,28.7727556914396 82.7846879503038,28.784968661716</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">0</SimpleData>
-		<SimpleData name="X">0</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">870</SimpleData>
 		<SimpleData name="Type">right slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">0</SimpleData>
+		<SimpleData name="Y">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>95.211246633401316,45.376260529407077 95.285679232692871,45.264611630469744 95.305979032499664,45.156346031500213 95.295829132596268,45.021014032788294 95.309362332467458,44.828165934623819 95.309362332467458,44.743583435428867 95.316128932403061,44.672534136105114 95.360111831984426,44.567651837103384 95.444694331179377,44.462769538101647</coordinates></LineString>
+      <LineString><coordinates>95.2112466334013,45.3762605294071 95.2856792326929,45.2646116304697 95.3059790324997,45.1563460315002 95.2958291325963,45.0210140327883 95.3093623324675,44.8281659346238 95.3093623324675,44.7435834354289 95.3161289324031,44.6725341361051 95.3601118319844,44.5676518371034 95.4446943311794,44.4627695381016</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Tibrikot Fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Tibrikot Fault</SimpleData>
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">0</SimpleData>
-		<SimpleData name="X">0</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">871</SimpleData>
 		<SimpleData name="Type">right-slip</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">0</SimpleData>
+		<SimpleData name="Y">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>82.640980720183748,29.090307983378107 82.696345075268738,29.070401698403732 82.789655786086129,29.021258057373238 82.848130498198358,28.987044130073528 82.891053425174363,28.957184702611965 82.925889423879525,28.940388774664832 82.964457851017372,28.929813560772196 83.014223563453314,28.913639704230516 83.054658204807524,28.906796918770574 83.098203203188973,28.889378919417993 83.134283344705025,28.873827134281761</coordinates></LineString>
+      <LineString><coordinates>82.6409807201837,29.0903079833781 82.6963450752687,29.0704016984037 82.7896557860861,29.0212580573732 82.8481304981984,28.9870441300735 82.8910534251744,28.957184702612 82.9258894238795,28.9403887746648 82.9644578510174,28.9298135607722 83.0142235634533,28.9136397042305 83.0546582048075,28.9067969187706 83.098203203189,28.889378919418 83.134283344705,28.8738271342818</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<name>Humla fault</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
-		<SimpleData name="Name">Humla fault</SimpleData>
-		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Source">Murphy and Copeland, 2005</SimpleData>
-		<SimpleData name="Y">30.1475811859</SimpleData>
-		<SimpleData name="X">81.3781093212</SimpleData>
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">902</SimpleData>
 		<SimpleData name="Type">normal</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="ltype">1311</SimpleData>
+		<SimpleData name="X">81.3781093212</SimpleData>
+		<SimpleData name="Y">30.1475811859</SimpleData>
+		<SimpleData name="Source">Murphy and Copeland, 2005</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>81.861287392736841,29.93735853133126 81.837032490610326,29.973740884521021 81.780437718981815,30.030335656149539 81.727885431041045,30.066718009339304 81.59852595303299,30.107142846216817 81.469166475024949,30.135440232031076 81.418787659105604,30.142157407486987</coordinates></LineString>
+      <LineString><coordinates>81.8612873927368,29.9373585313313 81.8370324906103,29.973740884521 81.7804377189818,30.0303356561495 81.727885431041,30.0667180093393 81.598525953033,30.1071428462168 81.4691664750249,30.1354402320311 81.4187876591056,30.142157407487</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#dextral">
+		<SimpleData name="Id">903</SimpleData>
 		<SimpleData name="ltype">1311</SimpleData>
-		<SimpleData name="Y">0</SimpleData>
 		<SimpleData name="X">0</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">0</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>79.110582305008393,33.071511256754818 79.109763094698579,33.038470311164083 79.109763094698579,32.998495366266134 79.111666663503243,32.966134696586842 79.1192809387219,32.9204490452749 79.1192809387219,32.876666962767622 79.128798782745221,32.836692017869673 79.13260592035455,32.787199228948403 79.136413057963878,32.75483855926911 79.148517980140454,32.694760109184962 79.176388002861827,32.634913724575256 79.208510726440537,32.531169224721047</coordinates></LineString>
+      <LineString><coordinates>79.1105823050084,33.0715112567548 79.1097630946986,33.0384703111641 79.1097630946986,32.9984953662661 79.1116666635032,32.9661346965868 79.1192809387219,32.9204490452749 79.1192809387219,32.8766669627676 79.1287987827452,32.8366920178697 79.1326059203545,32.7871992289484 79.1364130579639,32.7548385592691 79.1485179801405,32.694760109185 79.1763880028618,32.6349137245753 79.2085107264405,32.531169224721</coordinates></LineString>
   </Placemark>
-</Folder></Document></kml>
+</Folder>
+</Document></kml>

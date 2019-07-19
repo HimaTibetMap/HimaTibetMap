@@ -10,7 +10,7 @@ import numpy as np
 import json
 
 
-repo_dir = '/Users/itchy/school/himatibetmap/cossatot/HimaTibetMap/'
+repo_dir = './'
 htm_arc = repo_dir + 'arc/HimaTibetMap.shp' 
 htm_json = repo_dir + 'geojson/HimaTibetMap.geojson'
 
@@ -135,7 +135,7 @@ syncline_approximate_json = {u'features': syncline_approx_list,
 
 
 
-subprocess.call('mkdir scratch')
+subprocess.call('mkdir scratch', shell=True)
 
 
 types_list = [
@@ -175,7 +175,7 @@ for ftype in types_list:
 
 
 for ftype in types_list:
-    print '{}.geojson'.format(ftype)
+    print('{}.geojson'.format(ftype))
     subprocess.call('ogr2ogr -f "KML" kml/{}.kml scratch/{}.geojson'.format(
                                                      ftype, ftype), shell=True)
     subprocess.call('ogr2ogr -f "GMT" gmt/{}.gmt scratch/{}.geojson'.format(

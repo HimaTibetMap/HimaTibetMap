@@ -1,90 +1,94 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document><Folder><name>OGRGeoJSON</name>
-<Schema name="OGRGeoJSON" id="OGRGeoJSON">
-	<SimpleField name="Name" type="string"></SimpleField>
-	<SimpleField name="Description" type="string"></SimpleField>
-	<SimpleField name="ltype" type="string"></SimpleField>
-	<SimpleField name="Source" type="string"></SimpleField>
-	<SimpleField name="Y" type="float"></SimpleField>
-	<SimpleField name="X" type="float"></SimpleField>
-	<SimpleField name="Type" type="string"></SimpleField>
+<Document id="root_doc">
+<Schema name="thrust_approximate" id="thrust_approximate">
 	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Type" type="string"></SimpleField>
+	<SimpleField name="ltype" type="string"></SimpleField>
+	<SimpleField name="X" type="float"></SimpleField>
+	<SimpleField name="Y" type="float"></SimpleField>
+	<SimpleField name="Source" type="string"></SimpleField>
+	<SimpleField name="notes" type="string"></SimpleField>
+	<SimpleField name="net_slip_r" type="string"></SimpleField>
+	<SimpleField name="strike_sli" type="string"></SimpleField>
+	<SimpleField name="shortening" type="string"></SimpleField>
 </Schema>
+<Folder><name>thrust_approximate</name>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#thrust_approximate">
+		<SimpleData name="Id">753</SimpleData>
+		<SimpleData name="Type">thrust</SimpleData>
 		<SimpleData name="ltype">1121</SimpleData>
-		<SimpleData name="Y">38.9562483584</SimpleData>
 		<SimpleData name="X">92.5835615526</SimpleData>
-		<SimpleData name="Type">thrust</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">38.9562483584</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>92.671843462761515,38.821276225048557 92.655910537175714,38.848680857056117 92.645713464800806,38.876722806087116 92.629143222191587,38.904127438094683 92.614484930652665,38.92006036368047 92.587717615668524,38.950014263781767 92.574971275199886,38.969133774484717 92.546292009145461,38.988253285187668 92.48383494084915,38.992077187328256 92.449419821583845,38.992077187328256 92.433486895998044,38.992077187328256</coordinates></LineString>
+      <LineString><coordinates>92.6718434627615,38.8212762250486 92.6559105371757,38.8486808570561 92.6457134648008,38.8767228060871 92.6291432221916,38.9041274380947 92.6144849306527,38.9200603636805 92.5877176156685,38.9500142637818 92.5749712751999,38.9691337744847 92.5462920091455,38.9882532851877 92.4838349408491,38.9920771873283 92.4494198215838,38.9920771873283 92.433486895998,38.9920771873283</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#thrust_approximate">
+		<SimpleData name="Id">754</SimpleData>
+		<SimpleData name="Type">thrust</SimpleData>
 		<SimpleData name="ltype">1121</SimpleData>
-		<SimpleData name="Y">39.5783292365</SimpleData>
 		<SimpleData name="X">90.3159864042</SimpleData>
-		<SimpleData name="Type">thrust</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">39.5783292365</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>90.708786697348032,39.576786174256441 90.639348895496923,39.565213207281253 90.597686214386272,39.555954833701108 90.542907504037075,39.555954833701108 90.506645540848169,39.569070862939654 90.47269817105429,39.572928518598047 90.444923050313861,39.572928518598047 90.404031900334871,39.572156987466364 90.368541468277641,39.576786174256441 90.320706538113555,39.578329236519799 90.271328545686103,39.578329236519799 90.21577830420523,39.578329236519799 90.174115623094565,39.56984239407133 90.140939784432376,39.565213207281253 90.113164663691933,39.584501485573227 90.089247198609897,39.603018232733518 90.036011550524051,39.60841895065527 89.977375184516461,39.609962012918629 89.932626378879078,39.603789763865201</coordinates></LineString>
+      <LineString><coordinates>90.708786697348,39.5767861742564 90.6393488954969,39.5652132072813 90.5976862143863,39.5559548337011 90.5429075040371,39.5559548337011 90.5066455408482,39.5690708629397 90.4726981710543,39.572928518598 90.4449230503139,39.572928518598 90.4040319003349,39.5721569874664 90.3685414682776,39.5767861742564 90.3207065381136,39.5783292365198 90.2713285456861,39.5783292365198 90.2157783042052,39.5783292365198 90.1741156230946,39.5698423940713 90.1409397844324,39.5652132072813 90.1131646636919,39.5845014855732 90.0892471986099,39.6030182327335 90.0360115505241,39.6084189506553 89.9773751845165,39.6099620129186 89.9326263788791,39.6037897638652</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#thrust_approximate">
+		<SimpleData name="Id">756</SimpleData>
+		<SimpleData name="Type">thrust</SimpleData>
 		<SimpleData name="ltype">1121</SimpleData>
-		<SimpleData name="Y">39.7124765318</SimpleData>
 		<SimpleData name="X">73.3740276223</SimpleData>
-		<SimpleData name="Type">thrust</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">39.7124765318</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>72.400343853995736,39.58337953722728 72.61847325864349,39.650153844772511 72.827699422285207,39.71247653181473 72.956796416872649,39.71247653181473 73.192732303532466,39.71247653181473 73.401958467174197,39.71247653181473 73.517700600252596,39.71247653181473 73.6646040768521,39.699121670305679 73.793701071439543,39.685766808796636 73.913894825020961,39.694670049802667 74.06970154262649,39.756992736844879 74.198798537213932,39.801508941875035 74.345702013813451,39.801508941875035</coordinates></LineString>
+      <LineString><coordinates>72.4003438539957,39.5833795372273 72.6184732586435,39.6501538447725 72.8276994222852,39.7124765318147 72.9567964168726,39.7124765318147 73.1927323035325,39.7124765318147 73.4019584671742,39.7124765318147 73.5177006002526,39.7124765318147 73.6646040768521,39.6991216703057 73.7937010714395,39.6857668087966 73.913894825021,39.6946700498027 74.0697015426265,39.7569927368449 74.1987985372139,39.801508941875 74.3457020138135,39.801508941875</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#thrust_approximate">
+		<SimpleData name="Id">760</SimpleData>
+		<SimpleData name="Type">thrust</SimpleData>
 		<SimpleData name="ltype">1121</SimpleData>
-		<SimpleData name="Y">36.9946455709</SimpleData>
 		<SimpleData name="X">84.2399008807</SimpleData>
-		<SimpleData name="Type">thrust</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">36.9946455709</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>84.449587793802024,37.034385524259108 84.370843556615867,37.039965824532139 84.329301321249957,37.038725757804805 84.292719352793398,37.026325090531394 84.248696983972792,36.999043622529889 84.216455249061923,36.982922755074462 84.137090978512106,36.957501387163973 84.098648909964538,36.951921086890934 84.065167108326335,36.937660319526515 84.02920517323345,36.937040286162848</coordinates></LineString>
+      <LineString><coordinates>84.449587793802,37.0343855242591 84.3708435566159,37.0399658245321 84.32930132125,37.0387257578048 84.2927193527934,37.0263250905314 84.2486969839728,36.9990436225299 84.2164552490619,36.9829227550745 84.1370909785121,36.957501387164 84.0986489099645,36.9519210868909 84.0651671083263,36.9376603195265 84.0292051732334,36.9370402861628</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#thrust_approximate">
+		<SimpleData name="Id">776</SimpleData>
+		<SimpleData name="Type">thrust</SimpleData>
 		<SimpleData name="ltype">1121</SimpleData>
-		<SimpleData name="Y">38.2703538495</SimpleData>
 		<SimpleData name="X">90.0244297105</SimpleData>
-		<SimpleData name="Type">thrust</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">38.2703538495</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>89.871575387974303,38.237399651702901 89.916333617180769,38.239637563163228 89.967246102903104,38.254743465520406 90.003052686268276,38.263135633496617 90.046132481879496,38.277682057988713 90.082498543109736,38.293906916076054 90.111591392093942,38.310691252028477 90.131732595236841,38.326356632250736 90.164741789276604,38.339224623147594</coordinates></LineString>
+      <LineString><coordinates>89.8715753879743,38.2373996517029 89.9163336171808,38.2396375631632 89.9672461029031,38.2547434655204 90.0030526862683,38.2631356334966 90.0461324818795,38.2776820579887 90.0824985431097,38.2939069160761 90.1115913920939,38.3106912520285 90.1317325952368,38.3263566322507 90.1647417892766,38.3392246231476</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#thrust_approximate">
+		<SimpleData name="Id">781</SimpleData>
+		<SimpleData name="Type">thrust</SimpleData>
 		<SimpleData name="ltype">1121</SimpleData>
-		<SimpleData name="Y">38.1935662159</SimpleData>
 		<SimpleData name="X">89.4743913616</SimpleData>
-		<SimpleData name="Type">thrust</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">38.1935662159</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>89.419502768758676,38.181911842011033 89.443622391005988,38.182743553123011 89.463167602137446,38.186902108682894 89.476474979929066,38.194803364246674 89.497683613284465,38.203952186478411 89.529288635539572,38.205615608702367</coordinates></LineString>
+      <LineString><coordinates>89.4195027687587,38.181911842011 89.443622391006,38.182743553123 89.4631676021374,38.1869021086829 89.4764749799291,38.1948033642467 89.4976836132845,38.2039521864784 89.5292886355396,38.2056156087024</coordinates></LineString>
   </Placemark>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+	<ExtendedData><SchemaData schemaUrl="#thrust_approximate">
+		<SimpleData name="Id">811</SimpleData>
 		<SimpleData name="ltype">1121</SimpleData>
-		<SimpleData name="Y">38.9237285387</SimpleData>
 		<SimpleData name="X">88.5511799765</SimpleData>
-		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="Y">38.9237285387</SimpleData>
 	</SchemaData></ExtendedData>
-      <LineString><coordinates>88.685313457688125,38.953117355725766 88.638254256142758,38.953367670627607 88.591945999302908,38.942353814946777 88.570669232646765,38.937097202008196 88.540381129524491,38.916321065155728 88.512095545616901,38.904806579671224 88.499579800525055,38.89729713261611 88.477051459359714,38.890288315364671 88.461782250347653,38.879775089487516 88.443509262513558,38.86225304635893 88.432745721734562,38.852490765187284</coordinates></LineString>
+      <LineString><coordinates>88.6853134576881,38.9531173557258 88.6382542561428,38.9533676706276 88.5919459993029,38.9423538149468 88.5706692326468,38.9370972020082 88.5403811295245,38.9163210651557 88.5120955456169,38.9048065796712 88.4995798005251,38.8972971326161 88.4770514593597,38.8902883153647 88.4617822503477,38.8797750894875 88.4435092625136,38.8622530463589 88.4327457217346,38.8524907651873</coordinates></LineString>
   </Placemark>
-</Folder></Document></kml>
+</Folder>
+</Document></kml>
